@@ -1,0 +1,5 @@
+sha512-avx-amd64.lo: sha512-avx-amd64.S ../config.h asm-common-amd64.h
+
+../config.h:
+
+asm-common-amd64.h:

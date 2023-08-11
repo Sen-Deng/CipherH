@@ -1,0 +1,28 @@
+Intra Vul:
+
+bug in mp_submod_ct for 4290e0 and 429198       
+bug in mp_submod_ct for 4290fe and 4291bc
+bug in mp_submod_ct for 429131 and 4291e3
+
+bug in mp_addmod_ct for 429332 and 4293ea
+bug in mp_addmod_ct for 4292f1 and 4293bf
+
+bug in mp_div_2_mod_ct for 42bce4 and 42bd7a
+
+
+Inter Vul:
+
+bug in ecc_cond_swap_into_ct for 40ac4a
+bug in ecc_cond_swap_into_ct for 40ac57
+bug in ecc_cond_swap_into_ct for 40ae83
+bug in ecc_cond_swap_into_ct for 40ae9b
+bug in ecc_cond_swap_into_ct for 40aed0
+bug in ecc_cond_swap_into_ct for 40aee9
+bug in ecc_cond_swap_into_ct for 40b169
+bug in ecc_cond_swap_into_ct for 40b18a
+bug in ecc_cond_swap_into_ct for 40b1c2
+bug in ecc_cond_swap_into_ct for 40b1db
+bug in ecc_cond_swap_into_ct for 40b449
+bug in ecc_cond_swap_into_ct for 40b46a
+
+

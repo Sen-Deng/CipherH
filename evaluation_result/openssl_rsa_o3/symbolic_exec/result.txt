@@ -1,0 +1,139 @@
+Intra Vul:
+
+bug in asn1_check_tlen for 403371 and 4033bb
+bug in asn1_check_tlen for 4033a0 and 403501
+
+bug in SHA256_Update for 43eecf and 43eedc
+
+bug in drbg_ctr_generate for 47edcf and 47f082
+bug in drbg_ctr_generate for 47ede3 and 47f090
+bug in drbg_ctr_generate for 47edf7 and 47f09e
+bug in drbg_ctr_generate for 47ee0a and 47f0ab
+bug in drbg_ctr_generate for 47ee1c and 47f0b9
+bug in drbg_ctr_generate for 47ee2e and 47f0c7
+bug in drbg_ctr_generate for 47ee40 and 47f0d5
+bug in drbg_ctr_generate for 47ee53 and 47f0e3
+bug in drbg_ctr_generate for 47ee67 and 47f0f1
+bug in drbg_ctr_generate for 47ee7a and 47f100
+bug in drbg_ctr_generate for 47ee90 and 47f10f
+bug in drbg_ctr_generate for 47eea6 and 47f11e
+bug in drbg_ctr_generate for 47eebc and 47f12d
+bug in drbg_ctr_generate for 47eed2 and 47f13b
+bug in drbg_ctr_generate for 47eee1 and 47f145
+bug in drbg_ctr_generate for 47ec81 and 47edcf
+bug in drbg_ctr_generate for 47ec91 and 47ede3
+bug in drbg_ctr_generate for 47eca1 and 47edf7
+bug in drbg_ctr_generate for 47ecb1 and 47ee0a
+bug in drbg_ctr_generate for 47ecc1 and 47ee1c
+bug in drbg_ctr_generate for 47ecd1 and 47ee2e
+bug in drbg_ctr_generate for 47ece1 and 47ee40
+bug in drbg_ctr_generate for 47ecf1 and 47ee53
+bug in drbg_ctr_generate for 47ed01 and 47ee67
+bug in drbg_ctr_generate for 47ed11 and 47ee7a
+bug in drbg_ctr_generate for 47ed21 and 47ee90
+bug in drbg_ctr_generate for 47ed31 and 47eea6
+bug in drbg_ctr_generate for 47ed41 and 47eebc
+bug in drbg_ctr_generate for 47ed51 and 47eed2
+bug in drbg_ctr_generate for 47ed59 and 47eee1
+bug in drbg_ctr_generate for 47ee1c and 47ef7f
+bug in drbg_ctr_generate for 47ee2e and 47ef8f
+bug in drbg_ctr_generate for 47ee40 and 47ef9f
+bug in drbg_ctr_generate for 47ee53 and 47efaf
+bug in drbg_ctr_generate for 47ee67 and 47efbf
+bug in drbg_ctr_generate for 47ee7a and 47efcf
+bug in drbg_ctr_generate for 47ee90 and 47efdf
+bug in drbg_ctr_generate for 47eea6 and 47efef
+bug in drbg_ctr_generate for 47eebc and 47efff
+bug in drbg_ctr_generate for 47eed2 and 47f00f
+bug in drbg_ctr_generate for 47eee1 and 47f017
+
+
+bug in AES_encrypt for 490605 and 4906f3
+bug in AES_encrypt for 4906f3 and 490605
+bug in AES_encrypt for 490701 and 490701
+
+
+bug in BN_add for 4a0014 and 4a00f8
+
+bug in BN_uadd for 4a016c and 4a0206
+
+
+bug in BN_mod_exp_mont_consttime for 4a7ad2 and 4a8541
+
+bug in bn_mod_sub_fixed_top for 4ac22e and 4ac28d
+bug in bn_mod_sub_fixed_top for 4ac28d and 4ac2cd
+
+
+bug in bnrand for 4ae67c and 4ae693
+
+
+
+
+Inter Vul:
+
+bug in BUF_MEM_grow_clean for 406a5b
+bug in BUF_MEM_grow_clean for 406a41
+
+bug in MOD_EXP_CTIME_COPY_FROM_PREBUF for 4a89d8
+bug in MOD_EXP_CTIME_COPY_FROM_PREBUF for 4a882f
+
+bug in bn_mul_add_words for 4a0715
+bug in bn_mul_add_words for 4a05b6
+bug in bn_mul_add_words for 4a0603
+bug in bn_mul_add_words for 4a0651
+bug in bn_mul_add_words for 4a069d
+
+bug in bnrand for 4ae693
+bug in bnrand for 4ae69d
+bug in bnrand for 4ae67c
+
+bug in BN_bin2bn for 4aae60
+bug in BN_bin2bn for 4aaed9
+bug in BN_bin2bn for 4aaeb7
+bug in BN_bin2bn for 4aaf40
+bug in BN_bin2bn for 4aaf65
+
+bug in BN_set_bit for 4ab71d
+bug in BN_set_bit for 4ab733                      
+
+bug in bn_expand2 for 4aab16                    
+
+bug in bn_lshift_fixed_top for 4af6cf              
+bug in bn_lshift_fixed_top for 4af596
+bug in bn_lshift_fixed_top for 4af60a
+bug in bn_lshift_fixed_top for 4af65c
+bug in bn_lshift_fixed_top for 4af67f
+bug in bn_lshift_fixed_top for 4af691
+
+bug in bn_mul_words for 4a0918
+bug in bn_mul_words for 4a07b9
+bug in bn_mul_words for 4a0806
+bug in bn_mul_words for 4a0854
+bug in bn_mul_words for 4a08a0
+
+bug in bn_sub_part_words for 4ad289
+bug in bn_sub_part_words for 4ad2d0
+bug in bn_sub_part_words for 4ad2f1
+bug in bn_sub_part_words for 4ad312
+bug in bn_sub_part_words for 4ad33d
+bug in bn_sub_part_words for 4ad360
+bug in bn_sub_part_words for 4ad385
+bug in bn_sub_part_words for 4ad39c
+bug in bn_sub_part_words for 4ad3ae
+bug in bn_sub_part_words for 4ad3c1
+bug in bn_sub_part_words for 4ad3ae
+bug in bn_sub_part_words for 4ad3c1
+bug in bn_sub_part_words for 4ad1be
+bug in bn_sub_part_words for 4ad1de
+bug in bn_sub_part_words for 4ad1fe
+bug in bn_sub_part_words for 4ad21d
+bug in bn_sub_part_words for 4ad26c
+
+bug in bn_rshift_fixed_top for 4afba0
+bug in bn_rshift_fixed_top for 4afac7
+bug in bn_rshift_fixed_top for 4afba7
+bug in bn_rshift_fixed_top for 4afb6a
+bug in bn_rshift_fixed_top for 4afb87
+bug in bn_rshift_fixed_top for 4afb26
+bug in bn_rshift_fixed_top for 4afbab
+

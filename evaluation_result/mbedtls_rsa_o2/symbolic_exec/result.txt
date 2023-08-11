@@ -1,0 +1,49 @@
+Intra Vul:
+
+bug in mbedtls_mpi_mul_mpi for 403aea and 403b26
+
+bug in mbedtls_rsa_complete for 4103a7 and 410490
+
+
+
+Inter Vul:
+
+bug in mbedtls_mpi_fill_random for 406610
+
+bug in mbedtls_mpi_safe_cond_assign for 40a7b6
+bug in mbedtls_mpi_safe_cond_assign for 40a9a0
+bug in mbedtls_mpi_safe_cond_assign for 40a842
+bug in mbedtls_mpi_safe_cond_assign for 40a859
+bug in mbedtls_mpi_safe_cond_assign for 40a817
+bug in mbedtls_mpi_safe_cond_assign for 40a974
+bug in mbedtls_mpi_safe_cond_assign for 40a979
+bug in mbedtls_mpi_safe_cond_assign for 40a8fb
+bug in mbedtls_mpi_safe_cond_assign for 40a900
+bug in mbedtls_mpi_safe_cond_assign for 40a92a
+bug in mbedtls_mpi_safe_cond_assign for 40a930
+
+bug in mbedtls_ct_mpi_uint_cond_assign for 4098c1
+bug in mbedtls_ct_mpi_uint_cond_assign for 4098d8
+bug in mbedtls_ct_mpi_uint_cond_assign for 40989e
+bug in mbedtls_ct_mpi_uint_cond_assign for 4099e2
+bug in mbedtls_ct_mpi_uint_cond_assign for 4099e7
+bug in mbedtls_ct_mpi_uint_cond_assign for 40996a
+bug in mbedtls_ct_mpi_uint_cond_assign for 40996f
+bug in mbedtls_ct_mpi_uint_cond_assign for 409999
+bug in mbedtls_ct_mpi_uint_cond_assign for 40999f
+
+bug in mbedtls_mpi_grow for 401129
+
+
+
+Note: since mbedtls_mpi_exp_mod  can not be searched in the given time, the following functions need to be added to 'loop_func' before inter-procedural analysis. 
+
+
+loop_func = loop_func + [0x405bd0]
+loop_func = loop_func + [0x409800]
+loop_func = loop_func + [0x4037d0]
+loop_func = loop_func + [0x40a770]
+
+
+
+

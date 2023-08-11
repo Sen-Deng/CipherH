@@ -1,0 +1,5 @@
+arcfour-amd64.lo: arcfour-amd64.S ../config.h asm-common-amd64.h
+
+../config.h:
+
+asm-common-amd64.h:

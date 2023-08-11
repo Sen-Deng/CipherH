@@ -1,0 +1,6 @@
+camellia-aesni-avx-amd64.lo: camellia-aesni-avx-amd64.S ../config.h \
+  asm-common-amd64.h
+
+../config.h:
+
+asm-common-amd64.h:

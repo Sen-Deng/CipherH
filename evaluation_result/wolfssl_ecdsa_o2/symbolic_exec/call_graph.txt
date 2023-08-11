@@ -1,0 +1,5638 @@
+0x400530 backtrace_and_maps.constprop.1 0
+=============================
+0x4005aa oom 1
+0x4f5f30 _dl_dprintf 1
+0x4c1090 _exit 2
+0x4005d0 fini 3
+=============================
+0x4005d0 fini 2
+0x488fc0 free 1
+=============================
+0x400620 init_cacheinfo 3
+0x4bcd90 handle_intel.constprop.1 1
+0x4bc8d0 handle_amd 2
+=============================
+0x400af0 deregister_tm_clones 4
+=============================
+0x400b20 register_tm_clones 5
+=============================
+0x400ba0 frame_dummy 6
+0x400b20 register_tm_clones 1
+0x518240 __register_frame_info 2
+=============================
+0x400bd0 main 7
+0x407520 wc_ecc_init 1
+0x468700 __assert_fail 2
+0x40a4d0 wc_ecc_import_raw_ex 3
+0x404080 wolfSSL_Malloc 4
+0x401a40 wc_InitRng 5
+0x4075c0 wc_ecc_sign_hash 6
+0x401680 wc_FreeRng 7
+0x4074d0 wc_ecc_free 8
+0x4040a0 wolfSSL_Free 9
+=============================
+0x400e60 wc_RNG_DRBG_Reseed 8
+0x402da0 Hash_df 1
+=============================
+0x400f90 wc_RNG_TestSeed 9
+=============================
+0x401070 wc_rng_new 10
+0x404080 wolfSSL_Malloc 1
+0x4010c0 _InitRng 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x401430 wc_rng_free 11
+0x4040a0 wolfSSL_Free 1
+=============================
+0x401680 wc_FreeRng 12
+0x4040a0 wolfSSL_Free 1
+=============================
+0x401a40 wc_InitRng 13
+0x4010c0 _InitRng 1
+=============================
+0x401a50 wc_InitRng_ex 14
+0x4010c0 _InitRng 1
+=============================
+0x401a60 wc_InitRngNonce 15
+0x4010c0 _InitRng 1
+=============================
+0x401a70 wc_InitRngNonce_ex 16
+0x4010c0 _InitRng 1
+=============================
+0x401a80 wc_RNG_GenerateBlock 17
+0x401fe0 Hash_DRBG_Generate 1
+0x402890 wc_RNG_HealthTest_ex 2
+0x466b50 __open64 3
+0x466850 read 4
+0x466920 close 5
+0x402da0 Hash_df 6
+=============================
+0x401fe0 Hash_DRBG_Generate 18
+0x403810 wc_InitSha256 1
+0x403070 wc_Sha256Update 2
+0x403850 wc_Sha256Free 3
+0x4033e0 wc_Sha256Final 4
+=============================
+0x402430 wc_RNG_HealthTestLocal 19
+0x402890 wc_RNG_HealthTest_ex 1
+=============================
+0x4027b0 wc_GenerateSeed 20
+0x466b50 __open64 1
+0x466850 read 2
+0x466920 close 3
+=============================
+0x402850 wc_RNG_GenerateByte 21
+0x401a80 wc_RNG_GenerateBlock 1
+=============================
+0x402860 wc_RNG_HealthTest 22
+0x402890 wc_RNG_HealthTest_ex 1
+=============================
+0x402890 wc_RNG_HealthTest_ex 23
+0x402da0 Hash_df 1
+0x401fe0 Hash_DRBG_Generate 2
+=============================
+0x402da0 Hash_df 24
+0x403810 wc_InitSha256 1
+0x403070 wc_Sha256Update 2
+0x403850 wc_Sha256Free 3
+0x4033e0 wc_Sha256Final 4
+=============================
+0x403030 wc_InitSha256_ex 25
+=============================
+0x403070 wc_Sha256Update 26
+0x4030a0 Sha256Update 1
+=============================
+0x4030a0 Sha256Update 27
+0x403b80 Transform_Sha256 1
+=============================
+0x403360 wc_Sha256FinalRaw 28
+=============================
+0x4033e0 wc_Sha256Final 29
+0x4034b0 Sha256Final 1
+=============================
+0x4034b0 Sha256Final 30
+0x403b80 Transform_Sha256 1
+=============================
+0x4036b0 wc_InitSha224_ex 31
+=============================
+0x4036f0 wc_Sha224Update 32
+0x4030a0 Sha256Update 1
+=============================
+0x403710 wc_Sha224Final 33
+0x4034b0 Sha256Final 1
+=============================
+0x4037c0 wc_InitSha224 34
+=============================
+0x403800 wc_Sha224Free 35
+=============================
+0x403810 wc_InitSha256 36
+=============================
+0x403850 wc_Sha256Free 37
+=============================
+0x403860 wc_Sha224GetHash 38
+0x4034b0 Sha256Final 1
+=============================
+0x4039c0 wc_Sha224Copy 39
+=============================
+0x403a10 wc_Sha256GetHash 40
+0x4034b0 Sha256Final 1
+=============================
+0x403b30 wc_Sha256Copy 41
+=============================
+0x403b80 Transform_Sha256 42
+=============================
+0x404030 wolfSSL_SetAllocators 43
+=============================
+0x404050 wolfSSL_GetAllocators 44
+=============================
+0x404080 wolfSSL_Malloc 45
+0x488700 __libc_malloc 1
+=============================
+0x4040a0 wolfSSL_Free 46
+0x488fc0 free 1
+=============================
+0x4040c0 wolfSSL_Realloc 47
+0x48a220 __realloc 1
+=============================
+0x4040e0 wc_ecc_get_name 48
+=============================
+0x404120 wc_ecc_get_curve_idx 49
+=============================
+0x404150 wc_ecc_set_curve 50
+=============================
+0x404220 ecc_projective_add_point 51
+0x429490 mp_cmp 1
+0x404310 _ecc_projective_add_point 2
+=============================
+0x4049e0 ecc_projective_dbl_point 52
+0x429490 mp_cmp 1
+0x404a70 _ecc_projective_dbl_point 2
+=============================
+0x404e10 ecc_map_ex 53
+0x429530 mp_cmp_d 1
+0x42be10 mp_set 2
+0x428bd0 mp_init_multi 3
+0x42ba00 mp_montgomery_reduce 4
+0x429450 mp_invmod_mont_ct 5
+0x429440 mp_invmod 6
+0x428ba0 mp_clear 7
+0x42b990 mp_sqr 8
+0x424810 mp_mod 9
+0x428c90 mp_mul 10
+=============================
+0x405020 ecc_map 54
+0x404e10 ecc_map_ex 1
+=============================
+0x405030 wc_ecc_mulmod_ex 55
+0x428ba0 mp_clear 1
+0x429be0 mp_count_bits 2
+0x4040a0 wolfSSL_Free 3
+0x404080 wolfSSL_Malloc 4
+0x428bd0 mp_init_multi 5
+0x4054a0 ecc_point_to_mont 6
+0x42ba20 mp_montgomery_setup 7
+0x4055b0 ecc_mulmod 8
+0x404e10 ecc_map_ex 9
+=============================
+0x4054a0 ecc_point_to_mont 56
+0x4288a0 mp_init 1
+0x42a0a0 mp_montgomery_calc_normalization 2
+0x429530 mp_cmp_d 3
+0x428ba0 mp_clear 4
+0x429b80 mp_copy 5
+0x428e90 mp_mulmod 6
+=============================
+0x4055b0 ecc_mulmod 57
+0x429be0 mp_count_bits 1
+0x429b80 mp_copy 2
+0x40aa80 wc_ecc_gen_z 3
+0x40ac20 ecc_cond_swap_into_ct 4
+0x408110 ecc_projective_dbl_point_safe 5
+0x428c80 mp_sub 6
+0x407e20 ecc_projective_add_point_safe 7
+=============================
+0x4059f0 wc_ecc_mulmod_ex2 58
+0x429be0 mp_count_bits 1
+0x404080 wolfSSL_Malloc 2
+0x428ba0 mp_clear 3
+0x428bd0 mp_init_multi 4
+0x4040a0 wolfSSL_Free 5
+0x4054a0 ecc_point_to_mont 6
+0x42ba20 mp_montgomery_setup 7
+0x4288a0 mp_init 8
+0x4055b0 ecc_mulmod 9
+0x429a50 mp_sub_d 10
+0x428bc0 mp_free 11
+0x429490 mp_cmp 12
+0x40b520 mp_cond_copy 13
+0x404e10 ecc_map_ex 14
+0x428c80 mp_sub 15
+=============================
+0x405f80 wc_ecc_mulmod 59
+0x405030 wc_ecc_mulmod_ex 1
+=============================
+0x405f90 wc_ecc_new_point_h 60
+0x404080 wolfSSL_Malloc 1
+0x428bd0 mp_init_multi 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x405ff0 wc_ecc_new_point 61
+0x404080 wolfSSL_Malloc 1
+0x428bd0 mp_init_multi 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x406050 wc_ecc_del_point_h 62
+0x428ba0 mp_clear 1
+0x4040a0 wolfSSL_Free 2
+=============================
+0x406080 wc_ecc_del_point 63
+0x428ba0 mp_clear 1
+0x4040a0 wolfSSL_Free 2
+=============================
+0x4060b0 wc_ecc_forcezero_point 64
+0x428a40 mp_forcezero 1
+=============================
+0x4060e0 wc_ecc_copy_point 65
+0x429b80 mp_copy 1
+=============================
+0x406150 wc_ecc_cmp_point 66
+0x429490 mp_cmp 1
+=============================
+0x4061c0 wc_ecc_is_valid_idx 67
+=============================
+0x4061e0 wc_ecc_get_curve_id 68
+=============================
+0x406200 wc_ecc_get_curve_size_from_id 69
+=============================
+0x406240 wc_ecc_get_curve_idx_from_name 70
+=============================
+0x4062f0 wc_ecc_get_curve_size_from_name 71
+0x406240 wc_ecc_get_curve_idx_from_name 1
+=============================
+0x406320 wc_ecc_get_curve_id_from_name 72
+0x406240 wc_ecc_get_curve_idx_from_name 1
+=============================
+0x406350 wc_ecc_get_curve_id_from_params 73
+0x4064e0 wc_ecc_cmp_param 1
+=============================
+0x4064e0 wc_ecc_cmp_param 74
+0x428bd0 mp_init_multi 1
+0x429770 mp_read_unsigned_bin 2
+0x42b570 mp_read_radix 3
+0x428ba0 mp_clear 4
+0x429490 mp_cmp 5
+=============================
+0x4065b0 wc_ecc_get_curve_id_from_dp_params 75
+=============================
+0x406790 wc_ecc_get_curve_id_from_oid 76
+=============================
+0x406850 wc_ecc_get_curve_params 77
+=============================
+0x406870 wc_ecc_shared_secret 78
+0x4069b0 wc_ecc_shared_secret_gen 1
+=============================
+0x406920 wc_ecc_shared_secret_ex 79
+0x4069b0 wc_ecc_shared_secret_gen 1
+=============================
+0x4069b0 wc_ecc_shared_secret_gen 80
+0x407b50 wc_ecc_curve_load 1
+0x404080 wolfSSL_Malloc 2
+0x407d70 wc_ecc_curve_free 3
+0x428bd0 mp_init_multi 4
+0x428ba0 mp_clear 5
+0x4059f0 wc_ecc_mulmod_ex2 6
+0x4040a0 wolfSSL_Free 7
+0x42ba20 mp_montgomery_setup 8
+0x404e10 ecc_map_ex 9
+0x429570 mp_unsigned_bin_size 10
+0x429630 mp_to_unsigned_bin 11
+=============================
+0x406c10 wc_ecc_point_is_at_infinity 81
+0x429bd0 mp_iszero 1
+=============================
+0x406c50 wc_ecc_gen_k 82
+0x401a80 wc_RNG_GenerateBlock 1
+0x429770 mp_read_unsigned_bin 2
+0x429490 mp_cmp 3
+0x429bd0 mp_iszero 4
+0x424810 mp_mod 5
+=============================
+0x406d40 wc_ecc_make_pub 83
+0x406d50 ecc_make_pub_ex 1
+=============================
+0x406d50 ecc_make_pub_ex 84
+0x407b50 wc_ecc_curve_load 1
+0x429bd0 mp_iszero 2
+0x428ba0 mp_clear 3
+0x429490 mp_cmp 4
+0x428bd0 mp_init_multi 5
+0x407d70 wc_ecc_curve_free 6
+0x404080 wolfSSL_Malloc 7
+0x429b80 mp_copy 8
+0x4040a0 wolfSSL_Free 9
+0x42ba20 mp_montgomery_setup 10
+0x42be10 mp_set 11
+0x4059f0 wc_ecc_mulmod_ex2 12
+0x404e10 ecc_map_ex 13
+=============================
+0x407040 wc_ecc_make_pub_ex 85
+0x406d50 ecc_make_pub_ex 1
+=============================
+0x407050 wc_ecc_make_key_ex2 86
+0x407060 _ecc_make_key_ex 1
+=============================
+0x407230 wc_ecc_make_key_ex 87
+0x407060 _ecc_make_key_ex 1
+=============================
+0x407240 wc_ecc_key_new 88
+0x404080 wolfSSL_Malloc 1
+0x428bd0 mp_init_multi 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x4072d0 wc_ecc_init_ex 89
+0x428bd0 mp_init_multi 1
+=============================
+0x407350 wc_ecc_key_free 90
+0x428ba0 mp_clear 1
+0x428a40 mp_forcezero 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x4074d0 wc_ecc_free 91
+0x428ba0 mp_clear 1
+0x428a40 mp_forcezero 2
+=============================
+0x407510 wc_ecc_make_key 92
+0x407060 _ecc_make_key_ex 1
+=============================
+0x407520 wc_ecc_init 93
+0x428bd0 mp_init_multi 1
+=============================
+0x4075a0 wc_ecc_set_flags 94
+=============================
+0x4075c0 wc_ecc_sign_hash 95
+0x428bd0 mp_init_multi 1
+0x4076e0 wc_ecc_sign_hash_ex 2
+0x428ba0 mp_clear 3
+0x41ac60 StoreECC_DSA_Sig 4
+=============================
+0x4076e0 wc_ecc_sign_hash_ex 96
+0x4288a0 mp_init 1
+0x407b50 wc_ecc_curve_load 2
+0x429be0 mp_count_bits 3
+0x428ba0 mp_clear 4
+0x429770 mp_read_unsigned_bin 5
+0x407d70 wc_ecc_curve_free 6
+0x429cd0 mp_rshb 7
+0x428bd0 mp_init_multi 8
+0x406c50 wc_ecc_gen_k 9
+0x428a40 mp_forcezero 10
+0x407060 _ecc_make_key_ex 11
+0x424810 mp_mod 12
+0x429bd0 mp_iszero 13
+0x428e90 mp_mulmod 14
+0x429440 mp_invmod 15
+0x429230 mp_addmod_ct 16
+=============================
+0x407b50 wc_ecc_curve_load 97
+0x4288a0 mp_init 1
+0x42b570 mp_read_radix 2
+0x407d70 wc_ecc_curve_free 3
+=============================
+0x407d70 wc_ecc_curve_free 98
+0x428ba0 mp_clear 1
+=============================
+0x407e20 ecc_projective_add_point_safe 99
+0x429bd0 mp_iszero 1
+0x429490 mp_cmp 2
+0x404310 _ecc_projective_add_point 3
+0x429b80 mp_copy 4
+0x404a70 _ecc_projective_dbl_point 5
+0x42be10 mp_set 6
+0x42a0a0 mp_montgomery_calc_normalization 7
+=============================
+0x408110 ecc_projective_dbl_point_safe 100
+0x429bd0 mp_iszero 1
+0x404a70 _ecc_projective_dbl_point 2
+0x429b80 mp_copy 3
+=============================
+0x4081c0 ecc_mul2add 101
+0x404080 wolfSSL_Malloc 1
+0x4040a0 wolfSSL_Free 2
+0x429570 mp_unsigned_bin_size 3
+0x429630 mp_to_unsigned_bin 4
+0x428ba0 mp_clear 5
+0x428bd0 mp_init_multi 6
+0x42ba20 mp_montgomery_setup 7
+0x4288a0 mp_init 8
+0x42a0a0 mp_montgomery_calc_normalization 9
+0x428e90 mp_mulmod 10
+0x408110 ecc_projective_dbl_point_safe 11
+0x407e20 ecc_projective_add_point_safe 12
+0x404e10 ecc_map_ex 13
+0x429b80 mp_copy 14
+=============================
+0x408d20 wc_ecc_verify_hash 102
+0x41bad0 DecodeECC_DSA_Sig 1
+0x408e40 wc_ecc_verify_hash_ex 2
+0x428ba0 mp_clear 3
+=============================
+0x408e40 wc_ecc_verify_hash_ex 103
+0x407b50 wc_ecc_curve_load 1
+0x429bd0 mp_iszero 2
+0x407d70 wc_ecc_curve_free 3
+0x406d50 ecc_make_pub_ex 4
+0x4288a0 mp_init 5
+0x429490 mp_cmp 6
+0x429be0 mp_count_bits 7
+0x428ba0 mp_clear 8
+0x429770 mp_read_unsigned_bin 9
+0x429cd0 mp_rshb 10
+0x428bd0 mp_init_multi 11
+0x404080 wolfSSL_Malloc 12
+0x4040a0 wolfSSL_Free 13
+0x429440 mp_invmod 14
+0x428e90 mp_mulmod 15
+0x429b80 mp_copy 16
+0x42be10 mp_set 17
+0x4081c0 ecc_mul2add 18
+0x424810 mp_mod 19
+=============================
+0x409400 wc_ecc_import_point_der_ex 104
+0x428ba0 mp_clear 1
+0x428bd0 mp_init_multi 2
+0x429770 mp_read_unsigned_bin 3
+0x42be10 mp_set 4
+=============================
+0x409530 wc_ecc_import_point_der 105
+0x409400 wc_ecc_import_point_der_ex 1
+=============================
+0x409540 wc_ecc_export_point_der_ex 106
+0x409550 wc_ecc_export_point_der 1
+=============================
+0x409550 wc_ecc_export_point_der 107
+0x429570 mp_unsigned_bin_size 1
+0x429630 mp_to_unsigned_bin 2
+=============================
+0x4096b0 wc_ecc_export_x963 108
+0x429570 mp_unsigned_bin_size 1
+0x429630 mp_to_unsigned_bin 2
+=============================
+0x409830 wc_ecc_export_x963_ex 109
+0x4096b0 wc_ecc_export_x963 1
+=============================
+0x409840 wc_ecc_is_point 110
+0x428bd0 mp_init_multi 1
+0x42b990 mp_sqr 2
+0x428ba0 mp_clear 3
+0x424810 mp_mod 4
+0x428c90 mp_mul 5
+0x428ea0 mp_submod 6
+0x428c70 mp_add 7
+0x429490 mp_cmp 8
+0x428c80 mp_sub 9
+=============================
+0x4099f0 wc_ecc_check_key 111
+0x429bd0 mp_iszero 1
+0x407b50 wc_ecc_curve_load 2
+0x4288a0 mp_init 3
+0x407d70 wc_ecc_curve_free 4
+0x428ba0 mp_clear 5
+0x42b570 mp_read_radix 6
+0x429490 mp_cmp 7
+0x409840 wc_ecc_is_point 8
+0x429be0 mp_count_bits 9
+0x404080 wolfSSL_Malloc 10
+0x428bd0 mp_init_multi 11
+0x405030 wc_ecc_mulmod_ex 12
+0x4040a0 wolfSSL_Free 13
+=============================
+0x409d00 wc_ecc_import_x963_ex 112
+0x428bd0 mp_init_multi 1
+0x428ba0 mp_clear 2
+0x429770 mp_read_unsigned_bin 3
+0x42be10 mp_set 4
+=============================
+0x409f50 wc_ecc_import_x963 113
+0x409d00 wc_ecc_import_x963_ex 1
+=============================
+0x409f60 wc_ecc_export_ex 114
+0x40b7a0 wc_export_int 1
+=============================
+0x40a070 wc_ecc_export_private_only 115
+0x40b7a0 wc_export_int 1
+=============================
+0x40a0d0 wc_ecc_export_public_raw 116
+0x40b7a0 wc_export_int 1
+=============================
+0x40a180 wc_ecc_export_private_raw 117
+0x409f60 wc_ecc_export_ex 1
+=============================
+0x40a1a0 wc_ecc_import_private_key_ex 118
+0x409d00 wc_ecc_import_x963_ex 1
+0x41be80 wc_EccPublicKeyDecode 2
+0x429770 mp_read_unsigned_bin 3
+=============================
+0x40a330 wc_ecc_import_private_key 119
+0x40a1a0 wc_ecc_import_private_key_ex 1
+=============================
+0x40a340 wc_ecc_rs_to_sig 120
+0x428bd0 mp_init_multi 1
+0x42b570 mp_read_radix 2
+0x428ba0 mp_clear 3
+0x429bd0 mp_iszero 4
+0x41ac60 StoreECC_DSA_Sig 5
+=============================
+0x40a460 wc_ecc_rs_raw_to_sig 121
+0x41b140 StoreECC_DSA_Sig_Bin 1
+=============================
+0x40a4a0 wc_ecc_sig_to_rs 122
+0x41b600 DecodeECC_DSA_Sig_Bin 1
+=============================
+0x40a4d0 wc_ecc_import_raw_ex 123
+0x40a4e0 wc_ecc_import_raw_private 1
+=============================
+0x40a4e0 wc_ecc_import_raw_private 124
+0x428bd0 mp_init_multi 1
+0x42b570 mp_read_radix 2
+0x429770 mp_read_unsigned_bin 3
+0x428ba0 mp_clear 4
+0x429bd0 mp_iszero 5
+0x42be10 mp_set 6
+=============================
+0x40a760 wc_ecc_import_unsigned 125
+0x40a4e0 wc_ecc_import_raw_private 1
+=============================
+0x40a770 wc_ecc_import_raw 126
+0x40a4e0 wc_ecc_import_raw_private 1
+=============================
+0x40a890 wc_ecc_size 127
+=============================
+0x40a8b0 wc_ecc_sig_size_calc 128
+=============================
+0x40a8d0 wc_ecc_sig_size 129
+0x407b50 wc_ecc_curve_load 1
+0x429be0 mp_count_bits 2
+0x407d70 wc_ecc_curve_free 3
+=============================
+0x40a9b0 wc_ecc_set_rng 130
+=============================
+0x40a9d0 wc_ecc_get_oid 131
+=============================
+0x40aa80 wc_ecc_gen_z 132
+0x4288a0 mp_init 1
+0x42a0a0 mp_montgomery_calc_normalization 2
+0x428ba0 mp_clear 3
+0x406c50 wc_ecc_gen_k 4
+0x428e90 mp_mulmod 5
+0x428c90 mp_mul 6
+0x42ba00 mp_montgomery_reduce 7
+0x42b990 mp_sqr 8
+=============================
+0x40ac20 ecc_cond_swap_into_ct 133
+=============================
+0x40b4f0 get_digit_count 134
+=============================
+0x40b500 get_digit 135
+=============================
+0x40b520 mp_cond_copy 136
+=============================
+0x40b700 get_rand_digit 137
+0x401a80 wc_RNG_GenerateBlock 1
+=============================
+0x40b710 mp_rand 138
+0x401a80 wc_RNG_GenerateBlock 1
+=============================
+0x40b7a0 wc_export_int 139
+0x42be40 mp_radix_size 1
+0x429570 mp_unsigned_bin_size 2
+0x42c230 mp_toradix 3
+0x429630 mp_to_unsigned_bin 4
+=============================
+0x40b870 SetASNLength 140
+=============================
+0x40b950 GetLength 141
+=============================
+0x40bab0 GetLength_ex 142
+=============================
+0x40bc10 GetASNTag 143
+=============================
+0x40bc50 GetSequence 144
+=============================
+0x40bd90 GetSequence_ex 145
+=============================
+0x40bed0 GetSet 146
+=============================
+0x40c010 GetSet_ex 147
+=============================
+0x40c150 GetOctetString 148
+=============================
+0x40c290 GetSigName 149
+=============================
+0x40c330 SetASNInt 150
+=============================
+0x40c450 SetLength 151
+=============================
+0x40c530 GetMyVersion 152
+=============================
+0x40c580 GetShortInt 153
+=============================
+0x40c680 SetShortInt 154
+=============================
+0x40c7b0 GetInt 155
+0x4288a0 mp_init 1
+0x429770 mp_read_unsigned_bin 2
+0x428ba0 mp_clear 3
+=============================
+0x40c990 CheckBitString 156
+=============================
+0x40cb60 SetBitString 157
+=============================
+0x40cc80 OidFromId 158
+0x40a9d0 wc_ecc_get_oid 1
+=============================
+0x40d340 GetASNObjectId 159
+=============================
+0x40d480 SetObjectId 160
+=============================
+0x40d570 GetObjectId 161
+0x40cc80 OidFromId 1
+=============================
+0x40d7b0 GetAlgoId 162
+0x40d570 GetObjectId 1
+=============================
+0x40d980 wc_RsaPrivateKeyDecode 163
+0x40dc30 ToTraditionalInline_ex 1
+0x40c7b0 GetInt 2
+=============================
+0x40dc30 ToTraditionalInline_ex 164
+0x40d7b0 GetAlgoId 1
+=============================
+0x40e030 ToTraditionalInline 165
+0x40dc30 ToTraditionalInline_ex 1
+=============================
+0x40e040 ToTraditional_ex 166
+0x40dc30 ToTraditionalInline_ex 1
+=============================
+0x40e0b0 ToTraditional 167
+0x40dc30 ToTraditionalInline_ex 1
+=============================
+0x40e120 wc_GetPkcs8TraditionalOffset 168
+0x40dc30 ToTraditionalInline_ex 1
+=============================
+0x40e140 wc_CreatePKCS8Key 169
+0x40dc30 ToTraditionalInline_ex 1
+0x40e670 SetAlgoID 2
+=============================
+0x40e630 SetMyVersion 170
+=============================
+0x40e670 SetAlgoID 171
+0x40cc80 OidFromId 1
+=============================
+0x40eb60 SetOctetString 172
+=============================
+0x40ec50 SetSequence 173
+=============================
+0x40ed40 wc_CheckPrivateKey 174
+0x407520 wc_ecc_init 1
+0x440360 wc_InitRsaKey 2
+0x40f130 wc_EccPrivateKeyDecode 3
+0x40a070 wc_ecc_export_private_only 4
+0x4074d0 wc_ecc_free 5
+0x440440 wc_FreeRsaKey 6
+0x40d980 wc_RsaPrivateKeyDecode 7
+0x411920 wc_RsaPublicKeyDecode_ex 8
+0x40a330 wc_ecc_import_private_key 9
+0x4121d0 wc_RsaPublicKeyDecodeRaw 10
+0x429490 mp_cmp 11
+0x4099f0 wc_ecc_check_key 12
+=============================
+0x40f0b0 wc_RsaPublicKeyDecode 175
+0x411920 wc_RsaPublicKeyDecode_ex 1
+0x4121d0 wc_RsaPublicKeyDecodeRaw 2
+=============================
+0x40f130 wc_EccPrivateKeyDecode 176
+0x40dc30 ToTraditionalInline_ex 1
+0x40a1a0 wc_ecc_import_private_key_ex 2
+0x40c990 CheckBitString 3
+0x40a9d0 wc_ecc_get_oid 4
+=============================
+0x40faa0 wc_CheckPrivateKeyCert 177
+0x40ed40 wc_CheckPrivateKey 1
+=============================
+0x40fad0 wc_GetKeyOID 178
+0x404080 wolfSSL_Malloc 1
+0x440360 wc_InitRsaKey 2
+0x40d980 wc_RsaPrivateKeyDecode 3
+0x440440 wc_FreeRsaKey 4
+0x4040a0 wolfSSL_Free 5
+0x4072d0 wc_ecc_init_ex 6
+0x40f130 wc_EccPrivateKeyDecode 7
+0x40a9d0 wc_ecc_get_oid 8
+0x4074d0 wc_ecc_free 9
+=============================
+0x40fc30 UnTraditionalEnc 179
+0x40fc90 TraditionalEnc 1
+=============================
+0x40fc90 TraditionalEnc 180
+0x40fad0 wc_GetKeyOID 1
+0x404080 wolfSSL_Malloc 2
+0x40e140 wc_CreatePKCS8Key 3
+0x40ff90 wc_EncryptPKCS8Key 4
+0x4040a0 wolfSSL_Free 5
+=============================
+0x40ff90 wc_EncryptPKCS8Key 181
+0x401a80 wc_RNG_GenerateBlock 1
+0x44f2e0 wc_CryptKey 2
+=============================
+0x410c30 wc_DecryptPKCS8Key 182
+0x410e90 DecryptContent 1
+=============================
+0x410e90 DecryptContent 183
+0x40d7b0 GetAlgoId 1
+0x44f2e0 wc_CryptKey 2
+=============================
+0x411870 wc_CreateEncryptedPKCS8Key 184
+0x40fc90 TraditionalEnc 1
+=============================
+0x411880 ToTraditionalEnc 185
+0x410c30 wc_DecryptPKCS8Key 1
+0x40dc30 ToTraditionalInline_ex 2
+=============================
+0x411900 EncryptContent 186
+=============================
+0x411920 wc_RsaPublicKeyDecode_ex 187
+0x40c990 CheckBitString 1
+=============================
+0x4121d0 wc_RsaPublicKeyDecodeRaw 188
+0x4288a0 mp_init 1
+0x429770 mp_read_unsigned_bin 2
+0x428ba0 mp_clear 3
+=============================
+0x412290 InitDecodedCert 189
+=============================
+0x412320 InitSignatureCtx 190
+=============================
+0x412340 wc_InitDecodedCert 191
+=============================
+0x4123d0 FreeAltNames 192
+0x4040a0 wolfSSL_Free 1
+=============================
+0x412410 AltNameNew 193
+0x404080 wolfSSL_Malloc 1
+=============================
+0x412430 FreeNameSubtrees 194
+0x4040a0 wolfSSL_Free 1
+=============================
+0x412470 FreeDecodedCert 195
+0x4040a0 wolfSSL_Free 1
+0x4125d0 FreeSignatureCtx 2
+=============================
+0x4125d0 FreeSignatureCtx 196
+0x4040a0 wolfSSL_Free 1
+0x4074d0 wc_ecc_free 2
+0x440440 wc_FreeRsaKey 3
+=============================
+0x412660 wc_FreeDecodedCert 197
+0x412470 FreeDecodedCert 1
+=============================
+0x412670 CalcHashId 198
+0x43f160 wc_ShaHash 1
+=============================
+0x412680 GetName 199
+0x43f160 wc_ShaHash 1
+0x404080 wolfSSL_Malloc 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x4134a0 ExtractDate 200
+=============================
+0x413790 DateGreaterThan 201
+=============================
+0x413800 wc_ValidateDate 202
+0x4bd8f0 time 1
+0x4134a0 ExtractDate 2
+0x4bd8a0 __gmtime_r 3
+=============================
+0x413a00 wc_Time 203
+0x4bd8f0 time 1
+=============================
+0x413a20 wc_GetTime 204
+0x4bd8f0 time 1
+=============================
+0x413a60 wc_SetTimeCb 205
+=============================
+0x413a70 wc_GetDateInfo 206
+=============================
+0x413bd0 wc_GetDateAsCalendarTime 207
+0x4134a0 ExtractDate 1
+=============================
+0x413c00 wc_GetPubX509 208
+0x4194d0 GetSerialNumber 1
+0x40d7b0 GetAlgoId 2
+0x412680 GetName 3
+0x41d610 GetDate 4
+=============================
+0x414140 DecodeToKey 209
+0x413c00 wc_GetPubX509 1
+0x40d7b0 GetAlgoId 2
+0x40c990 CheckBitString 3
+0x404080 wolfSSL_Malloc 4
+0x40d570 GetObjectId 5
+0x40a9d0 wc_ecc_get_oid 6
+=============================
+0x4145f0 SetSet 210
+=============================
+0x4146e0 SetImplicit 211
+=============================
+0x4147e0 SetExplicit 212
+=============================
+0x4148d0 wc_EncodeSignature 213
+0x40e670 SetAlgoID 1
+=============================
+0x414b20 wc_GetCTC_HashOID 214
+0x43ec30 wc_HashTypeConvert 1
+0x43ec40 wc_HashGetOID 2
+=============================
+0x414b40 ParseCert 215
+0x414bf0 ParseCertRelative 1
+0x404080 wolfSSL_Malloc 2
+=============================
+0x414bf0 ParseCertRelative 216
+0x414140 DecodeToKey 1
+0x40d7b0 GetAlgoId 2
+0x40c990 CheckBitString 3
+0x43f160 wc_ShaHash 4
+0x42e460 GetCA 5
+0x42e550 GetCAByName 6
+0x4125d0 FreeSignatureCtx 7
+0x404080 wolfSSL_Malloc 8
+0x41d890 MatchBaseName 9
+0x408d20 wc_ecc_verify_hash 10
+0x43f480 wc_Sha3_256Hash 11
+0x43f220 wc_Sha256Hash 12
+0x43f2f0 wc_Sha512Hash 13
+0x43f560 wc_Sha3_512Hash 14
+0x43f410 wc_Sha3_224Hash 15
+0x43f1c0 wc_Sha224Hash 16
+0x43f4f0 wc_Sha3_384Hash 17
+0x43f290 wc_Sha384Hash 18
+0x442de0 wc_RsaSSL_VerifyInline 19
+0x43f100 wc_Md5Hash 20
+0x40e670 SetAlgoID 21
+0x4072d0 wc_ecc_init_ex 22
+0x41be80 wc_EccPublicKeyDecode 23
+0x440280 wc_InitRsaKey_ex 24
+0x40d570 GetObjectId 25
+0x411920 wc_RsaPublicKeyDecode_ex 26
+0x4121d0 wc_RsaPublicKeyDecodeRaw 27
+0x4040a0 wolfSSL_Free 28
+=============================
+0x419150 wc_ParseCert 217
+0x414b40 ParseCert 1
+=============================
+0x419160 MakeSigner 218
+0x404080 wolfSSL_Malloc 1
+=============================
+0x4191a0 FreeSigner 219
+0x4040a0 wolfSSL_Free 1
+=============================
+0x419240 FreeSignerTable 220
+0x4191a0 FreeSigner 1
+=============================
+0x4192a0 SetSerialNumber 221
+=============================
+0x4194d0 GetSerialNumber 222
+=============================
+0x4196d0 AllocDer 223
+0x404080 wolfSSL_Malloc 1
+=============================
+0x419770 FreeDer 224
+0x4040a0 wolfSSL_Free 1
+=============================
+0x419950 wc_AllocDer 225
+0x404080 wolfSSL_Malloc 1
+=============================
+0x4199f0 wc_FreeDer 226
+0x4040a0 wolfSSL_Free 1
+=============================
+0x419bd0 wc_PemGetHeaderFooter 227
+=============================
+0x419cb0 PemToDer 228
+0x44f110 mystrnstr 1
+0x404080 wolfSSL_Malloc 2
+0x41db00 Base64_Decode 3
+0x40dc30 ToTraditionalInline_ex 4
+=============================
+0x41a040 wc_PemToDer 229
+0x419cb0 PemToDer 1
+0x40dc30 ToTraditionalInline_ex 2
+=============================
+0x41a0e0 wc_KeyPemToDer 230
+0x419cb0 PemToDer 1
+0x4040a0 wolfSSL_Free 2
+=============================
+0x41a390 KeyPemToDerPassCb 231
+=============================
+0x41a3d0 wc_CertPemToDer 232
+0x419cb0 PemToDer 1
+0x4040a0 wolfSSL_Free 2
+=============================
+0x41a630 wc_GetPubKeyDerFromCert 233
+=============================
+0x41a690 wc_EccPublicKeyToDer 234
+0x41a6a0 SetEccPublicKey 1
+=============================
+0x41a6a0 SetEccPublicKey 235
+0x4096b0 wc_ecc_export_x963 1
+0x40e670 SetAlgoID 2
+=============================
+0x41ac50 wc_EccPublicKeyDerSize 236
+0x41a6a0 SetEccPublicKey 1
+=============================
+0x41ac60 StoreECC_DSA_Sig 237
+0x429c10 mp_leading_bit 1
+0x429570 mp_unsigned_bin_size 2
+0x429630 mp_to_unsigned_bin 3
+=============================
+0x41b140 StoreECC_DSA_Sig_Bin 238
+=============================
+0x41b600 DecodeECC_DSA_Sig_Bin 239
+=============================
+0x41bad0 DecodeECC_DSA_Sig 240
+0x41bc80 GetIntPositive 1
+0x428ba0 mp_clear 2
+=============================
+0x41bc80 GetIntPositive 241
+0x4288a0 mp_init 1
+0x429770 mp_read_unsigned_bin 2
+0x428ba0 mp_clear 3
+=============================
+0x41be80 wc_EccPublicKeyDecode 242
+0x40a9d0 wc_ecc_get_oid 1
+0x40c990 CheckBitString 2
+0x409d00 wc_ecc_import_x963_ex 3
+=============================
+0x41c970 wc_EccKeyToDer 243
+0x41c990 wc_BuildEccKeyDer 1
+=============================
+0x41c990 wc_BuildEccKeyDer 244
+0x404080 wolfSSL_Malloc 1
+0x40a070 wc_ecc_export_private_only 2
+0x4040a0 wolfSSL_Free 3
+0x4096b0 wc_ecc_export_x963 4
+=============================
+0x41d2d0 wc_EccKeyDerSize 245
+0x41c990 wc_BuildEccKeyDer 1
+=============================
+0x41d300 wc_EccPrivateKeyToDer 246
+0x41c990 wc_BuildEccKeyDer 1
+=============================
+0x41d320 wc_EccPrivateKeyToPKCS8 247
+0x41d330 eccToPKCS8 1
+=============================
+0x41d330 eccToPKCS8 248
+0x40a9d0 wc_ecc_get_oid 1
+0x404080 wolfSSL_Malloc 2
+0x41c990 wc_BuildEccKeyDer 3
+0x4040a0 wolfSSL_Free 4
+0x40e140 wc_CreatePKCS8Key 5
+=============================
+0x41d490 wc_EccKeyToPKCS8 249
+0x41d330 eccToPKCS8 1
+=============================
+0x41d4a0 GetNameHash 250
+0x43f160 wc_ShaHash 1
+=============================
+0x41d610 GetDate 251
+0x413800 wc_ValidateDate 1
+=============================
+0x41d890 MatchBaseName 252
+0x468790 __ctype_tolower_loc 1
+=============================
+0x41da30 Base64_SkipNewline 253
+=============================
+0x41db00 Base64_Decode 254
+=============================
+0x41e030 Base64_Encode 255
+0x41e040 DoBase64_Encode 1
+=============================
+0x41e040 DoBase64_Encode 256
+=============================
+0x41ed60 Base64_EncodeEsc 257
+0x41e040 DoBase64_Encode 1
+=============================
+0x41ed70 Base64_Encode_NoNl 258
+0x41e040 DoBase64_Encode 1
+=============================
+0x41ed80 fp_sqr_comba4 259
+=============================
+0x41ef50 fp_mul_comba4 260
+=============================
+0x41f200 CheckRunTimeSettings 261
+=============================
+0x41f210 CheckRunTimeFastMath 262
+=============================
+0x41f220 fp_add 263
+=============================
+0x41f770 s_fp_add 264
+=============================
+0x41f8d0 fp_cmp_mag 265
+=============================
+0x41f910 s_fp_sub 266
+=============================
+0x41fad0 fp_sub 267
+=============================
+0x420030 fp_mul 268
+0x41ef50 fp_mul_comba4 1
+0x420160 fp_mul_comba 2
+=============================
+0x420160 fp_mul_comba 269
+=============================
+0x4203d0 fp_mul_2 270
+=============================
+0x420630 fp_mul_d 271
+=============================
+0x4207c0 fp_mul_2d 272
+=============================
+0x420c30 fp_copy 273
+=============================
+0x420c60 fp_lshd 274
+=============================
+0x420d30 fp_init 275
+=============================
+0x420d40 fp_div 276
+0x4207c0 fp_mul_2d 1
+0x41fad0 fp_sub 2
+0x465520 __udivti3 3
+0x4220e0 fp_div_2d 4
+0x41f220 fp_add 5
+=============================
+0x421d60 fp_zero 277
+=============================
+0x421d70 fp_init_copy 278
+=============================
+0x421dc0 fp_count_bits 279
+=============================
+0x421df0 fp_cmp 280
+=============================
+0x421e90 fp_rshd 281
+=============================
+0x4220e0 fp_div_2d 282
+0x4227e0 fp_mod_2d 1
+0x422ab0 fp_rshb 2
+=============================
+0x422460 fp_div_2 283
+=============================
+0x422650 fp_div_2_mod_ct 284
+=============================
+0x4227e0 fp_mod_2d 285
+=============================
+0x422ab0 fp_rshb 286
+=============================
+0x422eb0 fp_mod 287
+0x420d40 fp_div 1
+0x41f220 fp_add 2
+=============================
+0x422f50 fp_invmod 288
+0x420d40 fp_div 1
+0x41f220 fp_add 2
+0x41fad0 fp_sub 3
+=============================
+0x424810 mp_mod 289
+0x420d40 fp_div 1
+0x41f220 fp_add 2
+=============================
+0x4248b0 fp_set 290
+=============================
+0x4248e0 fp_cmp_d 291
+=============================
+0x424920 fp_invmod_mont_ct 292
+0x427b00 fp_montgomery_reduce_ex 1
+0x41ed80 fp_sqr_comba4 2
+0x4273a0 fp_sqr_comba 3
+0x41ef50 fp_mul_comba4 4
+0x420160 fp_mul_comba 5
+0x41fad0 fp_sub 6
+=============================
+0x425120 fp_sqr 293
+0x41ed80 fp_sqr_comba4 1
+0x4273a0 fp_sqr_comba 2
+=============================
+0x425250 fp_montgomery_reduce 294
+0x427b00 fp_montgomery_reduce_ex 1
+=============================
+0x425260 fp_sub_d 295
+0x41fad0 fp_sub 1
+=============================
+0x4252c0 fp_is_bit_set 296
+=============================
+0x4252f0 fp_mulmod 297
+0x41ef50 fp_mul_comba4 1
+0x420160 fp_mul_comba 2
+0x420d40 fp_div 3
+0x41f220 fp_add 4
+=============================
+0x425400 fp_submod 298
+0x41fad0 fp_sub 1
+0x420d40 fp_div 2
+0x41f220 fp_add 3
+=============================
+0x4254e0 fp_addmod 299
+0x41f220 fp_add 1
+0x420d40 fp_div 2
+=============================
+0x4255c0 fp_submod_ct 300
+=============================
+0x4257b0 fp_addmod_ct 301
+=============================
+0x4259c0 fp_exptmod 302
+0x426240 _fp_exptmod_ct 1
+0x422f50 fp_invmod 2
+0x4275f0 fp_montgomery_calc_normalization 3
+0x41f220 fp_add 4
+0x427b00 fp_montgomery_reduce_ex 5
+0x41ed80 fp_sqr_comba4 6
+0x4273a0 fp_sqr_comba 7
+0x4207c0 fp_mul_2d 8
+0x420d40 fp_div 9
+=============================
+0x426240 _fp_exptmod_ct 303
+0x4275f0 fp_montgomery_calc_normalization 1
+0x4252f0 fp_mulmod 2
+0x420d40 fp_div 3
+0x427b00 fp_montgomery_reduce_ex 4
+0x41f220 fp_add 5
+0x41ef50 fp_mul_comba4 6
+0x420160 fp_mul_comba 7
+0x41ed80 fp_sqr_comba4 8
+0x4273a0 fp_sqr_comba 9
+=============================
+0x426700 fp_exptmod_ex 304
+0x426240 _fp_exptmod_ct 1
+0x422f50 fp_invmod 2
+0x41f220 fp_add 3
+=============================
+0x426860 fp_exptmod_nct 305
+0x4269b0 _fp_exptmod_nct 1
+0x422f50 fp_invmod 2
+0x41f220 fp_add 3
+=============================
+0x4269b0 _fp_exptmod_nct 306
+0x404080 wolfSSL_Malloc 1
+0x4275f0 fp_montgomery_calc_normalization 2
+0x4040a0 wolfSSL_Free 3
+0x4252f0 fp_mulmod 4
+0x420d40 fp_div 5
+0x41f220 fp_add 6
+0x41ed80 fp_sqr_comba4 7
+0x4273a0 fp_sqr_comba 8
+0x41ef50 fp_mul_comba4 9
+0x420160 fp_mul_comba 10
+0x427b00 fp_montgomery_reduce_ex 11
+=============================
+0x427350 fp_2expt 307
+=============================
+0x4273a0 fp_sqr_comba 308
+=============================
+0x427580 fp_montgomery_setup 309
+=============================
+0x4275f0 fp_montgomery_calc_normalization 310
+=============================
+0x427b00 fp_montgomery_reduce_ex 311
+=============================
+0x428090 fp_read_unsigned_bin 312
+=============================
+0x428370 fp_to_unsigned_bin_at_pos 313
+=============================
+0x4283f0 fp_to_unsigned_bin 314
+=============================
+0x4284d0 fp_reverse 315
+=============================
+0x428510 fp_to_unsigned_bin_len 316
+=============================
+0x428570 fp_unsigned_bin_size 317
+=============================
+0x4285b0 fp_set_int 318
+=============================
+0x4287b0 fp_set_bit 319
+=============================
+0x4287e0 fp_leading_bit 320
+=============================
+0x4288a0 mp_init 321
+=============================
+0x4288c0 fp_clear 322
+=============================
+0x4288d0 fp_free 323
+=============================
+0x4288e0 fp_forcezero 324
+=============================
+0x428a40 mp_forcezero 325
+=============================
+0x428ba0 mp_clear 326
+=============================
+0x428bc0 mp_free 327
+=============================
+0x428bd0 mp_init_multi 328
+=============================
+0x428c70 mp_add 329
+0x41f220 fp_add 1
+=============================
+0x428c80 mp_sub 330
+0x41fad0 fp_sub 1
+=============================
+0x428c90 mp_mul 331
+0x41ef50 fp_mul_comba4 1
+0x420160 fp_mul_comba 2
+=============================
+0x428d00 mp_mul_d 332
+=============================
+0x428e90 mp_mulmod 333
+0x4252f0 fp_mulmod 1
+=============================
+0x428ea0 mp_submod 334
+0x41fad0 fp_sub 1
+0x420d40 fp_div 2
+0x41f220 fp_add 3
+=============================
+0x428f80 mp_addmod 335
+0x41f220 fp_add 1
+0x420d40 fp_div 2
+=============================
+0x429060 mp_submod_ct 336
+=============================
+0x429230 mp_addmod_ct 337
+=============================
+0x429440 mp_invmod 338
+0x422f50 fp_invmod 1
+=============================
+0x429450 mp_invmod_mont_ct 339
+0x424920 fp_invmod_mont_ct 1
+=============================
+0x429460 mp_exptmod 340
+0x4259c0 fp_exptmod 1
+=============================
+0x429470 mp_exptmod_ex 341
+0x426700 fp_exptmod_ex 1
+=============================
+0x429480 mp_exptmod_nct 342
+0x426860 fp_exptmod_nct 1
+=============================
+0x429490 mp_cmp 343
+=============================
+0x429530 mp_cmp_d 344
+=============================
+0x429570 mp_unsigned_bin_size 345
+=============================
+0x4295b0 mp_to_unsigned_bin_at_pos 346
+=============================
+0x429630 mp_to_unsigned_bin 347
+=============================
+0x429710 mp_to_unsigned_bin_len 348
+=============================
+0x429770 mp_read_unsigned_bin 349
+=============================
+0x429a50 mp_sub_d 350
+0x41fad0 fp_sub 1
+=============================
+0x429ab0 mp_mul_2d 351
+0x4207c0 fp_mul_2d 1
+=============================
+0x429ac0 mp_2expt 352
+=============================
+0x429b10 mp_div 353
+0x420d40 fp_div 1
+=============================
+0x429b20 mp_div_2d 354
+0x4220e0 fp_div_2d 1
+=============================
+0x429b30 mp_init_copy 355
+=============================
+0x429b80 mp_copy 356
+=============================
+0x429bc0 mp_isodd 357
+=============================
+0x429bd0 mp_iszero 358
+=============================
+0x429be0 mp_count_bits 359
+=============================
+0x429c10 mp_leading_bit 360
+=============================
+0x429cd0 mp_rshb 361
+0x422ab0 fp_rshb 1
+=============================
+0x429ce0 mp_rshd 362
+=============================
+0x429f30 mp_set_int 363
+0x4285b0 fp_set_int 1
+=============================
+0x429f40 mp_is_bit_set 364
+=============================
+0x429f70 mp_set_bit 365
+=============================
+0x429fa0 fp_sqrmod 366
+0x41ed80 fp_sqr_comba4 1
+0x4273a0 fp_sqr_comba 2
+0x420d40 fp_div 3
+0x41f220 fp_add 4
+=============================
+0x42a090 mp_sqrmod 367
+0x429fa0 fp_sqrmod 1
+=============================
+0x42a0a0 mp_montgomery_calc_normalization 368
+0x4275f0 fp_montgomery_calc_normalization 1
+=============================
+0x42a0b0 fp_cnt_lsb 369
+=============================
+0x42a100 mp_mod_d 370
+0x465520 __udivti3 1
+=============================
+0x42a260 mp_prime_is_prime 371
+0x465520 __udivti3 1
+0x42ae00 fp_prime_miller_rabin_ex 2
+=============================
+0x42a580 mp_prime_is_prime_ex 372
+0x465520 __udivti3 1
+0x41fad0 fp_sub 2
+0x401a80 wc_RNG_GenerateBlock 3
+0x42ae00 fp_prime_miller_rabin_ex 4
+=============================
+0x42ae00 fp_prime_miller_rabin_ex 373
+0x41fad0 fp_sub 1
+0x4220e0 fp_div_2d 2
+0x4259c0 fp_exptmod 3
+0x429fa0 fp_sqrmod 4
+=============================
+0x42b140 mp_cond_swap_ct 374
+=============================
+0x42b4b0 fp_add_d 375
+0x41f220 fp_add 1
+=============================
+0x42b510 mp_add_d 376
+0x41f220 fp_add 1
+=============================
+0x42b570 mp_read_radix 377
+0x468770 __ctype_toupper_loc 1
+0x41f220 fp_add 2
+=============================
+0x42b990 mp_sqr 378
+0x41ed80 fp_sqr_comba4 1
+0x4273a0 fp_sqr_comba 2
+=============================
+0x42ba00 mp_montgomery_reduce 379
+0x427b00 fp_montgomery_reduce_ex 1
+=============================
+0x42ba10 mp_montgomery_reduce_ex 380
+0x427b00 fp_montgomery_reduce_ex 1
+=============================
+0x42ba20 mp_montgomery_setup 381
+=============================
+0x42ba90 mp_div_2 382
+=============================
+0x42bc80 mp_div_2_mod_ct 383
+=============================
+0x42be10 mp_set 384
+=============================
+0x42be40 mp_radix_size 385
+0x42bfc0 fp_div_d 1
+=============================
+0x42bfc0 fp_div_d 386
+0x4220e0 fp_div_2d 1
+0x465520 __udivti3 2
+=============================
+0x42c230 mp_toradix 387
+0x42bfc0 fp_div_d 1
+=============================
+0x42c3b0 mp_abs 388
+=============================
+0x42c3f0 mp_lshd 389
+=============================
+0x42c4c0 wolfSSL_CTX_new_ex 390
+0x42c530 wolfSSL_Init 1
+0x404080 wolfSSL_Malloc 2
+0x4040a0 wolfSSL_Free 3
+0x452410 InitSSL_Ctx 4
+0x4525d0 FreeSSL_Ctx 5
+=============================
+0x42c530 wolfSSL_Init 391
+0x44e830 wolfCrypt_Init 1
+0x44f0d0 wc_LockMutex 2
+0x44ee50 wc_InitMutex 3
+0x42e9e0 wolfSSL_Cleanup 4
+0x44f0f0 wc_UnLockMutex 5
+=============================
+0x42c610 wolfSSL_CTX_free 392
+0x4525d0 FreeSSL_Ctx 1
+=============================
+0x42c620 wolfSSL_CTX_new 393
+0x42c4c0 wolfSSL_CTX_new_ex 1
+=============================
+0x42c630 wolfSSL_CTX_up_ref 394
+0x452640 SSL_CTX_RefCount 1
+=============================
+0x42c650 wolfSSL_CTX_AllowEncryptThenMac 395
+=============================
+0x42c680 wolfSSL_AllowEncryptThenMac 396
+=============================
+0x42c6e0 wolfSSL_new 397
+0x404080 wolfSSL_Malloc 1
+0x453850 InitSSL 2
+0x454d20 FreeSSL 3
+=============================
+0x42c730 wolfSSL_free 398
+0x454d20 FreeSSL 1
+=============================
+0x42c750 wolfSSL_is_server 399
+=============================
+0x42c770 wolfSSL_use_old_poly 400
+=============================
+0x42c7c0 wolfSSL_set_fd 401
+=============================
+0x42c800 wolfSSL_set_read_fd 402
+=============================
+0x42c830 wolfSSL_set_write_fd 403
+=============================
+0x42c860 wolfSSL_get_cipher_list 404
+0x45d3e0 GetCipherNames 1
+0x45d3f0 GetCipherNamesSize 2
+=============================
+0x42c8a0 wolfSSL_get_cipher_list_ex 405
+0x45d4c0 wolfSSL_get_cipher_name_internal 1
+0x45d3e0 GetCipherNames 2
+0x45d3f0 GetCipherNamesSize 3
+=============================
+0x42c900 wolfSSL_get_ciphers 406
+0x45d3e0 GetCipherNames 1
+0x45d3f0 GetCipherNamesSize 2
+=============================
+0x42c9e0 wolfSSL_get_ciphers_iana 407
+0x45d3e0 GetCipherNames 1
+0x45d3f0 GetCipherNamesSize 2
+=============================
+0x42cad0 wolfSSL_get_shared_ciphers 408
+0x45d530 wolfSSL_get_cipher_name_iana 1
+=============================
+0x42cb10 wolfSSL_get_fd 409
+=============================
+0x42cb30 wolfSSL_dtls 410
+=============================
+0x42cb50 wolfSSL_CTX_mutual_auth 411
+=============================
+0x42cb90 wolfSSL_mutual_auth 412
+=============================
+0x42cc00 wolfSSL_dtls_set_peer 413
+=============================
+0x42cc10 wolfSSL_dtls_get_peer 414
+=============================
+0x42cc20 wolfSSL_negotiate 415
+0x4523e0 IsAtLeastTLSv1_3 1
+0x42cc90 wolfSSL_accept 2
+0x43d2a0 wolfSSL_accept_TLSv13 3
+0x42d0b0 wolfSSL_connect 4
+0x43ba30 wolfSSL_connect_TLSv13 5
+=============================
+0x42cc90 wolfSSL_accept 416
+0x467540 __errno_location 1
+0x43d2a0 wolfSSL_accept_TLSv13 2
+0x454ef0 SendBuffered 3
+0x45fcf0 SendServerHello 4
+0x45bc90 SendFinished 5
+0x45ae40 SendChangeCipher 6
+0x4616c0 SendServerHelloDone 7
+0x457e20 ProcessReply 8
+0x45cb20 SendCertificateStatus 9
+0x45be70 SendCertificate 10
+0x454ab0 FreeHandshakeResources 11
+0x45c770 SendCertificateRequest 12
+0x460110 SendServerKeyExchange 13
+=============================
+0x42d0b0 wolfSSL_connect 417
+0x467540 __errno_location 1
+0x43ba30 wolfSSL_connect_TLSv13 2
+0x454ef0 SendBuffered 3
+0x45bc90 SendFinished 4
+0x45ae40 SendChangeCipher 5
+0x45dd00 SendClientHello 6
+0x457e20 ProcessReply 7
+0x45e9c0 SendClientKeyExchange 8
+0x454ab0 FreeHandshakeResources 9
+0x45be70 SendCertificate 10
+0x45f2f0 SendCertificateVerify 11
+=============================
+0x42d400 wolfSSL_GetRNG 418
+=============================
+0x42d410 wolfSSL_GetObjectSize 419
+=============================
+0x42d420 wolfSSL_CTX_GetObjectSize 420
+=============================
+0x42d430 wolfSSL_METHOD_GetObjectSize 421
+=============================
+0x42d440 wolfSSL_GetMaxOutputSize 422
+0x45c760 wolfSSL_GetMaxFragSize 1
+=============================
+0x42d460 wolfSSL_GetOutputSize 423
+0x45c760 wolfSSL_GetMaxFragSize 1
+0x45b070 BuildMessage 2
+=============================
+0x42d4d0 wolfSSL_CTX_SetMinEccKey_Sz 424
+=============================
+0x42d510 wolfSSL_SetMinEccKey_Sz 425
+=============================
+0x42d550 wolfSSL_CTX_SetMinRsaKey_Sz 426
+=============================
+0x42d590 wolfSSL_SetMinRsaKey_Sz 427
+=============================
+0x42d5d0 wolfSSL_write 428
+0x467540 __errno_location 1
+0x45cb40 SendData 2
+=============================
+0x42d620 wolfSSL_peek 429
+0x467540 __errno_location 1
+0x45ce50 ReceiveData 2
+=============================
+0x42d670 wolfSSL_read 430
+0x467540 __errno_location 1
+0x45ce50 ReceiveData 2
+=============================
+0x42d6c0 wolfSSL_SetDevId 431
+=============================
+0x42d6e0 wolfSSL_CTX_SetDevId 432
+=============================
+0x42d700 wolfSSL_CTX_GetDevId 433
+=============================
+0x42d730 wolfSSL_CTX_GetHeap 434
+=============================
+0x42d750 wolfSSL_UseSupportedCurve 435
+0x42d7a0 isValidCurveGroup 1
+0x434590 TLSX_UseSupportedCurve 2
+=============================
+0x42d7a0 isValidCurveGroup 436
+=============================
+0x42d7c0 wolfSSL_CTX_UseSupportedCurve 437
+0x42d7a0 isValidCurveGroup 1
+0x434590 TLSX_UseSupportedCurve 2
+=============================
+0x42d810 wolfSSL_UseSecureRenegotiation 438
+0x434820 TLSX_UseSecureRenegotiation 1
+0x433f70 TLSX_Find 2
+=============================
+0x42d870 wolfSSL_CTX_UseSecureRenegotiation 439
+=============================
+0x42d890 wolfSSL_Rehandshake 440
+0x42d900 _Rehandshake 1
+=============================
+0x42da60 wolfSSL_SecureResume 441
+0x42d900 _Rehandshake 1
+=============================
+0x42da90 wolfSSL_SSL_get_secure_renegotiation_support 442
+=============================
+0x42dab0 wolfSSL_CTX_DisableExtendedMasterSecret 443
+=============================
+0x42dad0 wolfSSL_DisableExtendedMasterSecret 444
+=============================
+0x42daf0 wolfSSL_send 445
+0x467540 __errno_location 1
+0x45cb40 SendData 2
+=============================
+0x42db60 wolfSSL_recv 446
+0x467540 __errno_location 1
+0x45ce50 ReceiveData 2
+=============================
+0x42dbd0 wolfSSL_shutdown 447
+0x455550 SendAlert 1
+0x457e20 ProcessReply 2
+=============================
+0x42dcf0 wolfSSL_state 448
+=============================
+0x42dd10 wolfSSL_get_error 449
+=============================
+0x42dd50 wolfSSL_get_alert_history 450
+=============================
+0x42dd70 wolfSSL_want_read 451
+=============================
+0x42dd80 wolfSSL_want_write 452
+=============================
+0x42dd90 wolfSSL_ERR_error_string 453
+0x45d3b0 SetErrorString 1
+=============================
+0x42ddb0 wolfSSL_ERR_error_string_n 454
+0x45d3b0 SetErrorString 1
+=============================
+0x42de20 wolfSSL_KeepArrays 455
+=============================
+0x42de30 wolfSSL_FreeArrays 456
+0x454050 FreeArrays 1
+=============================
+0x42de50 wolfSSL_KeepHandshakeResources 457
+=============================
+0x42de70 wolfSSL_FreeHandshakeResources 458
+0x454ab0 FreeHandshakeResources 1
+=============================
+0x42de90 wolfSSL_CTX_UseClientSuites 459
+=============================
+0x42deb0 wolfSSL_UseClientSuites 460
+=============================
+0x42ded0 wolfSSL_GetMacSecret 461
+=============================
+0x42df10 wolfSSL_CTX_GetCertManager 462
+=============================
+0x42df20 wolfSSL_CertManagerNew_ex 463
+0x404080 wolfSSL_Malloc 1
+0x44ee50 wc_InitMutex 2
+0x44f0d0 wc_LockMutex 3
+0x44f0f0 wc_UnLockMutex 4
+0x419240 FreeSignerTable 5
+0x44f0b0 wc_FreeMutex 6
+0x4040a0 wolfSSL_Free 7
+=============================
+0x42dff0 wolfSSL_CertManagerFree 464
+0x44f0d0 wc_LockMutex 1
+0x44f0f0 wc_UnLockMutex 2
+0x419240 FreeSignerTable 3
+0x44f0b0 wc_FreeMutex 4
+0x4040a0 wolfSSL_Free 5
+=============================
+0x42e060 wolfSSL_CertManagerNew 465
+0x42df20 wolfSSL_CertManagerNew_ex 1
+=============================
+0x42e070 wolfSSL_CertManager_up_ref 466
+0x44f0d0 wc_LockMutex 1
+0x44f0f0 wc_UnLockMutex 2
+=============================
+0x42e0b0 wolfSSL_CertManagerUnloadCAs 467
+0x44f0d0 wc_LockMutex 1
+0x419240 FreeSignerTable 2
+0x44f0f0 wc_UnLockMutex 3
+=============================
+0x42e110 wolfSSL_ERR_print_errors_fp 468
+0x45d3b0 SetErrorString 1
+0x477010 fputs 2
+=============================
+0x42e140 wolfSSL_pending 469
+=============================
+0x42e150 wolfSSL_has_pending 470
+=============================
+0x42e170 wolfSSL_CTX_set_group_messages 471
+=============================
+0x42e190 wolfSSL_connect_cert 472
+0x42d0b0 wolfSSL_connect 1
+=============================
+0x42e1c0 wolfSSL_set_group_messages 473
+=============================
+0x42e1e0 wolfSSL_CTX_SetMinVersion 474
+=============================
+0x42e220 wolfSSL_SetMinVersion 475
+=============================
+0x42e260 wolfSSL_GetVersion 476
+=============================
+0x42e290 wolfSSL_SetVersion 477
+0x4330d0 MakeTLSv1_3 1
+0x4330c0 MakeTLSv1_2 2
+0x452860 InitSuites 3
+0x4330b0 MakeTLSv1_1 4
+=============================
+0x42e370 AlreadySigner 478
+0x44f0d0 wc_LockMutex 1
+0x44f0f0 wc_UnLockMutex 2
+=============================
+0x42e460 GetCA 479
+0x44f0d0 wc_LockMutex 1
+0x44f0f0 wc_UnLockMutex 2
+=============================
+0x42e550 GetCAByName 480
+0x44f0d0 wc_LockMutex 1
+0x44f0f0 wc_UnLockMutex 2
+=============================
+0x42e610 AddCA 481
+0x419770 FreeDer 1
+0x412290 InitDecodedCert 2
+0x414b40 ParseCert 3
+0x412470 FreeDecodedCert 4
+0x44f0d0 wc_LockMutex 5
+0x419160 MakeSigner 6
+0x44f0f0 wc_UnLockMutex 7
+0x4191a0 FreeSigner 8
+=============================
+0x42e9e0 wolfSSL_Cleanup 482
+0x44f0d0 wc_LockMutex 1
+0x44f0f0 wc_UnLockMutex 2
+0x44f0b0 wc_FreeMutex 3
+0x44e840 wolfCrypt_Cleanup 4
+=============================
+0x42eb20 ProcessBuffer 483
+0x419cb0 PemToDer 1
+0x40bc50 GetSequence 2
+0x40c150 GetOctetString 3
+0x4196d0 AllocDer 4
+0x419770 FreeDer 5
+0x40e040 ToTraditional_ex 6
+0x412290 InitDecodedCert 7
+0x42fba0 CM_VerifyBuffer_ex 8
+0x414140 DecodeToKey 9
+0x42e610 AddCA 10
+0x404080 wolfSSL_Malloc 11
+0x412470 FreeDecodedCert 12
+0x440280 wc_InitRsaKey_ex 13
+0x40d980 wc_RsaPrivateKeyDecode 14
+0x4072d0 wc_ecc_init_ex 15
+0x443710 wc_RsaEncryptSize 16
+0x440440 wc_FreeRsaKey 17
+0x40f130 wc_EccPrivateKeyDecode 18
+0x40a9d0 wc_ecc_get_oid 19
+0x40a890 wc_ecc_size 20
+0x4074d0 wc_ecc_free 21
+0x452860 InitSuites 22
+0x406200 wc_ecc_get_curve_size_from_id 23
+0x411920 wc_RsaPublicKeyDecode_ex 24
+0x4040a0 wolfSSL_Free 25
+=============================
+0x42fba0 CM_VerifyBuffer_ex 484
+0x419cb0 PemToDer 1
+0x412290 InitDecodedCert 2
+0x419770 FreeDer 3
+0x414bf0 ParseCertRelative 4
+0x412470 FreeDecodedCert 5
+0x455770 DoVerifyCallback 6
+=============================
+0x42fce0 wolfSSL_CertManagerLoadCABuffer 485
+0x437ce0 wolfTLSv1_1_client_method 1
+0x42c4c0 wolfSSL_CTX_new_ex 2
+0x42dff0 wolfSSL_CertManagerFree 3
+0x42eb20 ProcessBuffer 4
+0x4525d0 FreeSSL_Ctx 5
+=============================
+0x42fe30 wolfSSL_CTX_load_verify_buffer 486
+0x42eb20 ProcessBuffer 1
+=============================
+0x42ff50 wolfSSL_CertManagerEnableCRL 487
+=============================
+0x42ff60 wolfSSL_CertManagerDisableCRL 488
+=============================
+0x42ff80 wolfSSL_CertManagerSetVerify 489
+=============================
+0x42ff90 wolfSSL_CertManagerVerifyBuffer 490
+0x42fba0 CM_VerifyBuffer_ex 1
+=============================
+0x42ffa0 wolfSSL_CertManagerEnableOCSP 491
+=============================
+0x42ffb0 wolfSSL_CertManagerDisableOCSP 492
+=============================
+0x42ffd0 wolfSSL_CertManagerEnableOCSPStapling 493
+=============================
+0x42ffe0 wolfSSL_CertManagerDisableOCSPStapling 494
+=============================
+0x42fff0 wolfSSL_CertManagerEnableOCSPMustStaple 495
+=============================
+0x430000 wolfSSL_CertManagerDisableOCSPMustStaple 496
+=============================
+0x430010 ProcessFile 497
+0x476ef0 fopen64 1
+0x47aec0 fseek 2
+0x4771a0 ftell 3
+0x476990 __new_fclose 4
+0x47aff0 rewind 5
+0x47b750 fread_unlocked 6
+0x404080 wolfSSL_Malloc 7
+0x419bd0 wc_PemGetHeaderFooter 8
+0x42eb20 ProcessBuffer 9
+0x44f110 mystrnstr 10
+0x4040a0 wolfSSL_Free 11
+=============================
+0x430300 wolfSSL_CTX_load_verify_locations_ex 498
+0x430010 ProcessFile 1
+0x44e9b0 wc_ReadDirFirst 2
+0x44ebb0 wc_ReadDirClose 3
+0x44ebe0 wc_ReadDirNext 4
+=============================
+0x4304b0 wolfSSL_CTX_load_verify_locations 499
+0x430300 wolfSSL_CTX_load_verify_locations_ex 1
+=============================
+0x4304c0 wolfSSL_CertManagerVerify 500
+0x476ef0 fopen64 1
+0x47aec0 fseek 2
+0x4771a0 ftell 3
+0x476990 __new_fclose 4
+0x47aff0 rewind 5
+0x47b750 fread_unlocked 6
+0x404080 wolfSSL_Malloc 7
+0x42fba0 CM_VerifyBuffer_ex 8
+0x4040a0 wolfSSL_Free 9
+=============================
+0x4305d0 wolfSSL_CertManagerLoadCA 501
+0x437ce0 wolfTLSv1_1_client_method 1
+0x42c4c0 wolfSSL_CTX_new_ex 2
+0x42dff0 wolfSSL_CertManagerFree 3
+0x430300 wolfSSL_CTX_load_verify_locations_ex 4
+0x4525d0 FreeSSL_Ctx 5
+=============================
+0x430640 wolfSSL_CTX_use_certificate_file 502
+0x430010 ProcessFile 1
+=============================
+0x430680 wolfSSL_CTX_use_PrivateKey_file 503
+0x430010 ProcessFile 1
+=============================
+0x4306d0 wolfSSL_CTX_set_verify_depth 504
+=============================
+0x4306f0 wolfSSL_get_verify_depth 505
+=============================
+0x430710 wolfSSL_CTX_get_verify_depth 506
+=============================
+0x430730 wolfSSL_CTX_use_certificate_chain_file 507
+0x430010 ProcessFile 1
+=============================
+0x430780 wolfSSL_CTX_use_certificate_chain_file_format 508
+0x430010 ProcessFile 1
+=============================
+0x4307d0 wolfSSL_CTX_check_private_key 509
+0x412290 InitDecodedCert 1
+0x414bf0 ParseCertRelative 2
+0x40faa0 wc_CheckPrivateKeyCert 3
+0x412470 FreeDecodedCert 4
+=============================
+0x430850 wolfSSL_use_certificate_ASN1 510
+0x42eb20 ProcessBuffer 1
+=============================
+0x4308b0 wolfSSL_use_certificate_file 511
+0x430010 ProcessFile 1
+=============================
+0x430900 wolfSSL_use_PrivateKey_file 512
+0x430010 ProcessFile 1
+=============================
+0x430950 wolfSSL_use_certificate_chain_file 513
+0x430010 ProcessFile 1
+=============================
+0x4309a0 wolfSSL_use_certificate_chain_file_format 514
+0x430010 ProcessFile 1
+=============================
+0x4309f0 wolfSSL_CTX_SetTmpEC_DHE_Sz 515
+=============================
+0x430a40 wolfSSL_SetTmpEC_DHE_Sz 516
+=============================
+0x430a60 wolfSSL_CTX_set_verify 517
+=============================
+0x430b00 wolfSSL_set_verify 518
+=============================
+0x430be0 wolfSSL_set_verify_result 519
+=============================
+0x430bf0 wolfSSL_SetCertCbCtx 520
+=============================
+0x430c00 wolfSSL_CTX_SetCertCbCtx 521
+=============================
+0x430c10 wolfSSL_CTX_SetCACb 522
+=============================
+0x430c30 wolfSSL_get_session 523
+0x430cc0 AddSessionToCache 1
+=============================
+0x430cc0 AddSessionToCache 524
+0x431b40 ClientSessionToSession 1
+0x43f100 wc_Md5Hash 2
+0x44f0d0 wc_LockMutex 3
+0x44f0f0 wc_UnLockMutex 4
+0x431c30 AddSessionToClientCache 5
+=============================
+0x430ff0 wolfSSL_get1_session 525
+0x431b40 ClientSessionToSession 1
+0x44f0d0 wc_LockMutex 2
+0x44f0f0 wc_UnLockMutex 3
+=============================
+0x431050 wolfSSL_SESSION_up_ref 526
+0x431b40 ClientSessionToSession 1
+0x44f0d0 wc_LockMutex 2
+0x44f0f0 wc_UnLockMutex 3
+=============================
+0x4310a0 wolfSSL_set_session 527
+0x4310b0 wolfSSL_SetSession 1
+=============================
+0x4310b0 wolfSSL_SetSession 528
+0x431b40 ClientSessionToSession 1
+0x44f0d0 wc_LockMutex 2
+0x44f0f0 wc_UnLockMutex 3
+0x454df0 LowResTimer 4
+=============================
+0x431330 wolfSSL_SetServerID 529
+0x4313b0 wolfSSL_GetSessionClient 1
+0x4310b0 wolfSSL_SetSession 2
+=============================
+0x4313b0 wolfSSL_GetSessionClient 530
+0x43f100 wc_Md5Hash 1
+0x44f0d0 wc_LockMutex 2
+0x44f0f0 wc_UnLockMutex 3
+0x454df0 LowResTimer 4
+=============================
+0x431580 wolfSSL_load_error_strings 531
+=============================
+0x431590 wolfSSL_library_init 532
+0x42c530 wolfSSL_Init 1
+=============================
+0x4315b0 wolfSSL_CTX_set_session_cache_mode 533
+=============================
+0x4315e0 wolfSSL_CTX_set_cipher_list 534
+0x404080 wolfSSL_Malloc 1
+0x45d660 SetCipherList 2
+=============================
+0x431640 wolfSSL_set_cipher_list 535
+0x45d660 SetCipherList 1
+=============================
+0x431660 wolfSSL_dtls_get_using_nonblock 536
+=============================
+0x431670 wolfSSL_dtls_set_using_nonblock 537
+=============================
+0x431680 wolfSSLv23_client_method 538
+0x404080 wolfSSL_Malloc 1
+0x4330d0 MakeTLSv1_3 2
+0x452400 InitSSL_Method 3
+=============================
+0x4316b0 wolfSSLv23_client_method_ex 539
+0x404080 wolfSSL_Malloc 1
+0x4330d0 MakeTLSv1_3 2
+0x452400 InitSSL_Method 3
+=============================
+0x4316e0 wolfSSLv23_server_method 540
+0x404080 wolfSSL_Malloc 1
+0x4330d0 MakeTLSv1_3 2
+0x452400 InitSSL_Method 3
+=============================
+0x431710 wolfSSLv23_server_method_ex 541
+0x404080 wolfSSL_Malloc 1
+0x4330d0 MakeTLSv1_3 2
+0x452400 InitSSL_Method 3
+=============================
+0x431740 wolfSSL_SetHsDoneCb 542
+=============================
+0x431760 wolfSSL_flush_sessions 543
+=============================
+0x431770 wolfSSL_set_timeout 544
+=============================
+0x4317a0 wolfSSL_CTX_set_timeout 545
+=============================
+0x4317d0 wolfSSL_GetSessionFromCache 546
+0x4523e0 IsAtLeastTLSv1_3 1
+0x43f100 wc_Md5Hash 2
+0x44f0d0 wc_LockMutex 3
+0x44f0f0 wc_UnLockMutex 4
+0x454df0 LowResTimer 5
+0x431b40 ClientSessionToSession 6
+=============================
+0x431a60 wolfSSL_DupSession 547
+0x431b40 ClientSessionToSession 1
+=============================
+0x431ae0 wolfSSL_GetSession 548
+0x4317d0 wolfSSL_GetSessionFromCache 1
+=============================
+0x431b40 ClientSessionToSession 549
+0x44f0d0 wc_LockMutex 1
+0x44f0f0 wc_UnLockMutex 2
+0x43f100 wc_Md5Hash 3
+=============================
+0x431c30 AddSessionToClientCache 550
+0x43f100 wc_Md5Hash 1
+0x44f0d0 wc_LockMutex 2
+0x44f0f0 wc_UnLockMutex 3
+=============================
+0x431da0 AddSession 551
+0x4523e0 IsAtLeastTLSv1_3 1
+0x454df0 LowResTimer 2
+0x430cc0 AddSessionToCache 3
+0x401a80 wc_RNG_GenerateBlock 4
+=============================
+0x431f40 wolfSSL_check_domain_name 552
+0x4040a0 wolfSSL_Free 1
+0x404080 wolfSSL_Malloc 2
+=============================
+0x431fd0 wolfSSL_set_compression 553
+=============================
+0x431fe0 wolfSSL_writev 554
+0x4040a0 wolfSSL_Free 1
+0x467540 __errno_location 2
+0x404080 wolfSSL_Malloc 3
+0x45cb40 SendData 4
+=============================
+0x4321e0 wolfSSL_CTX_load_verify_buffer_ex 555
+0x42eb20 ProcessBuffer 1
+=============================
+0x432300 wolfSSL_CTX_load_verify_chain_buffer_format 556
+0x42eb20 ProcessBuffer 1
+=============================
+0x432420 wolfSSL_CTX_use_certificate_buffer 557
+0x42eb20 ProcessBuffer 1
+=============================
+0x432460 wolfSSL_CTX_use_PrivateKey_buffer 558
+0x42eb20 ProcessBuffer 1
+=============================
+0x4324a0 wolfSSL_CTX_use_certificate_chain_buffer_format 559
+0x42eb20 ProcessBuffer 1
+=============================
+0x4324e0 wolfSSL_CTX_use_certificate_chain_buffer 560
+0x42eb20 ProcessBuffer 1
+=============================
+0x432520 wolfSSL_use_certificate_buffer 561
+0x42eb20 ProcessBuffer 1
+=============================
+0x432560 wolfSSL_use_PrivateKey_buffer 562
+0x42eb20 ProcessBuffer 1
+=============================
+0x4325a0 wolfSSL_use_certificate_chain_buffer_format 563
+0x42eb20 ProcessBuffer 1
+=============================
+0x4325e0 wolfSSL_use_certificate_chain_buffer 564
+0x42eb20 ProcessBuffer 1
+=============================
+0x432620 wolfSSL_UnloadCertsKeys 565
+0x419770 FreeDer 1
+=============================
+0x4326a0 wolfSSL_CTX_UnloadCAs 566
+0x44f0d0 wc_LockMutex 1
+0x419240 FreeSignerTable 2
+0x44f0f0 wc_UnLockMutex 3
+=============================
+0x432700 wolfSSL_is_init_finished 567
+=============================
+0x432720 wolfSSL_CTX_set_options 568
+=============================
+0x432740 wolfSSL_get_shutdown 569
+=============================
+0x432770 wolfSSL_session_reused 570
+=============================
+0x432790 wolfSSL_NewSession 571
+0x404080 wolfSSL_Malloc 1
+0x44ee50 wc_InitMutex 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x432870 wolfSSL_SESSION_new_ex 572
+0x404080 wolfSSL_Malloc 1
+0x44ee50 wc_InitMutex 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x432950 wolfSSL_SESSION_new 573
+0x404080 wolfSSL_Malloc 1
+0x44ee50 wc_InitMutex 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x432a20 wolfSSL_SESSION_dup 574
+=============================
+0x432a30 wolfSSL_FreeSession 575
+0x431b40 ClientSessionToSession 1
+0x44f0d0 wc_LockMutex 2
+0x4040a0 wolfSSL_Free 3
+0x44f0f0 wc_UnLockMutex 4
+0x44f0b0 wc_FreeMutex 5
+=============================
+0x432ab0 wolfSSL_SESSION_free 576
+0x431b40 ClientSessionToSession 1
+0x432a30 wolfSSL_FreeSession 2
+=============================
+0x432ac0 wolfSSL_CTX_add_session 577
+0x431b40 ClientSessionToSession 1
+0x430cc0 AddSessionToCache 2
+=============================
+0x432b20 wolfSSL_get_version 578
+=============================
+0x432b50 wolfSSL_lib_version 579
+=============================
+0x432b60 wolfSSL_lib_version_hex 580
+=============================
+0x432b70 wolfSSL_get_current_cipher_suite 581
+=============================
+0x432b90 wolfSSL_get_current_cipher 582
+=============================
+0x432bb0 wolfSSL_CIPHER_get_name 583
+0x45d460 GetCipherNameIana 1
+=============================
+0x432bd0 wolfSSL_CIPHER_get_version 584
+=============================
+0x432c10 wolfSSL_SESSION_CIPHER_get_name 585
+0x431b40 ClientSessionToSession 1
+0x45d460 GetCipherNameIana 2
+=============================
+0x432c40 wolfSSL_get_cipher 586
+0x45d460 GetCipherNameIana 1
+=============================
+0x432c70 wolfSSL_get_cipher_name 587
+0x45d4c0 wolfSSL_get_cipher_name_internal 1
+=============================
+0x432c80 wolfSSL_get_cipher_name_from_suite 588
+0x45d400 GetCipherNameInternal 1
+=============================
+0x432c90 wolfSSL_get_cipher_name_iana_from_suite 589
+0x45d460 GetCipherNameIana 1
+=============================
+0x432ca0 wolfSSL_get_cipher_suite_from_name 590
+0x45d5a0 GetCipherSuiteFromName 1
+=============================
+0x432cc0 wolfSSL_CIPHER_get_id 591
+=============================
+0x432cf0 wolfSSL_get_cipher_by_value 592
+=============================
+0x432d00 wolfSSL_get_curve_name 593
+0x40a9d0 wc_ecc_get_oid 1
+0x4040e0 wc_ecc_get_name 2
+=============================
+0x432d30 wolfSSL_clear_num_renegotiations 594
+=============================
+0x432d50 wolfSSL_total_renegotiations 595
+=============================
+0x432d60 wolfSSL_num_renegotiations 596
+=============================
+0x432d70 wolfSSL_SSL_renegotiate_pending 597
+=============================
+0x432d90 wolfSSL_version 598
+=============================
+0x432de0 wolfSSL_get_SSL_CTX 599
+=============================
+0x432df0 wolfSSL_X509_check_host 600
+0x412290 InitDecodedCert 1
+0x414bf0 ParseCertRelative 2
+0x455340 CheckHostName 3
+0x412470 FreeDecodedCert 4
+=============================
+0x432e90 wolfSSL_X509_check_ip_asc 601
+0x412290 InitDecodedCert 1
+0x414bf0 ParseCertRelative 2
+0x455410 CheckIPAddr 3
+0x412470 FreeDecodedCert 4
+=============================
+0x432f10 BuildTlsHandshakeHash 602
+0x450bb0 wc_Md5GetHash 1
+0x44a820 wc_ShaGetHash 2
+0x4523c0 IsAtLeastTLSv1_2 3
+0x403a10 wc_Sha256GetHash 4
+0x44b8c0 wc_Sha384GetHash 5
+=============================
+0x432ff0 BuildTlsFinished 603
+0x432f10 BuildTlsHandshakeHash 1
+0x4523c0 IsAtLeastTLSv1_2 2
+0x43fef0 wc_PRF_TLS 3
+=============================
+0x4330b0 MakeTLSv1_1 604
+=============================
+0x4330c0 MakeTLSv1_2 605
+=============================
+0x4330d0 MakeTLSv1_3 606
+=============================
+0x4330e0 wolfSSL_DeriveTlsKeys 607
+0x43fef0 wc_PRF_TLS 1
+=============================
+0x433140 DeriveTlsKeys 608
+0x4523c0 IsAtLeastTLSv1_2 1
+0x43fef0 wc_PRF_TLS 2
+0x464c20 StoreKeys 3
+=============================
+0x433210 wolfSSL_MakeTlsMasterSecret 609
+0x43fef0 wc_PRF_TLS 1
+=============================
+0x433270 wolfSSL_MakeTlsExtendedMasterSecret 610
+0x43fef0 wc_PRF_TLS 1
+=============================
+0x4332b0 MakeTlsMasterSecret 611
+0x432f10 BuildTlsHandshakeHash 1
+0x4523c0 IsAtLeastTLSv1_2 2
+0x43fef0 wc_PRF_TLS 3
+0x464c20 StoreKeys 4
+=============================
+0x4334c0 wolfSSL_make_eap_keys 612
+0x4523c0 IsAtLeastTLSv1_2 1
+0x43fef0 wc_PRF_TLS 2
+=============================
+0x433570 wolfSSL_GetHmacType 613
+=============================
+0x4335a0 wolfSSL_SetTlsHmacInner 614
+0x454d50 WriteSEQ 1
+=============================
+0x433610 TLS_hmac 615
+0x454d50 WriteSEQ 1
+0x43e8d0 wc_HmacInit 2
+0x42ded0 wolfSSL_GetMacSecret 3
+0x43dd20 wc_HmacSetKey 4
+0x43e1e0 wc_HmacFree 5
+0x43e230 wc_HmacUpdate 6
+0x43e490 wc_HmacFinal 7
+0x44a9f0 wc_Sha512Update 8
+0x403070 wc_Sha256Update 9
+0x44aea0 wc_Sha384Update 10
+0x449180 wc_ShaUpdate 11
+0x43ecc0 wc_HashGetDigestSize 12
+0x43ece0 wc_HashGetBlockSize 13
+0x43f670 wc_HashInit 14
+0x43f680 wc_HashUpdate 15
+0x43f7a0 wc_HashFree 16
+0x43f720 wc_HashFinal 17
+0x403360 wc_Sha256FinalRaw 18
+0x44a510 wc_ShaFinalRaw 19
+0x44ad30 wc_Sha512FinalRaw 20
+0x44aec0 wc_Sha384FinalRaw 21
+=============================
+0x433f20 TLSX_CheckUnsupportedExtension 616
+=============================
+0x433f70 TLSX_Find 617
+=============================
+0x433f90 TLSX_HandleUnsupportedExtension 618
+0x455550 SendAlert 1
+=============================
+0x433fb0 TLSX_SetResponse 619
+=============================
+0x433fe0 TLSX_SupportedCurve_CheckPriority 620
+0x434090 TLSX_PopulateSupportedGroups 1
+0x434150 TLSX_FreeAll 2
+=============================
+0x434090 TLSX_PopulateSupportedGroups 621
+0x434590 TLSX_UseSupportedCurve 1
+=============================
+0x434150 TLSX_FreeAll 622
+0x434e20 TLSX_KeyShare_FreeAll 1
+0x4040a0 wolfSSL_Free 2
+=============================
+0x434230 TLSX_SupportedCurve_Preferred 623
+=============================
+0x4342c0 TLSX_ValidateSupportedCurves 624
+=============================
+0x434590 TLSX_UseSupportedCurve 625
+0x404080 wolfSSL_Malloc 1
+0x4040a0 wolfSSL_Free 2
+0x434150 TLSX_FreeAll 3
+=============================
+0x4346f0 TLSX_UsePointFormat 626
+0x404080 wolfSSL_Malloc 1
+0x4040a0 wolfSSL_Free 2
+0x434150 TLSX_FreeAll 3
+=============================
+0x434820 TLSX_UseSecureRenegotiation 627
+0x404080 wolfSSL_Malloc 1
+0x4040a0 wolfSSL_Free 2
+0x434150 TLSX_FreeAll 3
+=============================
+0x4348d0 TLSX_AddEmptyRenegotiationInfo 628
+0x404080 wolfSSL_Malloc 1
+0x4040a0 wolfSSL_Free 2
+0x434150 TLSX_FreeAll 3
+=============================
+0x4349d0 TLSX_EncryptThenMac_Respond 629
+=============================
+0x434a10 TLSX_KeyShare_Use 630
+0x404080 wolfSSL_Malloc 1
+0x434150 TLSX_FreeAll 2
+0x434bd0 TLSX_KeyShare_GenKey 3
+0x4040a0 wolfSSL_Free 4
+=============================
+0x434bd0 TLSX_KeyShare_GenKey 631
+0x404080 wolfSSL_Malloc 1
+0x4072d0 wc_ecc_init_ex 2
+0x4096b0 wc_ecc_export_x963 3
+0x404150 wc_ecc_set_curve 4
+0x4040a0 wolfSSL_Free 5
+0x452fd0 EccMakeKey 6
+0x4074d0 wc_ecc_free 7
+=============================
+0x434d50 TLSX_KeyShare_Empty 632
+0x404080 wolfSSL_Malloc 1
+0x434e20 TLSX_KeyShare_FreeAll 2
+0x434150 TLSX_FreeAll 3
+=============================
+0x434e20 TLSX_KeyShare_FreeAll 633
+0x4040a0 wolfSSL_Free 1
+0x4074d0 wc_ecc_free 2
+=============================
+0x434ea0 TLSX_KeyShare_Establish 634
+0x404080 wolfSSL_Malloc 1
+0x434bd0 TLSX_KeyShare_GenKey 2
+0x434e20 TLSX_KeyShare_FreeAll 3
+0x434a10 TLSX_KeyShare_Use 4
+=============================
+0x435230 TLSX_KeyShare_DeriveSecret 635
+0x435260 TLSX_KeyShare_Process 1
+=============================
+0x435260 TLSX_KeyShare_Process 636
+0x404080 wolfSSL_Malloc 1
+0x4074d0 wc_ecc_free 2
+0x4072d0 wc_ecc_init_ex 3
+0x4040a0 wolfSSL_Free 4
+0x452f70 EccSharedSecret 5
+0x409d00 wc_ecc_import_x963_ex 6
+=============================
+0x435450 TLSX_Remove 637
+0x434150 TLSX_FreeAll 1
+=============================
+0x435490 TLSX_SupportExtensions 638
+0x4523a0 IsTLS 1
+=============================
+0x4354c0 TLSX_PopulateExtensions 639
+0x404080 wolfSSL_Malloc 1
+0x4523e0 IsAtLeastTLSv1_3 2
+0x434090 TLSX_PopulateSupportedGroups 3
+0x434150 TLSX_FreeAll 4
+0x4346f0 TLSX_UsePointFormat 5
+0x434a10 TLSX_KeyShare_Use 6
+=============================
+0x4358b0 TLSX_GetRequestSize 640
+0x4523a0 IsTLS 1
+0x435aa0 TLSX_GetSize 2
+0x4523c0 IsAtLeastTLSv1_2 3
+0x4523e0 IsAtLeastTLSv1_3 4
+=============================
+0x435aa0 TLSX_GetSize 641
+=============================
+0x435d00 TLSX_WriteRequest 642
+0x4523a0 IsTLS 1
+0x435f30 TLSX_Write 2
+0x4523c0 IsAtLeastTLSv1_2 3
+0x4523e0 IsAtLeastTLSv1_3 4
+=============================
+0x435f30 TLSX_Write 643
+=============================
+0x4364e0 TLSX_GetResponseSize 644
+0x4523a0 IsTLS 1
+0x4523e0 IsAtLeastTLSv1_3 2
+0x435aa0 TLSX_GetSize 3
+=============================
+0x4366b0 TLSX_WriteResponse 645
+0x4523a0 IsTLS 1
+0x435f30 TLSX_Write 2
+0x4523e0 IsAtLeastTLSv1_3 3
+=============================
+0x436880 TLSX_ParseVersion 646
+0x455550 SendAlert 1
+0x404080 wolfSSL_Malloc 2
+0x434150 TLSX_FreeAll 3
+=============================
+0x436c20 TLSX_Parse 647
+0x4523e0 IsAtLeastTLSv1_3 1
+0x4523c0 IsAtLeastTLSv1_2 2
+0x455550 SendAlert 3
+0x4346f0 TLSX_UsePointFormat 4
+0x42d810 wolfSSL_UseSecureRenegotiation 5
+0x404080 wolfSSL_Malloc 6
+0x434150 TLSX_FreeAll 7
+0x434590 TLSX_UseSupportedCurve 8
+0x434d50 TLSX_KeyShare_Empty 9
+0x434a10 TLSX_KeyShare_Use 10
+0x4040a0 wolfSSL_Free 11
+0x435260 TLSX_KeyShare_Process 12
+=============================
+0x437c80 wolfTLS_client_method 648
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437cb0 wolfTLS_client_method_ex 649
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437ce0 wolfTLSv1_1_client_method 650
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437d10 wolfTLSv1_1_client_method_ex 651
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437d40 wolfTLSv1_2_client_method 652
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437d70 wolfTLSv1_2_client_method_ex 653
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437da0 wolfTLSv1_3_client_method 654
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437dd0 wolfTLSv1_3_client_method_ex 655
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437e00 wolfTLS_server_method 656
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437e30 wolfTLS_server_method_ex 657
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437e60 wolfTLSv1_1_server_method 658
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437e90 wolfTLSv1_1_server_method_ex 659
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437ec0 wolfTLSv1_2_server_method 660
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437ef0 wolfTLSv1_2_server_method_ex 661
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437f20 wolfTLSv1_3_server_method 662
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437f50 wolfTLSv1_3_server_method_ex 663
+0x404080 wolfSSL_Malloc 1
+0x452400 InitSSL_Method 2
+=============================
+0x437f80 DeriveEarlySecret 664
+0x43fff0 wc_Tls13_HKDF_Extract 1
+=============================
+0x437fd0 DeriveHandshakeSecret 665
+0x438050 DeriveKeyMsg 1
+0x43fff0 wc_Tls13_HKDF_Extract 2
+=============================
+0x438050 DeriveKeyMsg 666
+0x44b2c0 wc_InitSha384_ex 1
+0x403030 wc_InitSha256_ex 2
+0x44aea0 wc_Sha384Update 3
+0x403070 wc_Sha256Update 4
+0x44af60 wc_Sha384Final 5
+0x44b380 wc_Sha384Free 6
+0x4033e0 wc_Sha256Final 7
+0x403850 wc_Sha256Free 8
+0x440080 wc_Tls13_HKDF_Expand_Label 9
+=============================
+0x438190 DeriveMasterSecret 667
+0x438050 DeriveKeyMsg 1
+0x43fff0 wc_Tls13_HKDF_Extract 2
+=============================
+0x438210 DeriveTls13Keys 668
+0x440080 wc_Tls13_HKDF_Expand_Label 1
+0x44b8c0 wc_Sha384GetHash 2
+0x403a10 wc_Sha256GetHash 3
+0x464c20 StoreKeys 4
+=============================
+0x4388c0 DecryptTls13 669
+0x404080 wolfSSL_Malloc 1
+0x451d20 wc_Chacha_SetIV 2
+0x4486b0 wc_AesGcmDecrypt 3
+0x451dc0 wc_Chacha_Process 4
+0x44f800 wc_Poly1305SetKey 5
+0x455550 SendAlert 6
+0x4500b0 wc_Poly1305_MAC 7
+=============================
+0x438d50 BuildTls13Message 670
+0x454eb0 HashOutput 1
+0x404080 wolfSSL_Malloc 2
+0x451d20 wc_Chacha_SetIV 3
+0x448be0 wc_AesGcmSetExtIV 4
+0x451dc0 wc_Chacha_Process 5
+0x448d10 wc_AesGcmEncrypt_ex 6
+0x44f800 wc_Poly1305SetKey 7
+0x4500b0 wc_Poly1305_MAC 8
+=============================
+0x4392a0 RestartHandshakeHash 671
+0x45b5e0 BuildCertHashes 1
+0x453700 InitHandshakeHashes 2
+0x454e00 HashRaw 3
+=============================
+0x439360 SendTls13ClientHello 672
+0x4354c0 TLSX_PopulateExtensions 1
+0x4358b0 TLSX_GetRequestSize 2
+0x4550b0 CheckAvailableSize 3
+0x401a80 wc_RNG_GenerateBlock 4
+0x435d00 TLSX_WriteRequest 5
+0x454eb0 HashOutput 6
+0x454ef0 SendBuffered 7
+=============================
+0x439650 DoTls13ServerHello 673
+0x45e1d0 DoServerHello 1
+0x4523e0 IsAtLeastTLSv1_3 2
+0x436880 TLSX_ParseVersion 3
+0x45e5b0 CompleteServerHello 4
+0x464240 SetCipherSpecs 5
+0x436c20 TLSX_Parse 6
+0x4392a0 RestartHandshakeHash 7
+=============================
+0x439b00 DoTls13ClientHello 674
+0x455550 SendAlert 1
+0x454ed0 HashInput 2
+0x460fd0 DoClientHello 3
+0x436880 TLSX_ParseVersion 4
+0x4523e0 IsAtLeastTLSv1_3 5
+0x404080 wolfSSL_Malloc 6
+0x4040a0 wolfSSL_Free 7
+0x4354c0 TLSX_PopulateExtensions 8
+0x436c20 TLSX_Parse 9
+0x433f70 TLSX_Find 10
+0x4609f0 MatchSuite 11
+0x43fff0 wc_Tls13_HKDF_Extract 12
+=============================
+0x43a020 SendTls13ServerHello 675
+0x4392a0 RestartHandshakeHash 1
+0x4364e0 TLSX_GetResponseSize 2
+0x4550b0 CheckAvailableSize 3
+0x401a80 wc_RNG_GenerateBlock 4
+0x4366b0 TLSX_WriteResponse 5
+0x454eb0 HashOutput 6
+0x454ef0 SendBuffered 7
+=============================
+0x43a230 DoTls13Finished 676
+0x4554e0 DoCertFatalAlert 1
+0x440080 wc_Tls13_HKDF_Expand_Label 2
+0x43a530 BuildTls13HandshakeHmac 3
+0x4645b0 SetKeysSide 4
+0x455550 SendAlert 5
+=============================
+0x43a530 BuildTls13HandshakeHmac 677
+0x44b8c0 wc_Sha384GetHash 1
+0x403a10 wc_Sha256GetHash 2
+0x43e8d0 wc_HmacInit 3
+0x43dd20 wc_HmacSetKey 4
+0x43e230 wc_HmacUpdate 5
+0x43e1e0 wc_HmacFree 6
+0x43e490 wc_HmacFinal 7
+=============================
+0x43a660 DoTls13HandShakeMsgType 678
+0x455550 SendAlert 1
+0x439650 DoTls13ServerHello 2
+0x438050 DeriveKeyMsg 3
+0x454ed0 HashInput 4
+0x43fff0 wc_Tls13_HKDF_Extract 5
+0x4549e0 ShrinkInputBuffer 6
+0x438210 DeriveTls13Keys 7
+0x4645b0 SetKeysSide 8
+0x439b00 DoTls13ClientHello 9
+=============================
+0x43b820 DoTls13HandShakeMsg 679
+0x43a660 DoTls13HandShakeMsgType 1
+0x455550 SendAlert 2
+0x404080 wolfSSL_Malloc 3
+0x4040a0 wolfSSL_Free 4
+=============================
+0x43ba30 wolfSSL_connect_TLSv13 680
+0x467540 __errno_location 1
+0x454ef0 SendBuffered 2
+0x439360 SendTls13ClientHello 3
+0x43c9e0 SendTls13Finished 4
+0x457e20 ProcessReply 5
+0x43c4a0 SendTls13CertificateVerify 6
+0x454ab0 FreeHandshakeResources 7
+0x42d0b0 wolfSSL_connect 8
+0x43bcf0 SendTls13Certificate 9
+=============================
+0x43bcf0 SendTls13Certificate 681
+0x45c760 wolfSSL_GetMaxFragSize 1
+0x4364e0 TLSX_GetResponseSize 2
+0x4550b0 CheckAvailableSize 3
+0x4196d0 AllocDer 4
+0x4366b0 TLSX_WriteResponse 5
+0x438d50 BuildTls13Message 6
+0x454ef0 SendBuffered 7
+0x419770 FreeDer 8
+=============================
+0x43c4a0 SendTls13CertificateVerify 682
+0x4550b0 CheckAvailableSize 1
+0x45dac0 DecodePrivateKey 2
+0x454380 FreeKeyExchange 3
+0x4040a0 wolfSSL_Free 4
+0x404080 wolfSSL_Malloc 5
+0x44b8c0 wc_Sha384GetHash 6
+0x403a10 wc_Sha256GetHash 7
+0x43da10 CreateECCEncodedSig 8
+0x43db00 CreateRSAEncodedSig 9
+0x452c90 RsaSign 10
+0x452f10 EccSign 11
+0x452d70 VerifyRsaSign 12
+0x438d50 BuildTls13Message 13
+0x454ef0 SendBuffered 14
+=============================
+0x43c9e0 SendTls13Finished 683
+0x4550b0 CheckAvailableSize 1
+0x440080 wc_Tls13_HKDF_Expand_Label 2
+0x43a530 BuildTls13HandshakeHmac 3
+0x438d50 BuildTls13Message 4
+0x438050 DeriveKeyMsg 5
+0x4645b0 SetKeysSide 6
+0x454ef0 SendBuffered 7
+0x43fff0 wc_Tls13_HKDF_Extract 8
+0x438210 DeriveTls13Keys 9
+=============================
+0x43cd70 wolfSSL_UseKeyShare 684
+0x434a10 TLSX_KeyShare_Use 1
+=============================
+0x43cda0 wolfSSL_NoKeyShares 685
+0x434d50 TLSX_KeyShare_Empty 1
+=============================
+0x43cde0 wolfSSL_CTX_no_ticket_TLSv13 686
+0x4523e0 IsAtLeastTLSv1_3 1
+=============================
+0x43ce20 wolfSSL_no_ticket_TLSv13 687
+0x4523e0 IsAtLeastTLSv1_3 1
+=============================
+0x43ce60 wolfSSL_CTX_no_dhe_psk 688
+0x4523e0 IsAtLeastTLSv1_3 1
+=============================
+0x43cea0 wolfSSL_no_dhe_psk 689
+0x4523e0 IsAtLeastTLSv1_3 1
+=============================
+0x43cee0 wolfSSL_update_keys 690
+0x4523e0 IsAtLeastTLSv1_3 1
+0x43cf30 SendTls13KeyUpdate 2
+=============================
+0x43cf30 SendTls13KeyUpdate 691
+0x4550b0 CheckAvailableSize 1
+0x438d50 BuildTls13Message 2
+0x454ef0 SendBuffered 3
+0x438210 DeriveTls13Keys 4
+0x4645b0 SetKeysSide 5
+=============================
+0x43d040 wolfSSL_key_update_response 692
+0x4523e0 IsAtLeastTLSv1_3 1
+=============================
+0x43d080 wolfSSL_preferred_group 693
+0x4523e0 IsAtLeastTLSv1_3 1
+0x434230 TLSX_SupportedCurve_Preferred 2
+=============================
+0x43d0e0 wolfSSL_CTX_set_groups 694
+0x4523e0 IsAtLeastTLSv1_3 1
+0x435450 TLSX_Remove 2
+0x42d7c0 wolfSSL_CTX_UseSupportedCurve 3
+=============================
+0x43d1c0 wolfSSL_set_groups 695
+0x4523e0 IsAtLeastTLSv1_3 1
+0x435450 TLSX_Remove 2
+0x42d750 wolfSSL_UseSupportedCurve 3
+=============================
+0x43d2a0 wolfSSL_accept_TLSv13 696
+0x467540 __errno_location 1
+0x454ef0 SendBuffered 2
+0x43c9e0 SendTls13Finished 3
+0x43a020 SendTls13ServerHello 4
+0x457e20 ProcessReply 5
+0x433fe0 TLSX_SupportedCurve_CheckPriority 6
+0x435230 TLSX_KeyShare_DeriveSecret 7
+0x4523e0 IsAtLeastTLSv1_3 8
+0x43c4a0 SendTls13CertificateVerify 9
+0x454ab0 FreeHandshakeResources 10
+0x43bcf0 SendTls13Certificate 11
+0x4527c0 InitSuitesHashSigAlgo 12
+0x433f70 TLSX_Find 13
+0x42cc90 wolfSSL_accept 14
+0x438050 DeriveKeyMsg 15
+0x4358b0 TLSX_GetRequestSize 16
+0x43fff0 wc_Tls13_HKDF_Extract 17
+0x4550b0 CheckAvailableSize 18
+0x438210 DeriveTls13Keys 19
+0x435d00 TLSX_WriteRequest 20
+0x4645b0 SetKeysSide 21
+0x438d50 BuildTls13Message 22
+0x4364e0 TLSX_GetResponseSize 23
+0x4366b0 TLSX_WriteResponse 24
+=============================
+0x43da10 CreateECCEncodedSig 697
+0x44ae30 wc_InitSha512 1
+0x44b320 wc_InitSha384 2
+0x44a9f0 wc_Sha512Update 3
+0x403810 wc_InitSha256 4
+0x44aea0 wc_Sha384Update 5
+0x44ada0 wc_Sha512Final 6
+0x44ae90 wc_Sha512Free 7
+0x403070 wc_Sha256Update 8
+0x44af60 wc_Sha384Final 9
+0x44b380 wc_Sha384Free 10
+0x4033e0 wc_Sha256Final 11
+0x403850 wc_Sha256Free 12
+=============================
+0x43db00 CreateRSAEncodedSig 698
+0x44ae30 wc_InitSha512 1
+0x44b320 wc_InitSha384 2
+0x44a9f0 wc_Sha512Update 3
+0x403810 wc_InitSha256 4
+0x44aea0 wc_Sha384Update 5
+0x44ada0 wc_Sha512Final 6
+0x44ae90 wc_Sha512Free 7
+0x403070 wc_Sha256Update 8
+0x44af60 wc_Sha384Final 9
+0x44b380 wc_Sha384Free 10
+0x4033e0 wc_Sha256Final 11
+0x403850 wc_Sha256Free 12
+=============================
+0x43dc00 wc_HmacSizeByType 699
+=============================
+0x43dd20 wc_HmacSetKey 700
+0x43dc30 _InitHmac 1
+0x43e1e0 wc_HmacFree 2
+0x403070 wc_Sha256Update 3
+0x44d8a0 wc_Sha3_384_Update 4
+0x44d4b0 wc_Sha3_256_Update 5
+0x4036f0 wc_Sha224Update 6
+0x44cad0 wc_Sha3_224_Update 7
+0x449180 wc_ShaUpdate 8
+0x44a9f0 wc_Sha512Update 9
+0x44dc50 wc_Sha3_512_Update 10
+0x4501f0 wc_Md5Update 11
+0x44aea0 wc_Sha384Update 12
+0x4033e0 wc_Sha256Final 13
+0x44d8b0 wc_Sha3_384_Final 14
+0x44d4c0 wc_Sha3_256_Final 15
+0x403710 wc_Sha224Final 16
+0x44d0c0 wc_Sha3_224_Final 17
+0x44a570 wc_ShaFinal 18
+0x44ada0 wc_Sha512Final 19
+0x44dc60 wc_Sha3_512_Final 20
+0x450aa0 wc_Md5Final 21
+0x44af60 wc_Sha384Final 22
+=============================
+0x43e1e0 wc_HmacFree 701
+0x44a810 wc_ShaFree 1
+0x44da10 wc_Sha3_384_Free 2
+0x403800 wc_Sha224Free 3
+0x44dda0 wc_Sha3_512_Free 4
+0x403850 wc_Sha256Free 5
+0x44b380 wc_Sha384Free 6
+0x44ae90 wc_Sha512Free 7
+0x44d250 wc_Sha3_224_Free 8
+0x450ba0 wc_Md5Free 9
+0x44d640 wc_Sha3_256_Free 10
+=============================
+0x43e230 wc_HmacUpdate 702
+0x43e340 HmacKeyInnerHash 1
+0x44a9f0 wc_Sha512Update 2
+0x44d4b0 wc_Sha3_256_Update 3
+0x44dc50 wc_Sha3_512_Update 4
+0x4036f0 wc_Sha224Update 5
+0x44aea0 wc_Sha384Update 6
+0x449180 wc_ShaUpdate 7
+0x44cad0 wc_Sha3_224_Update 8
+0x44d8a0 wc_Sha3_384_Update 9
+0x4501f0 wc_Md5Update 10
+0x403070 wc_Sha256Update 11
+=============================
+0x43e340 HmacKeyInnerHash 703
+0x4036f0 wc_Sha224Update 1
+0x403070 wc_Sha256Update 2
+0x44aea0 wc_Sha384Update 3
+0x44a9f0 wc_Sha512Update 4
+0x44dc50 wc_Sha3_512_Update 5
+0x44d8a0 wc_Sha3_384_Update 6
+0x44d4b0 wc_Sha3_256_Update 7
+0x44cad0 wc_Sha3_224_Update 8
+0x4501f0 wc_Md5Update 9
+0x449180 wc_ShaUpdate 10
+=============================
+0x43e490 wc_HmacFinal 704
+0x43e340 HmacKeyInnerHash 1
+0x44af60 wc_Sha384Final 2
+0x44ada0 wc_Sha512Final 3
+0x450aa0 wc_Md5Final 4
+0x44d0c0 wc_Sha3_224_Final 5
+0x44d4c0 wc_Sha3_256_Final 6
+0x403710 wc_Sha224Final 7
+0x44d8b0 wc_Sha3_384_Final 8
+0x4033e0 wc_Sha256Final 9
+0x44dc60 wc_Sha3_512_Final 10
+0x44a570 wc_ShaFinal 11
+0x44aea0 wc_Sha384Update 12
+0x44a9f0 wc_Sha512Update 13
+0x4501f0 wc_Md5Update 14
+0x44cad0 wc_Sha3_224_Update 15
+0x44d4b0 wc_Sha3_256_Update 16
+0x4036f0 wc_Sha224Update 17
+0x44d8a0 wc_Sha3_384_Update 18
+0x403070 wc_Sha256Update 19
+0x44dc50 wc_Sha3_512_Update 20
+0x449180 wc_ShaUpdate 21
+=============================
+0x43e8d0 wc_HmacInit 705
+=============================
+0x43e910 wolfSSL_GetHmacMaxSize 706
+=============================
+0x43e920 wc_HKDF_Extract 707
+0x43dd20 wc_HmacSetKey 1
+0x43e230 wc_HmacUpdate 2
+0x43e1e0 wc_HmacFree 3
+0x43e490 wc_HmacFinal 4
+=============================
+0x43ea00 wc_HKDF_Expand 708
+0x43e1e0 wc_HmacFree 1
+0x43dd20 wc_HmacSetKey 2
+0x43e230 wc_HmacUpdate 3
+0x43e490 wc_HmacFinal 4
+=============================
+0x43ebb0 wc_HKDF 709
+0x43e920 wc_HKDF_Extract 1
+0x43ea00 wc_HKDF_Expand 2
+=============================
+0x43ec30 wc_HashTypeConvert 710
+=============================
+0x43ec40 wc_HashGetOID 711
+=============================
+0x43ec60 wc_OidGetHash 712
+=============================
+0x43ecc0 wc_HashGetDigestSize 713
+=============================
+0x43ece0 wc_HashGetBlockSize 714
+=============================
+0x43ed00 wc_Hash 715
+0x4037c0 wc_InitSha224 1
+0x44d830 wc_InitSha3_384 2
+0x44dbe0 wc_InitSha3_512 3
+0x44ae30 wc_InitSha512 4
+0x450b70 wc_InitMd5 5
+0x44b480 wc_InitSha512_224 6
+0x44b6a0 wc_InitSha512_256 7
+0x449140 wc_InitSha_ex 8
+0x44ca60 wc_InitSha3_224 9
+0x403030 wc_InitSha256_ex 10
+0x44d440 wc_InitSha3_256 11
+0x44b320 wc_InitSha384 12
+0x4036f0 wc_Sha224Update 13
+0x44d8a0 wc_Sha3_384_Update 14
+0x44dc50 wc_Sha3_512_Update 15
+0x44a9f0 wc_Sha512Update 16
+0x4501f0 wc_Md5Update 17
+0x44b4e0 wc_Sha512_224Update 18
+0x44b700 wc_Sha512_256Update 19
+0x449180 wc_ShaUpdate 20
+0x44cad0 wc_Sha3_224_Update 21
+0x403070 wc_Sha256Update 22
+0x44d4b0 wc_Sha3_256_Update 23
+0x44aea0 wc_Sha384Update 24
+0x403710 wc_Sha224Final 25
+0x403800 wc_Sha224Free 26
+0x44d8b0 wc_Sha3_384_Final 27
+0x44da10 wc_Sha3_384_Free 28
+0x44dc60 wc_Sha3_512_Final 29
+0x44dda0 wc_Sha3_512_Free 30
+0x44ada0 wc_Sha512Final 31
+0x44ae90 wc_Sha512Free 32
+0x450aa0 wc_Md5Final 33
+0x450ba0 wc_Md5Free 34
+0x44b540 wc_Sha512_224Final 35
+0x44b5c0 wc_Sha512_224Free 36
+0x44b760 wc_Sha512_256Final 37
+0x44b7e0 wc_Sha512_256Free 38
+0x44a570 wc_ShaFinal 39
+0x44a810 wc_ShaFree 40
+0x44d0c0 wc_Sha3_224_Final 41
+0x44d250 wc_Sha3_224_Free 42
+0x4033e0 wc_Sha256Final 43
+0x403850 wc_Sha256Free 44
+0x44d4c0 wc_Sha3_256_Final 45
+0x44d640 wc_Sha3_256_Free 46
+0x44af60 wc_Sha384Final 47
+0x44b380 wc_Sha384Free 48
+=============================
+0x43f100 wc_Md5Hash 716
+0x450b70 wc_InitMd5 1
+0x4501f0 wc_Md5Update 2
+0x450aa0 wc_Md5Final 3
+0x450ba0 wc_Md5Free 4
+=============================
+0x43f160 wc_ShaHash 717
+0x449140 wc_InitSha_ex 1
+0x449180 wc_ShaUpdate 2
+0x44a570 wc_ShaFinal 3
+0x44a810 wc_ShaFree 4
+=============================
+0x43f1c0 wc_Sha224Hash 718
+0x4037c0 wc_InitSha224 1
+0x4036f0 wc_Sha224Update 2
+0x403710 wc_Sha224Final 3
+0x403800 wc_Sha224Free 4
+=============================
+0x43f220 wc_Sha256Hash 719
+0x403030 wc_InitSha256_ex 1
+0x403070 wc_Sha256Update 2
+0x4033e0 wc_Sha256Final 3
+0x403850 wc_Sha256Free 4
+=============================
+0x43f290 wc_Sha384Hash 720
+0x44b320 wc_InitSha384 1
+0x44aea0 wc_Sha384Update 2
+0x44af60 wc_Sha384Final 3
+0x44b380 wc_Sha384Free 4
+=============================
+0x43f2f0 wc_Sha512Hash 721
+0x44ae30 wc_InitSha512 1
+0x44a9f0 wc_Sha512Update 2
+0x44ada0 wc_Sha512Final 3
+0x44ae90 wc_Sha512Free 4
+=============================
+0x43f350 wc_Sha512_224Hash 722
+0x44b480 wc_InitSha512_224 1
+0x44b4e0 wc_Sha512_224Update 2
+0x44b540 wc_Sha512_224Final 3
+0x44b5c0 wc_Sha512_224Free 4
+=============================
+0x43f3b0 wc_Sha512_256Hash 723
+0x44b6a0 wc_InitSha512_256 1
+0x44b700 wc_Sha512_256Update 2
+0x44b760 wc_Sha512_256Final 3
+0x44b7e0 wc_Sha512_256Free 4
+=============================
+0x43f410 wc_Sha3_224Hash 724
+0x44ca60 wc_InitSha3_224 1
+0x44cad0 wc_Sha3_224_Update 2
+0x44d0c0 wc_Sha3_224_Final 3
+0x44d250 wc_Sha3_224_Free 4
+=============================
+0x43f480 wc_Sha3_256Hash 725
+0x44d440 wc_InitSha3_256 1
+0x44d4b0 wc_Sha3_256_Update 2
+0x44d4c0 wc_Sha3_256_Final 3
+0x44d640 wc_Sha3_256_Free 4
+=============================
+0x43f4f0 wc_Sha3_384Hash 726
+0x44d830 wc_InitSha3_384 1
+0x44d8a0 wc_Sha3_384_Update 2
+0x44d8b0 wc_Sha3_384_Final 3
+0x44da10 wc_Sha3_384_Free 4
+=============================
+0x43f560 wc_Sha3_512Hash 727
+0x44dbe0 wc_InitSha3_512 1
+0x44dc50 wc_Sha3_512_Update 2
+0x44dc60 wc_Sha3_512_Final 3
+0x44dda0 wc_Sha3_512_Free 4
+=============================
+0x43f5d0 wc_HashInit_ex 728
+0x4501c0 wc_InitMd5_ex 1
+0x44dbe0 wc_InitSha3_512 2
+0x44ca60 wc_InitSha3_224 3
+0x403030 wc_InitSha256_ex 4
+0x44a930 wc_InitSha512_224_ex 5
+0x44d440 wc_InitSha3_256 6
+0x44b2c0 wc_InitSha384_ex 7
+0x449140 wc_InitSha_ex 8
+0x44a990 wc_InitSha512_256_ex 9
+0x44d830 wc_InitSha3_384 10
+0x44a8d0 wc_InitSha512_ex 11
+0x4036b0 wc_InitSha224_ex 12
+=============================
+0x43f670 wc_HashInit 729
+0x43f5d0 wc_HashInit_ex 1
+=============================
+0x43f680 wc_HashUpdate 730
+0x403070 wc_Sha256Update 1
+0x4501f0 wc_Md5Update 2
+0x44b4e0 wc_Sha512_224Update 3
+0x44d4b0 wc_Sha3_256_Update 4
+0x44aea0 wc_Sha384Update 5
+0x449180 wc_ShaUpdate 6
+0x44b700 wc_Sha512_256Update 7
+0x44d8a0 wc_Sha3_384_Update 8
+0x44a9f0 wc_Sha512Update 9
+0x4036f0 wc_Sha224Update 10
+0x44dc50 wc_Sha3_512_Update 11
+0x44cad0 wc_Sha3_224_Update 12
+=============================
+0x43f720 wc_HashFinal 731
+0x44a570 wc_ShaFinal 1
+0x44ada0 wc_Sha512Final 2
+0x44dc60 wc_Sha3_512_Final 3
+0x403710 wc_Sha224Final 4
+0x44d0c0 wc_Sha3_224_Final 5
+0x44d4c0 wc_Sha3_256_Final 6
+0x44d8b0 wc_Sha3_384_Final 7
+0x44b540 wc_Sha512_224Final 8
+0x44b760 wc_Sha512_256Final 9
+0x4033e0 wc_Sha256Final 10
+0x450aa0 wc_Md5Final 11
+0x44af60 wc_Sha384Final 12
+=============================
+0x43f7a0 wc_HashFree 732
+0x44b5c0 wc_Sha512_224Free 1
+0x44a810 wc_ShaFree 2
+0x44d250 wc_Sha3_224_Free 3
+0x44b7e0 wc_Sha512_256Free 4
+0x403800 wc_Sha224Free 5
+0x44d640 wc_Sha3_256_Free 6
+0x403850 wc_Sha256Free 7
+0x44da10 wc_Sha3_384_Free 8
+0x44b380 wc_Sha384Free 9
+0x44dda0 wc_Sha3_512_Free 10
+0x450ba0 wc_Md5Free 11
+0x44ae90 wc_Sha512Free 12
+=============================
+0x43f810 wc_PRF 733
+0x43e8d0 wc_HmacInit 1
+0x43dd20 wc_HmacSetKey 2
+0x43e230 wc_HmacUpdate 3
+0x43e1e0 wc_HmacFree 4
+0x43e490 wc_HmacFinal 5
+=============================
+0x43fb70 wc_PRF_TLSv1 734
+0x43f810 wc_PRF 1
+=============================
+0x43fef0 wc_PRF_TLS 735
+0x43fb70 wc_PRF_TLSv1 1
+0x43f810 wc_PRF 2
+=============================
+0x43fff0 wc_Tls13_HKDF_Extract 736
+0x43e920 wc_HKDF_Extract 1
+=============================
+0x440080 wc_Tls13_HKDF_Expand_Label 737
+0x43ea00 wc_HKDF_Expand 1
+=============================
+0x440280 wc_InitRsaKey_ex 738
+0x428bd0 mp_init_multi 1
+0x428ba0 mp_clear 2
+=============================
+0x440360 wc_InitRsaKey 739
+0x428bd0 mp_init_multi 1
+0x428ba0 mp_clear 2
+=============================
+0x440440 wc_FreeRsaKey 740
+0x428a40 mp_forcezero 1
+0x428ba0 mp_clear 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x4406f0 wc_RsaPad_ex 741
+0x43ecc0 wc_HashGetDigestSize 1
+0x43ed00 wc_Hash 2
+0x404080 wolfSSL_Malloc 3
+0x401a80 wc_RNG_GenerateBlock 4
+0x443980 RsaMGF 5
+0x4040a0 wolfSSL_Free 6
+=============================
+0x441110 wc_RsaUnPad_ex 742
+0x43ecc0 wc_HashGetDigestSize 1
+0x404080 wolfSSL_Malloc 2
+0x443980 RsaMGF 3
+0x4040a0 wolfSSL_Free 4
+0x43ed00 wc_Hash 5
+=============================
+0x441d50 wc_hash2mgf 743
+=============================
+0x441d70 wc_RsaFunction 744
+0x441d90 wc_RsaFunction_ex 1
+=============================
+0x441d90 wc_RsaFunction_ex 745
+0x429570 mp_unsigned_bin_size 1
+0x4288a0 mp_init 2
+0x429770 mp_read_unsigned_bin 3
+0x428ba0 mp_clear 4
+0x42b510 mp_add_d 5
+0x429530 mp_cmp_d 6
+0x428bd0 mp_init_multi 7
+0x429490 mp_cmp 8
+0x4040a0 wolfSSL_Free 9
+0x429480 mp_exptmod_nct 10
+0x40b4f0 get_digit_count 11
+0x40b710 mp_rand 12
+0x429710 mp_to_unsigned_bin_len 13
+0x429440 mp_invmod 14
+0x429460 mp_exptmod 15
+0x428e90 mp_mulmod 16
+0x428c80 mp_sub 17
+0x428c90 mp_mul 18
+0x428c70 mp_add 19
+=============================
+0x442420 wc_RsaPublicEncrypt 746
+0x442450 RsaPublicEncryptEx 1
+=============================
+0x442450 RsaPublicEncryptEx 747
+0x429570 mp_unsigned_bin_size 1
+0x429be0 mp_count_bits 2
+0x4406f0 wc_RsaPad_ex 3
+0x441d90 wc_RsaFunction_ex 4
+0x4040a0 wolfSSL_Free 5
+=============================
+0x4427a0 wc_RsaPublicEncrypt_ex 748
+0x442450 RsaPublicEncryptEx 1
+=============================
+0x4427e0 wc_RsaPrivateDecryptInline 749
+0x442820 RsaPrivateDecryptEx 1
+=============================
+0x442820 RsaPrivateDecryptEx 750
+0x429be0 mp_count_bits 1
+0x441d90 wc_RsaFunction_ex 2
+0x441110 wc_RsaUnPad_ex 3
+0x404080 wolfSSL_Malloc 4
+0x4040a0 wolfSSL_Free 5
+=============================
+0x442d10 wc_RsaPrivateDecryptInline_ex 751
+0x442820 RsaPrivateDecryptEx 1
+=============================
+0x442d60 wc_RsaPrivateDecrypt 752
+0x442820 RsaPrivateDecryptEx 1
+=============================
+0x442d90 wc_RsaPrivateDecrypt_ex 753
+0x442820 RsaPrivateDecryptEx 1
+=============================
+0x442de0 wc_RsaSSL_VerifyInline 754
+0x442820 RsaPrivateDecryptEx 1
+=============================
+0x442e20 wc_RsaSSL_Verify 755
+0x442820 RsaPrivateDecryptEx 1
+=============================
+0x442e60 wc_RsaSSL_Verify_ex 756
+0x442820 RsaPrivateDecryptEx 1
+=============================
+0x442ea0 wc_RsaSSL_Verify_ex2 757
+0x442820 RsaPrivateDecryptEx 1
+=============================
+0x442f00 wc_RsaPSS_VerifyInline 758
+0x442820 RsaPrivateDecryptEx 1
+=============================
+0x442f40 wc_RsaPSS_VerifyInline_ex 759
+0x442820 RsaPrivateDecryptEx 1
+=============================
+0x442f80 wc_RsaPSS_Verify 760
+0x442820 RsaPrivateDecryptEx 1
+=============================
+0x442fc0 wc_RsaPSS_Verify_ex 761
+0x442820 RsaPrivateDecryptEx 1
+=============================
+0x443000 wc_RsaPSS_CheckPadding 762
+0x43ecc0 wc_HashGetDigestSize 1
+0x43ed00 wc_Hash 2
+=============================
+0x4430e0 wc_RsaPSS_CheckPadding_ex 763
+0x43ecc0 wc_HashGetDigestSize 1
+0x43ed00 wc_Hash 2
+=============================
+0x443210 wc_RsaPSS_CheckPadding_ex2 764
+0x43ecc0 wc_HashGetDigestSize 1
+0x43ed00 wc_Hash 2
+=============================
+0x443340 wc_RsaPSS_VerifyCheckInline 765
+0x43ecc0 wc_HashGetDigestSize 1
+0x429be0 mp_count_bits 2
+0x442820 RsaPrivateDecryptEx 3
+0x43ed00 wc_Hash 4
+=============================
+0x4434e0 wc_RsaPSS_VerifyCheck 766
+0x43ecc0 wc_HashGetDigestSize 1
+0x429be0 mp_count_bits 2
+0x442820 RsaPrivateDecryptEx 3
+0x43ed00 wc_Hash 4
+=============================
+0x443670 wc_RsaSSL_Sign 767
+0x442450 RsaPublicEncryptEx 1
+=============================
+0x4436a0 wc_RsaPSS_Sign 768
+0x442450 RsaPublicEncryptEx 1
+=============================
+0x4436d0 wc_RsaPSS_Sign_ex 769
+0x442450 RsaPublicEncryptEx 1
+=============================
+0x443710 wc_RsaEncryptSize 770
+0x429570 mp_unsigned_bin_size 1
+=============================
+0x443720 wc_RsaFlattenPublicKey 771
+0x429570 mp_unsigned_bin_size 1
+0x429630 mp_to_unsigned_bin 2
+=============================
+0x4437d0 wc_RsaExportKey 772
+0x429570 mp_unsigned_bin_size 1
+0x429630 mp_to_unsigned_bin 2
+=============================
+0x443960 wc_RsaSetRNG 773
+=============================
+0x443980 RsaMGF 774
+0x4439d0 RsaMGF1 1
+=============================
+0x4439d0 RsaMGF1 775
+0x43ecc0 wc_HashGetDigestSize 1
+0x404080 wolfSSL_Malloc 2
+0x43ed00 wc_Hash 3
+0x4040a0 wolfSSL_Free 4
+=============================
+0x443d20 wc_AesSetKey 776
+=============================
+0x444500 wc_AesSetIV 777
+=============================
+0x444530 wc_AesCbcEncrypt 778
+0x4446a0 wc_AesEncrypt 1
+=============================
+0x4446a0 wc_AesEncrypt 779
+=============================
+0x4454e0 wc_AesCbcDecrypt 780
+=============================
+0x446450 wc_AesGcmSetKey 781
+0x443d20 wc_AesSetKey 1
+0x4446a0 wc_AesEncrypt 2
+=============================
+0x4473f0 GHASH 782
+=============================
+0x448170 wc_AesGcmEncrypt 783
+0x4473f0 GHASH 1
+0x4446a0 wc_AesEncrypt 2
+=============================
+0x4486b0 wc_AesGcmDecrypt 784
+0x4473f0 GHASH 1
+0x4446a0 wc_AesEncrypt 2
+=============================
+0x448be0 wc_AesGcmSetExtIV 785
+=============================
+0x448c40 wc_AesGcmSetIV 786
+0x401a80 wc_RNG_GenerateBlock 1
+=============================
+0x448d10 wc_AesGcmEncrypt_ex 787
+0x448170 wc_AesGcmEncrypt 1
+=============================
+0x448e10 wc_Gmac 788
+0x446450 wc_AesGcmSetKey 1
+0x401a80 wc_RNG_GenerateBlock 2
+0x448170 wc_AesGcmEncrypt 3
+=============================
+0x448f90 wc_AesInit 789
+=============================
+0x448fb0 wc_AesFree 790
+=============================
+0x448fc0 wc_GmacVerify 791
+0x446450 wc_AesGcmSetKey 1
+0x4486b0 wc_AesGcmDecrypt 2
+=============================
+0x4490a0 wc_GmacSetKey 792
+0x446450 wc_AesGcmSetKey 1
+=============================
+0x4490c0 wc_GmacUpdate 793
+0x448170 wc_AesGcmEncrypt 1
+=============================
+0x449100 wc_AesGetKeySize 794
+=============================
+0x449140 wc_InitSha_ex 795
+=============================
+0x449180 wc_ShaUpdate 796
+0x449440 Transform 1
+=============================
+0x449440 Transform 797
+=============================
+0x44a510 wc_ShaFinalRaw 798
+=============================
+0x44a570 wc_ShaFinal 799
+0x449440 Transform 1
+=============================
+0x44a7d0 wc_InitSha 800
+=============================
+0x44a810 wc_ShaFree 801
+=============================
+0x44a820 wc_ShaGetHash 802
+0x44a570 wc_ShaFinal 1
+=============================
+0x44a880 wc_ShaCopy 803
+=============================
+0x44a8d0 wc_InitSha512_ex 804
+=============================
+0x44a930 wc_InitSha512_224_ex 805
+=============================
+0x44a990 wc_InitSha512_256_ex 806
+=============================
+0x44a9f0 wc_Sha512Update 807
+0x44aa10 Sha512Update 1
+=============================
+0x44aa10 Sha512Update 808
+0x44b9a0 _Transform_Sha512 1
+=============================
+0x44ad30 wc_Sha512FinalRaw 809
+=============================
+0x44ada0 wc_Sha512Final 810
+0x44aff0 Sha512Final 1
+=============================
+0x44ae30 wc_InitSha512 811
+=============================
+0x44ae90 wc_Sha512Free 812
+=============================
+0x44aea0 wc_Sha384Update 813
+0x44aa10 Sha512Update 1
+=============================
+0x44aec0 wc_Sha384FinalRaw 814
+=============================
+0x44af60 wc_Sha384Final 815
+0x44aff0 Sha512Final 1
+=============================
+0x44aff0 Sha512Final 816
+0x44b9a0 _Transform_Sha512 1
+=============================
+0x44b2c0 wc_InitSha384_ex 817
+=============================
+0x44b320 wc_InitSha384 818
+=============================
+0x44b380 wc_Sha384Free 819
+=============================
+0x44b390 wc_Sha512GetHash 820
+0x44aff0 Sha512Final 1
+=============================
+0x44b450 wc_Sha512Copy 821
+=============================
+0x44b480 wc_InitSha512_224 822
+=============================
+0x44b4e0 wc_Sha512_224Update 823
+0x44aa10 Sha512Update 1
+=============================
+0x44b500 wc_Sha512_224FinalRaw 824
+=============================
+0x44b540 wc_Sha512_224Final 825
+0x44aff0 Sha512Final 1
+=============================
+0x44b5c0 wc_Sha512_224Free 826
+=============================
+0x44b5d0 wc_Sha512_224GetHash 827
+0x44aff0 Sha512Final 1
+=============================
+0x44b670 wc_Sha512_224Copy 828
+=============================
+0x44b6a0 wc_InitSha512_256 829
+=============================
+0x44b700 wc_Sha512_256Update 830
+0x44aa10 Sha512Update 1
+=============================
+0x44b720 wc_Sha512_256FinalRaw 831
+=============================
+0x44b760 wc_Sha512_256Final 832
+0x44aff0 Sha512Final 1
+=============================
+0x44b7e0 wc_Sha512_256Free 833
+=============================
+0x44b7f0 wc_Sha512_256GetHash 834
+0x44aff0 Sha512Final 1
+=============================
+0x44b890 wc_Sha512_256Copy 835
+=============================
+0x44b8c0 wc_Sha384GetHash 836
+0x44aff0 Sha512Final 1
+=============================
+0x44b970 wc_Sha384Copy 837
+=============================
+0x44ca60 wc_InitSha3_224 838
+=============================
+0x44cad0 wc_Sha3_224_Update 839
+0x44cae0 wc_Sha3Update 1
+=============================
+0x44cae0 wc_Sha3Update 840
+0x44df50 BlockSha3 1
+=============================
+0x44d0c0 wc_Sha3_224_Final 841
+0x44df50 BlockSha3 1
+=============================
+0x44d250 wc_Sha3_224_Free 842
+=============================
+0x44d260 wc_Sha3_224_GetHash 843
+0x44df50 BlockSha3 1
+=============================
+0x44d410 wc_Sha3_224_Copy 844
+=============================
+0x44d440 wc_InitSha3_256 845
+=============================
+0x44d4b0 wc_Sha3_256_Update 846
+0x44cae0 wc_Sha3Update 1
+=============================
+0x44d4c0 wc_Sha3_256_Final 847
+0x44df50 BlockSha3 1
+=============================
+0x44d640 wc_Sha3_256_Free 848
+=============================
+0x44d650 wc_Sha3_256_GetHash 849
+0x44df50 BlockSha3 1
+=============================
+0x44d800 wc_Sha3_256_Copy 850
+=============================
+0x44d830 wc_InitSha3_384 851
+=============================
+0x44d8a0 wc_Sha3_384_Update 852
+0x44cae0 wc_Sha3Update 1
+=============================
+0x44d8b0 wc_Sha3_384_Final 853
+0x44df50 BlockSha3 1
+=============================
+0x44da10 wc_Sha3_384_Free 854
+=============================
+0x44da20 wc_Sha3_384_GetHash 855
+0x44df50 BlockSha3 1
+=============================
+0x44dbb0 wc_Sha3_384_Copy 856
+=============================
+0x44dbe0 wc_InitSha3_512 857
+=============================
+0x44dc50 wc_Sha3_512_Update 858
+0x44cae0 wc_Sha3Update 1
+=============================
+0x44dc60 wc_Sha3_512_Final 859
+0x44df50 BlockSha3 1
+=============================
+0x44dda0 wc_Sha3_512_Free 860
+=============================
+0x44ddb0 wc_Sha3_512_GetHash 861
+0x44df50 BlockSha3 1
+=============================
+0x44df20 wc_Sha3_512_Copy 862
+=============================
+0x44df50 BlockSha3 863
+=============================
+0x44e830 wolfCrypt_Init 864
+=============================
+0x44e840 wolfCrypt_Cleanup 865
+=============================
+0x44e870 wc_FileLoad 866
+0x476ef0 fopen64 1
+0x47aec0 fseek 2
+0x4771a0 ftell 3
+0x476990 __new_fclose 4
+0x47aff0 rewind 5
+0x404080 wolfSSL_Malloc 6
+0x47b750 fread_unlocked 7
+=============================
+0x44e940 wc_FileExists 867
+0x4c1750 __xstat 1
+=============================
+0x44e9b0 wc_ReadDirFirst 868
+0x4c0c40 opendir 1
+0x4c0f00 readdir64 2
+0x4c0ed0 closedir 3
+0x4c1750 __xstat 4
+=============================
+0x44ebb0 wc_ReadDirClose 869
+0x4c0ed0 closedir 1
+=============================
+0x44ebe0 wc_ReadDirNext 870
+0x4c0f00 readdir64 1
+0x4c0ed0 closedir 2
+0x4c1750 __xstat 3
+=============================
+0x44ee20 wc_InitAndAllocMutex 871
+0x404080 wolfSSL_Malloc 1
+0x465620 pthread_mutex_init 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x44ee50 wc_InitMutex 872
+0x465620 pthread_mutex_init 1
+=============================
+0x44ee70 wc_strtok 873
+=============================
+0x44ef60 wc_strsep 874
+=============================
+0x44efe0 wc_strlcpy 875
+=============================
+0x44f020 wc_strlcat 876
+=============================
+0x44f0b0 wc_FreeMutex 877
+0x4657e0 pthread_mutex_destroy 1
+=============================
+0x44f0d0 wc_LockMutex 878
+0x465e70 pthread_mutex_lock 1
+=============================
+0x44f0f0 wc_UnLockMutex 879
+0x4665e0 pthread_mutex_unlock 1
+=============================
+0x44f110 mystrnstr 880
+=============================
+0x44f180 wc_AesCbcDecryptWithKey 881
+0x448f90 wc_AesInit 1
+0x443d20 wc_AesSetKey 2
+0x4454e0 wc_AesCbcDecrypt 3
+0x448fb0 wc_AesFree 4
+=============================
+0x44f230 wc_AesCbcEncryptWithKey 882
+0x448f90 wc_AesInit 1
+0x443d20 wc_AesSetKey 2
+0x444530 wc_AesCbcEncrypt 3
+0x448fb0 wc_AesFree 4
+=============================
+0x44f2e0 wc_CryptKey 883
+0x451020 wc_PBKDF1 1
+0x451680 wc_PBKDF2 2
+0x448f90 wc_AesInit 3
+0x4516a0 wc_PKCS12_PBKDF 4
+0x443d20 wc_AesSetKey 5
+0x448fb0 wc_AesFree 6
+0x4454e0 wc_AesCbcDecrypt 7
+0x444530 wc_AesCbcEncrypt 8
+=============================
+0x44f800 wc_Poly1305SetKey 884
+=============================
+0x44f930 wc_Poly1305Final 885
+0x44fd90 poly1305_blocks 1
+=============================
+0x44fb60 wc_Poly1305Update 886
+0x44fd90 poly1305_blocks 1
+=============================
+0x44fd90 poly1305_blocks 887
+=============================
+0x450000 wc_Poly1305_Pad 888
+0x44fb60 wc_Poly1305Update 1
+=============================
+0x450050 wc_Poly1305_EncodeSizes 889
+0x44fb60 wc_Poly1305Update 1
+=============================
+0x450080 wc_Poly1305_EncodeSizes64 890
+0x44fb60 wc_Poly1305Update 1
+=============================
+0x4500b0 wc_Poly1305_MAC 891
+0x44fb60 wc_Poly1305Update 1
+0x44f930 wc_Poly1305Final 2
+=============================
+0x4501c0 wc_InitMd5_ex 892
+=============================
+0x4501f0 wc_Md5Update 893
+0x450330 Transform 1
+=============================
+0x450330 Transform 894
+=============================
+0x450aa0 wc_Md5Final 895
+0x450330 Transform 1
+=============================
+0x450b70 wc_InitMd5 896
+=============================
+0x450ba0 wc_Md5Free 897
+=============================
+0x450bb0 wc_Md5GetHash 898
+0x450330 Transform 1
+=============================
+0x450cd0 wc_Md5Copy 899
+=============================
+0x450d20 wc_PBKDF1_ex 900
+0x43ec30 wc_HashTypeConvert 1
+0x43ecc0 wc_HashGetDigestSize 2
+0x43f5d0 wc_HashInit_ex 3
+0x43f7a0 wc_HashFree 4
+0x43f680 wc_HashUpdate 5
+0x43f720 wc_HashFinal 6
+=============================
+0x451020 wc_PBKDF1 901
+0x450d20 wc_PBKDF1_ex 1
+=============================
+0x451060 wc_PBKDF2_ex 902
+0x43ec30 wc_HashTypeConvert 1
+0x43ecc0 wc_HashGetDigestSize 2
+0x43e8d0 wc_HmacInit 3
+0x43dd20 wc_HmacSetKey 4
+0x43e1e0 wc_HmacFree 5
+0x43e230 wc_HmacUpdate 6
+0x43e490 wc_HmacFinal 7
+=============================
+0x451680 wc_PBKDF2 903
+0x451060 wc_PBKDF2_ex 1
+=============================
+0x4516a0 wc_PKCS12_PBKDF 904
+0x4516d0 wc_PKCS12_PBKDF_ex 1
+=============================
+0x4516d0 wc_PKCS12_PBKDF_ex 905
+0x43ec30 wc_HashTypeConvert 1
+0x43ecc0 wc_HashGetDigestSize 2
+0x43ece0 wc_HashGetBlockSize 3
+0x404080 wolfSSL_Malloc 4
+0x43f670 wc_HashInit 5
+0x4040a0 wolfSSL_Free 6
+0x43f680 wc_HashUpdate 7
+0x43f720 wc_HashFinal 8
+0x4288a0 mp_init 9
+0x43f7a0 wc_HashFree 10
+0x429770 mp_read_unsigned_bin 11
+0x428ba0 mp_clear 12
+0x42b510 mp_add_d 13
+0x428bd0 mp_init_multi 14
+0x428c70 mp_add 15
+0x429570 mp_unsigned_bin_size 16
+0x429630 mp_to_unsigned_bin 17
+=============================
+0x451d20 wc_Chacha_SetIV 906
+=============================
+0x451d50 wc_Chacha_SetKey 907
+=============================
+0x451dc0 wc_Chacha_Process 908
+0x4521d0 wc_Chacha_wordtobyte 1
+=============================
+0x452190 wc_Chacha_purge_current_block 909
+0x451dc0 wc_Chacha_Process 1
+=============================
+0x4521d0 wc_Chacha_wordtobyte 910
+=============================
+0x4523a0 IsTLS 911
+=============================
+0x4523c0 IsAtLeastTLSv1_2 912
+=============================
+0x4523e0 IsAtLeastTLSv1_3 913
+=============================
+0x452400 InitSSL_Method 914
+=============================
+0x452410 InitSSL_Ctx 915
+0x44ee50 wc_InitMutex 1
+0x42df20 wolfSSL_CertManagerNew_ex 2
+=============================
+0x452560 SSL_CtxResourceFree 916
+0x4040a0 wolfSSL_Free 1
+0x419770 FreeDer 2
+0x42dff0 wolfSSL_CertManagerFree 3
+0x434150 TLSX_FreeAll 4
+=============================
+0x4525d0 FreeSSL_Ctx 917
+0x44f0d0 wc_LockMutex 1
+0x452560 SSL_CtxResourceFree 2
+0x4040a0 wolfSSL_Free 3
+0x44f0f0 wc_UnLockMutex 4
+0x44f0b0 wc_FreeMutex 5
+=============================
+0x452640 SSL_CTX_RefCount 918
+0x44f0d0 wc_LockMutex 1
+0x44f0f0 wc_UnLockMutex 2
+=============================
+0x452690 InitCiphers 919
+=============================
+0x4526e0 FreeCiphers 920
+0x448fb0 wc_AesFree 1
+0x4040a0 wolfSSL_Free 2
+=============================
+0x4527a0 InitCipherSpecs 921
+=============================
+0x4527c0 InitSuitesHashSigAlgo 922
+=============================
+0x452860 InitSuites 923
+0x4527c0 InitSuitesHashSigAlgo 1
+=============================
+0x452a80 InitX509Name 924
+=============================
+0x452ac0 FreeX509Name 925
+0x4040a0 wolfSSL_Free 1
+=============================
+0x452af0 InitX509 926
+=============================
+0x452b90 FreeX509 927
+0x4040a0 wolfSSL_Free 1
+0x419770 FreeDer 2
+0x4123d0 FreeAltNames 3
+=============================
+0x452c40 ConvertHashPss 928
+=============================
+0x452c90 RsaSign 929
+0x443670 wc_RsaSSL_Sign 1
+0x4436a0 wc_RsaPSS_Sign 2
+=============================
+0x452d20 RsaVerify 930
+0x442de0 wc_RsaSSL_VerifyInline 1
+0x442f00 wc_RsaPSS_VerifyInline 2
+=============================
+0x452d70 VerifyRsaSign 931
+0x442de0 wc_RsaSSL_VerifyInline 1
+0x442f00 wc_RsaPSS_VerifyInline 2
+0x429be0 mp_count_bits 3
+0x4430e0 wc_RsaPSS_CheckPadding_ex 4
+=============================
+0x452e90 RsaDec 932
+0x443960 wc_RsaSetRNG 1
+0x4427e0 wc_RsaPrivateDecryptInline 2
+=============================
+0x452ee0 RsaEnc 933
+0x442420 wc_RsaPublicEncrypt 1
+=============================
+0x452f10 EccSign 934
+0x4075c0 wc_ecc_sign_hash 1
+=============================
+0x452f30 EccVerify 935
+0x408d20 wc_ecc_verify_hash 1
+=============================
+0x452f70 EccSharedSecret 936
+0x40a9b0 wc_ecc_set_rng 1
+0x406870 wc_ecc_shared_secret 2
+=============================
+0x452fd0 EccMakeKey 937
+0x407230 wc_ecc_make_key_ex 1
+0x40a9d0 wc_ecc_get_oid 2
+=============================
+0x453050 InitSSL_Suites 938
+0x452860 InitSuites 1
+=============================
+0x453110 SetSSL_CTX 939
+0x44f0d0 wc_LockMutex 1
+0x42c610 wolfSSL_CTX_free 2
+0x44f0f0 wc_UnLockMutex 3
+0x453050 InitSSL_Suites 4
+=============================
+0x453700 InitHandshakeHashes 940
+0x404080 wolfSSL_Malloc 1
+0x4537e0 FreeHandshakeHashes 2
+0x4501c0 wc_InitMd5_ex 3
+0x449140 wc_InitSha_ex 4
+0x403030 wc_InitSha256_ex 5
+0x44b2c0 wc_InitSha384_ex 6
+0x44a8d0 wc_InitSha512_ex 7
+=============================
+0x4537e0 FreeHandshakeHashes 941
+0x450ba0 wc_Md5Free 1
+0x44a810 wc_ShaFree 2
+0x403850 wc_Sha256Free 3
+0x44b380 wc_Sha384Free 4
+0x44ae90 wc_Sha512Free 5
+0x4040a0 wolfSSL_Free 6
+=============================
+0x453850 InitSSL 942
+0x404080 wolfSSL_Malloc 1
+0x453110 SetSSL_CTX 2
+0x453700 InitHandshakeHashes 3
+0x401a50 wc_InitRng_ex 4
+0x432790 wolfSSL_NewSession 5
+=============================
+0x453cf0 SSL_hmac 943
+0x42ded0 wolfSSL_GetMacSecret 1
+0x4501c0 wc_InitMd5_ex 2
+0x449140 wc_InitSha_ex 3
+0x4501f0 wc_Md5Update 4
+0x449180 wc_ShaUpdate 5
+0x450aa0 wc_Md5Final 6
+0x44a570 wc_ShaFinal 7
+0x450ba0 wc_Md5Free 8
+0x44a810 wc_ShaFree 9
+=============================
+0x454050 FreeArrays 944
+0x4040a0 wolfSSL_Free 1
+=============================
+0x454240 FreeKey 945
+0x4074d0 wc_ecc_free 1
+0x440440 wc_FreeRsaKey 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x454290 AllocKey 946
+0x404080 wolfSSL_Malloc 1
+0x4072d0 wc_ecc_init_ex 2
+0x440280 wc_InitRsaKey_ex 3
+0x4074d0 wc_ecc_free 4
+0x440440 wc_FreeRsaKey 5
+0x4040a0 wolfSSL_Free 6
+=============================
+0x454380 FreeKeyExchange 947
+0x4040a0 wolfSSL_Free 1
+0x4074d0 wc_ecc_free 2
+0x440440 wc_FreeRsaKey 3
+=============================
+0x454420 FreeSuites 948
+0x4040a0 wolfSSL_Free 1
+=============================
+0x454440 SSL_ResourceFree 949
+0x4526e0 FreeCiphers 1
+0x454050 FreeArrays 2
+0x454380 FreeKeyExchange 3
+0x401680 wc_FreeRng 4
+0x4537e0 FreeHandshakeHashes 5
+0x4040a0 wolfSSL_Free 6
+0x432620 wolfSSL_UnloadCertsKeys 7
+0x440440 wc_FreeRsaKey 8
+0x4074d0 wc_ecc_free 9
+0x434150 TLSX_FreeAll 10
+0x432a30 wolfSSL_FreeSession 11
+=============================
+0x4549e0 ShrinkInputBuffer 950
+0x4040a0 wolfSSL_Free 1
+=============================
+0x454a70 ShrinkOutputBuffer 951
+0x4040a0 wolfSSL_Free 1
+=============================
+0x454ab0 FreeHandshakeResources 952
+0x4537e0 FreeHandshakeHashes 1
+0x4040a0 wolfSSL_Free 2
+0x401680 wc_FreeRng 3
+0x454050 FreeArrays 4
+0x440440 wc_FreeRsaKey 5
+0x4074d0 wc_ecc_free 6
+0x432620 wolfSSL_UnloadCertsKeys 7
+0x434150 TLSX_FreeAll 8
+=============================
+0x454d20 FreeSSL 953
+0x454440 SSL_ResourceFree 1
+0x4525d0 FreeSSL_Ctx 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x454d50 WriteSEQ 954
+=============================
+0x454df0 LowResTimer 955
+0x413a00 wc_Time 1
+=============================
+0x454e00 HashRaw 956
+0x449180 wc_ShaUpdate 1
+0x4501f0 wc_Md5Update 2
+0x403070 wc_Sha256Update 3
+0x44aea0 wc_Sha384Update 4
+0x44a9f0 wc_Sha512Update 5
+=============================
+0x454eb0 HashOutput 957
+0x454e00 HashRaw 1
+=============================
+0x454ed0 HashInput 958
+0x454e00 HashRaw 1
+=============================
+0x454ef0 SendBuffered 959
+0x4040a0 wolfSSL_Free 1
+=============================
+0x455000 GrowInputBuffer 960
+0x404080 wolfSSL_Malloc 1
+0x4040a0 wolfSSL_Free 2
+=============================
+0x4550b0 CheckAvailableSize 961
+0x404080 wolfSSL_Malloc 1
+0x4040a0 wolfSSL_Free 2
+=============================
+0x455160 MatchDomainName 962
+0x468790 __ctype_tolower_loc 1
+=============================
+0x455290 CheckForAltNames 963
+0x455160 MatchDomainName 1
+=============================
+0x455340 CheckHostName 964
+0x455160 MatchDomainName 1
+=============================
+0x455410 CheckIPAddr 965
+0x455160 MatchDomainName 1
+=============================
+0x4554e0 DoCertFatalAlert 966
+0x455550 SendAlert 1
+=============================
+0x455550 SendAlert 967
+0x454ef0 SendBuffered 1
+0x404080 wolfSSL_Malloc 2
+0x45b070 BuildMessage 3
+0x4040a0 wolfSSL_Free 4
+=============================
+0x455770 DoVerifyCallback 968
+=============================
+0x455930 ProcessPeerCerts 969
+0x404080 wolfSSL_Malloc 1
+0x4040a0 wolfSSL_Free 2
+0x454380 FreeKeyExchange 3
+0x412470 FreeDecodedCert 4
+0x455550 SendAlert 5
+0x4569d0 ProcessPeerCertParse 6
+0x436c20 TLSX_Parse 7
+0x455770 DoVerifyCallback 8
+0x4196d0 AllocDer 9
+0x455160 MatchDomainName 10
+0x41be80 wc_EccPublicKeyDecode 11
+0x4074d0 wc_ecc_free 12
+0x42e610 AddCA 13
+0x4072d0 wc_ecc_init_ex 14
+0x40f0b0 wc_RsaPublicKeyDecode 15
+0x440440 wc_FreeRsaKey 16
+0x440280 wc_InitRsaKey_ex 17
+0x40a890 wc_ecc_size 18
+0x443710 wc_RsaEncryptSize 19
+=============================
+0x4569d0 ProcessPeerCertParse 970
+0x412290 InitDecodedCert 1
+0x414bf0 ParseCertRelative 2
+0x42e370 AlreadySigner 3
+=============================
+0x456ae0 DoFinished 971
+=============================
+0x456c30 ChachaAEADEncrypt 972
+0x451d20 wc_Chacha_SetIV 1
+0x451dc0 wc_Chacha_Process 2
+0x44f800 wc_Poly1305SetKey 3
+0x457340 Poly1305TagOld 4
+0x4500b0 wc_Poly1305_MAC 5
+=============================
+0x457340 Poly1305TagOld 973
+0x44f800 wc_Poly1305SetKey 1
+0x44fb60 wc_Poly1305Update 2
+0x44f930 wc_Poly1305Final 3
+=============================
+0x457420 TimingPadVerify 974
+=============================
+0x457c30 DoApplicationData 975
+0x455550 SendAlert 1
+=============================
+0x457d70 AlertTypeToString 976
+=============================
+0x457e20 ProcessReply 977
+0x457e30 ProcessReplyEx 1
+=============================
+0x457e30 ProcessReplyEx 978
+0x459890 GetInputData 1
+0x455550 SendAlert 2
+0x457c30 DoApplicationData 3
+0x4618e0 DoHandShakeMsgType 4
+0x4388c0 DecryptTls13 5
+0x457420 TimingPadVerify 6
+0x43b820 DoTls13HandShakeMsg 7
+0x459ab0 DecryptTls 8
+0x404080 wolfSSL_Malloc 9
+0x4040a0 wolfSSL_Free 10
+0x4645b0 SetKeysSide 11
+0x45ab80 BuildFinished 12
+=============================
+0x459890 GetInputData 979
+0x404080 wolfSSL_Malloc 1
+0x4040a0 wolfSSL_Free 2
+=============================
+0x459ab0 DecryptTls 980
+0x404080 wolfSSL_Malloc 1
+0x4486b0 wc_AesGcmDecrypt 2
+0x4454e0 wc_AesCbcDecrypt 3
+0x451d20 wc_Chacha_SetIV 4
+0x455550 SendAlert 5
+0x451dc0 wc_Chacha_Process 6
+0x44f800 wc_Poly1305SetKey 7
+0x457340 Poly1305TagOld 8
+0x4500b0 wc_Poly1305_MAC 9
+=============================
+0x45a710 TLSv1_3_Capable 981
+=============================
+0x45a730 SanityCheckMsgReceived 982
+=============================
+0x45ab80 BuildFinished 983
+0x432ff0 BuildTlsFinished 1
+0x450cd0 wc_Md5Copy 2
+0x4501f0 wc_Md5Update 3
+0x450aa0 wc_Md5Final 4
+0x4501c0 wc_InitMd5_ex 5
+0x450ba0 wc_Md5Free 6
+0x44a880 wc_ShaCopy 7
+0x449180 wc_ShaUpdate 8
+0x44a570 wc_ShaFinal 9
+0x449140 wc_InitSha_ex 10
+0x44a810 wc_ShaFree 11
+=============================
+0x45ae40 SendChangeCipher 984
+0x404080 wolfSSL_Malloc 1
+0x4645b0 SetKeysSide 2
+0x454ef0 SendBuffered 3
+0x45b070 BuildMessage 4
+0x4040a0 wolfSSL_Free 5
+=============================
+0x45b070 BuildMessage 985
+0x438d50 BuildTls13Message 1
+0x4040a0 wolfSSL_Free 2
+0x401a80 wc_RNG_GenerateBlock 3
+0x404080 wolfSSL_Malloc 4
+0x454e00 HashRaw 5
+0x45b8f0 Encrypt 6
+=============================
+0x45b5e0 BuildCertHashes 986
+0x450cd0 wc_Md5Copy 1
+0x450bb0 wc_Md5GetHash 2
+0x4501f0 wc_Md5Update 3
+0x44a820 wc_ShaGetHash 4
+0x450aa0 wc_Md5Final 5
+0x403a10 wc_Sha256GetHash 6
+0x4501c0 wc_InitMd5_ex 7
+0x44b8c0 wc_Sha384GetHash 8
+0x44b390 wc_Sha512GetHash 9
+0x450ba0 wc_Md5Free 10
+0x44a880 wc_ShaCopy 11
+0x449180 wc_ShaUpdate 12
+0x44a570 wc_ShaFinal 13
+0x449140 wc_InitSha_ex 14
+0x44a810 wc_ShaFree 15
+=============================
+0x45b8b0 FreeBuildMsgArgs 987
+0x4040a0 wolfSSL_Free 1
+=============================
+0x45b8f0 Encrypt 988
+0x448d10 wc_AesGcmEncrypt_ex 1
+0x456c30 ChachaAEADEncrypt 2
+0x444530 wc_AesCbcEncrypt 3
+0x404080 wolfSSL_Malloc 4
+=============================
+0x45bc90 SendFinished 989
+0x404080 wolfSSL_Malloc 1
+0x45ab80 BuildFinished 2
+0x45b070 BuildMessage 3
+0x4040a0 wolfSSL_Free 4
+0x431da0 AddSession 5
+0x454ef0 SendBuffered 6
+=============================
+0x45be70 SendCertificate 990
+0x404080 wolfSSL_Malloc 1
+0x454e00 HashRaw 2
+0x4040a0 wolfSSL_Free 3
+0x454ef0 SendBuffered 4
+0x45b070 BuildMessage 5
+=============================
+0x45c760 wolfSSL_GetMaxFragSize 991
+=============================
+0x45c770 SendCertificateRequest 992
+0x404080 wolfSSL_Malloc 1
+0x4040a0 wolfSSL_Free 2
+0x454e00 HashRaw 3
+0x454ef0 SendBuffered 4
+0x45b070 BuildMessage 5
+=============================
+0x45cb20 SendCertificateStatus 993
+=============================
+0x45cb30 IsSCR 994
+=============================
+0x45cb40 SendData 995
+0x42cc20 wolfSSL_negotiate 1
+0x454ef0 SendBuffered 2
+0x404080 wolfSSL_Malloc 3
+0x45b070 BuildMessage 4
+0x438d50 BuildTls13Message 5
+0x4040a0 wolfSSL_Free 6
+=============================
+0x45ce50 ReceiveData 996
+0x42cc20 wolfSSL_negotiate 1
+0x457e30 ProcessReplyEx 2
+0x4040a0 wolfSSL_Free 3
+=============================
+0x45d020 wolfSSL_ERR_reason_error_string 997
+0x4654e0 wc_GetErrorString 1
+=============================
+0x45d390 wolfSSL_ERR_func_error_string 998
+=============================
+0x45d3a0 wolfSSL_ERR_lib_error_string 999
+=============================
+0x45d3b0 SetErrorString 1000
+0x45d020 wolfSSL_ERR_reason_error_string 1
+=============================
+0x45d3e0 GetCipherNames 1001
+=============================
+0x45d3f0 GetCipherNamesSize 1002
+=============================
+0x45d400 GetCipherNameInternal 1003
+=============================
+0x45d460 GetCipherNameIana 1004
+=============================
+0x45d4c0 wolfSSL_get_cipher_name_internal 1005
+=============================
+0x45d530 wolfSSL_get_cipher_name_iana 1006
+=============================
+0x45d5a0 GetCipherSuiteFromName 1007
+=============================
+0x45d660 SetCipherList 1008
+0x4527c0 InitSuitesHashSigAlgo 1
+=============================
+0x45d890 PickHashSigAlgo 1009
+=============================
+0x45dac0 DecodePrivateKey 1010
+0x404080 wolfSSL_Malloc 1
+0x4074d0 wc_ecc_free 2
+0x440280 wc_InitRsaKey_ex 3
+0x440440 wc_FreeRsaKey 4
+0x4040a0 wolfSSL_Free 5
+0x4072d0 wc_ecc_init_ex 6
+0x40d980 wc_RsaPrivateKeyDecode 7
+0x40f130 wc_EccPrivateKeyDecode 8
+0x443710 wc_RsaEncryptSize 9
+0x40a890 wc_ecc_size 10
+0x40a8d0 wc_ecc_sig_size 11
+=============================
+0x45dd00 SendClientHello 1011
+0x4354c0 TLSX_PopulateExtensions 1
+0x439360 SendTls13ClientHello 2
+0x4358b0 TLSX_GetRequestSize 3
+0x404080 wolfSSL_Malloc 4
+0x401a80 wc_RNG_GenerateBlock 5
+0x4040a0 wolfSSL_Free 6
+0x435d00 TLSX_WriteRequest 7
+0x454e00 HashRaw 8
+0x454ef0 SendBuffered 9
+0x45b070 BuildMessage 10
+=============================
+0x45e0f0 CheckVersion 1012
+=============================
+0x45e1d0 DoServerHello 1013
+0x439650 DoTls13ServerHello 1
+0x435490 TLSX_SupportExtensions 2
+0x45e5b0 CompleteServerHello 3
+0x436c20 TLSX_Parse 4
+=============================
+0x45e5b0 CompleteServerHello 1014
+0x464240 SetCipherSpecs 1
+0x455550 SendAlert 2
+0x433140 DeriveTlsKeys 3
+0x464d30 DeriveKeys 4
+=============================
+0x45e7f0 VerifyClientSuite 1015
+0x45e820 CipherRequires 1
+=============================
+0x45e820 CipherRequires 1016
+=============================
+0x45e9c0 SendClientKeyExchange 1017
+0x404080 wolfSSL_Malloc 1
+0x4040a0 wolfSSL_Free 2
+0x454380 FreeKeyExchange 3
+0x4072d0 wc_ecc_init_ex 4
+0x4096b0 wc_ecc_export_x963 5
+0x401a80 wc_RNG_GenerateBlock 6
+0x4074d0 wc_ecc_free 7
+0x407230 wc_ecc_make_key_ex 8
+0x40a9d0 wc_ecc_get_oid 9
+0x40a9b0 wc_ecc_set_rng 10
+0x442420 wc_RsaPublicEncrypt 11
+0x406870 wc_ecc_shared_secret 12
+0x454e00 HashRaw 13
+0x4650c0 MakeMasterSecret 14
+0x454ef0 SendBuffered 15
+0x45b070 BuildMessage 16
+=============================
+0x45f2f0 SendCertificateVerify 1018
+0x404080 wolfSSL_Malloc 1
+0x45b5e0 BuildCertHashes 2
+0x4040a0 wolfSSL_Free 3
+0x454380 FreeKeyExchange 4
+0x45dac0 DecodePrivateKey 5
+0x4075c0 wc_ecc_sign_hash 6
+0x443670 wc_RsaSSL_Sign 7
+0x4148d0 wc_EncodeSignature 8
+0x4436a0 wc_RsaPSS_Sign 9
+0x452d70 VerifyRsaSign 10
+0x45f990 SendHandshakeMsg 11
+=============================
+0x45f990 SendHandshakeMsg 1019
+0x454e00 HashRaw 1
+0x404080 wolfSSL_Malloc 2
+0x45b070 BuildMessage 3
+0x4040a0 wolfSSL_Free 4
+0x454ef0 SendBuffered 5
+=============================
+0x45fcb0 GetCurveByOID 1020
+=============================
+0x45fcf0 SendServerHello 1021
+0x4364e0 TLSX_GetResponseSize 1
+0x404080 wolfSSL_Malloc 2
+0x401a80 wc_RNG_GenerateBlock 3
+0x4040a0 wolfSSL_Free 4
+0x4366b0 TLSX_WriteResponse 5
+0x454e00 HashRaw 6
+0x454ef0 SendBuffered 7
+0x45b070 BuildMessage 8
+=============================
+0x460110 SendServerKeyExchange 1022
+0x4040a0 wolfSSL_Free 1
+0x404080 wolfSSL_Malloc 2
+0x4072d0 wc_ecc_init_ex 3
+0x407230 wc_ecc_make_key_ex 4
+0x40a9d0 wc_ecc_get_oid 5
+0x454380 FreeKeyExchange 6
+0x45f990 SendHandshakeMsg 7
+0x4096b0 wc_ecc_export_x963 8
+0x4074d0 wc_ecc_free 9
+0x45dac0 DecodePrivateKey 10
+0x43ecc0 wc_HashGetDigestSize 11
+0x443670 wc_RsaSSL_Sign 12
+0x4075c0 wc_ecc_sign_hash 13
+0x43ed00 wc_Hash 14
+0x4436a0 wc_RsaPSS_Sign 15
+0x4148d0 wc_EncodeSignature 16
+0x452d70 VerifyRsaSign 17
+=============================
+0x4609f0 MatchSuite 1023
+0x460b20 CompareSuites 1
+=============================
+0x460b20 CompareSuites 1024
+0x45e820 CipherRequires 1
+0x4342c0 TLSX_ValidateSupportedCurves 2
+0x464240 SetCipherSpecs 3
+0x434ea0 TLSX_KeyShare_Establish 4
+0x45d890 PickHashSigAlgo 5
+=============================
+0x460d50 HandleTlsResumption 1025
+0x431ae0 wolfSSL_GetSession 1
+0x4609f0 MatchSuite 2
+0x464240 SetCipherSpecs 3
+0x401a80 wc_RNG_GenerateBlock 4
+0x45d890 PickHashSigAlgo 5
+0x433140 DeriveTlsKeys 6
+0x464d30 DeriveKeys 7
+=============================
+0x460fd0 DoClientHello 1026
+0x452860 InitSuites 1
+0x4348d0 TLSX_AddEmptyRenegotiationInfo 2
+0x433f70 TLSX_Find 3
+0x435490 TLSX_SupportExtensions 4
+0x4354c0 TLSX_PopulateExtensions 5
+0x460d50 HandleTlsResumption 6
+0x4609f0 MatchSuite 7
+0x436c20 TLSX_Parse 8
+0x4349d0 TLSX_EncryptThenMac_Respond 9
+=============================
+0x4616c0 SendServerHelloDone 1027
+0x404080 wolfSSL_Malloc 1
+0x454e00 HashRaw 2
+0x4040a0 wolfSSL_Free 3
+0x454ef0 SendBuffered 4
+0x45b070 BuildMessage 5
+=============================
+0x4618e0 DoHandShakeMsgType 1028
+0x43a660 DoTls13HandShakeMsgType 1
+0x45a730 SanityCheckMsgReceived 2
+0x455550 SendAlert 3
+0x454e00 HashRaw 4
+0x4040a0 wolfSSL_Free 5
+=============================
+0x4640b0 EmbedReceive 1029
+0x4669d0 __recv 1
+0x467540 __errno_location 2
+=============================
+0x464120 wolfIO_Recv 1030
+0x4669d0 __recv 1
+=============================
+0x464130 EmbedSend 1031
+0x466a90 __libc_send 1
+0x467540 __errno_location 2
+=============================
+0x464190 wolfIO_Send 1032
+0x466a90 __libc_send 1
+=============================
+0x4641a0 wolfSSL_CTX_SetIORecv 1033
+=============================
+0x4641b0 wolfSSL_CTX_SetIOSend 1034
+=============================
+0x4641c0 wolfSSL_SSLSetIORecv 1035
+=============================
+0x4641d0 wolfSSL_SSLSetIOSend 1036
+=============================
+0x4641e0 wolfSSL_SetIOReadCtx 1037
+=============================
+0x4641f0 wolfSSL_SetIOWriteCtx 1038
+=============================
+0x464200 wolfSSL_GetIOReadCtx 1039
+=============================
+0x464210 wolfSSL_GetIOWriteCtx 1040
+=============================
+0x464220 wolfSSL_SetIOReadFlags 1041
+=============================
+0x464230 wolfSSL_SetIOWriteFlags 1042
+=============================
+0x464240 SetCipherSpecs 1043
+0x45e7f0 VerifyClientSuite 1
+0x4523e0 IsAtLeastTLSv1_3 2
+=============================
+0x4645b0 SetKeysSide 1044
+0x404080 wolfSSL_Malloc 1
+0x448fb0 wc_AesFree 2
+0x451d50 wc_Chacha_SetKey 3
+0x448f90 wc_AesInit 4
+0x443d20 wc_AesSetKey 5
+0x446450 wc_AesGcmSetKey 6
+0x448c40 wc_AesGcmSetIV 7
+=============================
+0x464c20 StoreKeys 1045
+=============================
+0x464d30 DeriveKeys 1046
+0x450b70 wc_InitMd5 1
+0x44a7d0 wc_InitSha 2
+0x449180 wc_ShaUpdate 3
+0x44a570 wc_ShaFinal 4
+0x4501f0 wc_Md5Update 5
+0x450aa0 wc_Md5Final 6
+=============================
+0x4650c0 MakeMasterSecret 1047
+0x4332b0 MakeTlsMasterSecret 1
+0x450b70 wc_InitMd5 2
+0x44a7d0 wc_InitSha 3
+0x401a80 wc_RNG_GenerateBlock 4
+0x4040a0 wolfSSL_Free 5
+0x449180 wc_ShaUpdate 6
+0x44a570 wc_ShaFinal 7
+0x464d30 DeriveKeys 8
+0x4501f0 wc_Md5Update 9
+0x450aa0 wc_Md5Final 10
+=============================
+0x4654e0 wc_GetErrorString 1048
+=============================
+0x465500 wc_ErrorString 1049
+0x4654e0 wc_GetErrorString 1
+=============================
+0x465620 pthread_mutex_init 1050
+0x4c3e60 __stack_chk_fail 1
+0xa0024b futex 2
+0x468700 __assert_fail 3
+0x466dc0 __init_sched_fifo_prio 4
+0x4657e0 pthread_mutex_destroy 5
+=============================
+0x4657e0 pthread_mutex_destroy 1051
+=============================
+0x465e70 pthread_mutex_lock 1052
+0x465800 __pthread_mutex_lock_full 1
+0x467440 __lll_lock_elision 2
+0x466700 __lll_lock_wait 3
+0x468700 __assert_fail 4
+0x466120 __pthread_mutex_unlock_full 5
+=============================
+0x4665e0 pthread_mutex_unlock 1053
+0x466120 __pthread_mutex_unlock_full 1
+0x4667a0 __lll_unlock_wake 2
+0x467500 __lll_unlock_elision 3
+0x468700 __assert_fail 4
+0x4666d0 __lll_lock_wait_private 5
+=============================
+0x466850 read 1054
+0xa00181 read 1
+0x467560 __pthread_enable_asynccancel 2
+0x4675c0 __pthread_disable_asynccancel 3
+=============================
+0x466920 close 1055
+0xa00184 close 1
+0x467560 __pthread_enable_asynccancel 2
+0x4675c0 __pthread_disable_asynccancel 3
+=============================
+0x467360 elision_init 1056
+0x4c4620 __tunable_get_val 1
+0x4c3e60 __stack_chk_fail 2
+=============================
+0x467620 unwind_stop 1057
+0x515ef0 _Unwind_GetCFA 1
+0x4747a0 __libc_siglongjmp 2
+=============================
+0x467760 unwind_cleanup 1058
+0x47b710 __libc_fatal 1
+0x467770 __pthread_unwind 2
+=============================
+0x4677d0 get_common_indeces.constprop.1 1059
+=============================
+0x468800 dcgettext 1060
+0x469c60 __dcigettext 1
+=============================
+0x468810 transcmp 1061
+=============================
+0x468890 plural_eval 1062
+0x468890 plural_eval 1
+0x474860 raise 2
+=============================
+0x46bce0 alias_compare 1063
+=============================
+0x46bd00 read_alias_file 1064
+0x476ef0 fopen64 1
+0x4c3e60 __stack_chk_fail 2
+0x476990 __new_fclose 3
+0x47b7b0 fgets_unlocked 4
+0x4754c0 qsort 5
+0x48a220 __realloc 6
+=============================
+0x46d000 new_exp.constprop.3 1065
+0x488700 __libc_malloc 1
+0x488fc0 free 2
+0x46cce0 __gettext_free_exp 3
+=============================
+0x470670 new_exp 1066
+0x488700 __libc_malloc 1
+0x488fc0 free 2
+0x46cce0 __gettext_free_exp 3
+=============================
+0x474860 raise 1067
+0xa001a8 getpid 1
+0xa0023b gettid 2
+0xa0026b tgkill 3
+0xa0018f rt_sigprocmask 4
+0x4c3e60 __stack_chk_fail 5
+=============================
+0x474970 sigprocmask 1068
+0xa0018f rt_sigprocmask 1
+=============================
+0x4749b0 abort 1069
+0x474970 sigprocmask 1
+0x4666d0 __lll_lock_wait_private 2
+0x474860 raise 3
+0x466780 __lll_unlock_wake_private 4
+0x4d2e90 __sigaction 5
+0x4c1090 _exit 6
+=============================
+0x474bf0 msort_with_tmp.part.0 1070
+0x474bf0 msort_with_tmp.part.0 1
+=============================
+0x475040 qsort_r 1071
+0x4c1200 __sysconf 1
+0x488700 __libc_malloc 2
+0x4d2ec0 _quicksort 3
+0x488fc0 free 4
+0x474bf0 msort_with_tmp.part.0 5
+0x4c3e60 __stack_chk_fail 6
+=============================
+0x4754c0 qsort 1072
+0x475040 qsort_r 1
+=============================
+0x4754d0 getenv 1073
+=============================
+0x475830 exit 1074
+0x4755b0 __run_exit_handlers 1
+0x475850 __new_exitfn 2
+=============================
+0x476510 locked_vfxprintf 1075
+0x4d7b00 vfprintf 1
+0x4c3d50 __libc_alloca_cutoff 2
+0x4c3e60 __stack_chk_fail 3
+0x4bcfe0 __mbsrtowcs 4
+0x488700 __libc_malloc 5
+0x4e3350 __vfwprintf 6
+0x488fc0 free 7
+=============================
+0x476c20 fflush 1076
+0x480bd0 _IO_flush_all 1
+0x47b730 _IO_vtable_check 2
+0x4666d0 __lll_lock_wait_private 3
+0x466780 __lll_unlock_wake_private 4
+=============================
+0x476ef0 fopen64 1077
+0x488700 __libc_malloc 1
+0x480330 _IO_no_init 2
+0x47d4b0 _IO_new_file_init_internal 3
+0x47d9d0 _IO_file_fopen 4
+0x47edf0 _IO_un_link 5
+0x488fc0 free 6
+=============================
+0x477010 fputs 1078
+0x47b730 _IO_vtable_check 1
+0x4666d0 __lll_lock_wait_private 2
+0x466780 __lll_unlock_wake_private 3
+=============================
+0x4771a0 ftell 1079
+0x477340 _IO_seekoff_unlocked 1
+0x4666d0 __lll_lock_wait_private 2
+0x466780 __lll_unlock_wake_private 3
+=============================
+0x477680 save_for_wbackup.isra.0 1080
+0x4bcfc0 wmemmove 1
+0x4bcfb0 __wmemcpy 2
+0x488700 __libc_malloc 3
+0x4bcfd0 __wmempcpy 4
+0x488fc0 free 5
+=============================
+0x478e00 adjust_wide_data 1081
+0x4c3e60 __stack_chk_fail 1
+=============================
+0x47a8f0 do_encoding 1082
+=============================
+0x47a910 do_always_noconv 1083
+=============================
+0x47a920 do_max_length 1084
+=============================
+0x47a930 do_in 1085
+0x4c53f0 _dl_mcount_wrapper_check 1
+0x4c3e60 __stack_chk_fail 2
+=============================
+0x47aa20 do_unshift 1086
+0x4c53f0 _dl_mcount_wrapper_check 1
+0x4c3e60 __stack_chk_fail 2
+=============================
+0x47ab00 do_out 1087
+0x4c53f0 _dl_mcount_wrapper_check 1
+0x4c3e60 __stack_chk_fail 2
+=============================
+0x47ac00 do_length 1088
+0x4c53f0 _dl_mcount_wrapper_check 1
+0x4c3e60 __stack_chk_fail 2
+=============================
+0x47aec0 fseek 1089
+0x477340 _IO_seekoff_unlocked 1
+0x4666d0 __lll_lock_wait_private 2
+0x466780 __lll_unlock_wake_private 3
+=============================
+0x47aff0 rewind 1090
+0x477340 _IO_seekoff_unlocked 1
+0x4666d0 __lll_lock_wait_private 2
+0x466780 __lll_unlock_wake_private 3
+=============================
+0x47b110 vasprintf 1091
+0x488700 __libc_malloc 1
+0x480330 _IO_no_init 2
+0x481d30 _IO_str_init_static_internal 3
+0x4c3e60 __stack_chk_fail 4
+0x4d7b00 vfprintf 5
+0x488fc0 free 6
+0x48a220 __realloc 7
+=============================
+0x47b750 fread_unlocked 1092
+0x47fbb0 _IO_sgetn 1
+=============================
+0x47b7b0 fgets_unlocked 1093
+0x4e8000 _IO_getline 1
+=============================
+0x47e6a0 save_for_backup 1094
+0x488700 __libc_malloc 1
+0x488fc0 free 2
+=============================
+0x47e870 flush_cleanup 1095
+0x466780 __lll_unlock_wake_private 1
+=============================
+0x481860 enlarge_userbuf 1096
+0x488700 __libc_malloc 1
+0x47f920 _IO_setb 2
+0x488fc0 free 3
+0x468700 __assert_fail 4
+0x481a30 _IO_str_seekoff 5
+=============================
+0x481fa0 int_mallinfo 1097
+=============================
+0x482120 malloc_printerr 1098
+0x47b420 __libc_message 1
+0x482140 malloc_consolidate 2
+=============================
+0x482140 malloc_consolidate 1099
+0x482120 malloc_printerr 1
+0x4823e0 new_heap 2
+=============================
+0x4823e0 new_heap 1100
+0x4c2500 mmap64 1
+0x4c25e0 __munmap 2
+0x4c2610 mprotect 3
+=============================
+0x482b40 systrim.isra.1.constprop.11 1101
+0x48c6c0 __default_morecore 1
+=============================
+0x482c00 ptmalloc_init.part.0 1102
+0x4c4620 __tunable_get_val 1
+0x4c3e60 __stack_chk_fail 2
+=============================
+0x482e70 arena_get2.part.3 1103
+0x4c35d0 get_nprocs 1
+0x4823e0 new_heap 2
+0x4666d0 __lll_lock_wait_private 3
+0x476680 __fxprintf 4
+0x466780 __lll_unlock_wake_private 5
+0x476c20 fflush 6
+0x4749b0 abort 7
+=============================
+0x483530 get_free_list 1104
+0x4666d0 __lll_lock_wait_private 1
+0x476680 __fxprintf 2
+0x466780 __lll_unlock_wake_private 3
+0x476c20 fflush 4
+0x4749b0 abort 5
+=============================
+0x483740 arena_get_retry 1105
+0x483530 get_free_list 1
+0x466780 __lll_unlock_wake_private 2
+0x482e70 arena_get2.part.3 3
+0x4666d0 __lll_lock_wait_private 4
+=============================
+0x483820 munmap_chunk 1106
+0x476680 __fxprintf 1
+0x476c20 fflush 2
+0x4c25e0 __munmap 3
+0x482120 malloc_printerr 4
+0x4749b0 abort 5
+0x4838f0 mremap_chunk 6
+=============================
+0x4838f0 mremap_chunk 1107
+0x476680 __fxprintf 1
+0x476c20 fflush 2
+0x4c3cf0 __mremap 3
+0x4749b0 abort 4
+=============================
+0x483ae0 free_check 1108
+0x4666d0 __lll_lock_wait_private 1
+0x482120 malloc_printerr 2
+0x483820 munmap_chunk 3
+0x466780 __lll_unlock_wake_private 4
+0x476680 __fxprintf 5
+0x476c20 fflush 6
+0x4749b0 abort 7
+0x482140 malloc_consolidate 8
+0x482b40 systrim.isra.1.constprop.11 9
+=============================
+0x485150 sysmalloc 1109
+0x4c2500 mmap64 1
+0x476680 __fxprintf 2
+0x476c20 fflush 3
+0x4749b0 abort 4
+0x4823e0 new_heap 5
+0x48c6c0 __default_morecore 6
+0x4c2610 mprotect 7
+0x4843e0 _int_free 8
+0x482120 malloc_printerr 9
+0x485a70 _int_malloc 10
+=============================
+0x486a90 malloc_check 1110
+0x4666d0 __lll_lock_wait_private 1
+0x485a70 _int_malloc 2
+0x482120 malloc_printerr 3
+0x486c40 _int_memalign 4
+0x466780 __lll_unlock_wake_private 5
+=============================
+0x487230 realloc_check 1111
+0x486a90 malloc_check 1
+0x4666d0 __lll_lock_wait_private 2
+0x482120 malloc_printerr 3
+0x466780 __lll_unlock_wake_private 4
+0x487b20 tcache_init.part.4 5
+0x4843e0 _int_free 6
+0x4838f0 mremap_chunk 7
+0x483820 munmap_chunk 8
+0x486e90 _int_realloc 9
+0x485a70 _int_malloc 10
+=============================
+0x487b20 tcache_init.part.4 1112
+0x483530 get_free_list 1
+0x482e70 arena_get2.part.3 2
+0x485a70 _int_malloc 3
+0x4666d0 __lll_lock_wait_private 4
+0x483740 arena_get_retry 5
+0x466780 __lll_unlock_wake_private 6
+=============================
+0x487c60 memalign_check 1113
+0x486a90 malloc_check 1
+0x4666d0 __lll_lock_wait_private 2
+0x482120 malloc_printerr 3
+0x485a70 _int_malloc 4
+0x466780 __lll_unlock_wake_private 5
+0x4843e0 _int_free 6
+0x476680 __fxprintf 7
+0x476c20 fflush 8
+0x4749b0 abort 9
+=============================
+0x4880f0 malloc_hook_ini 1114
+0x482c00 ptmalloc_init.part.0 1
+0x487b20 tcache_init.part.4 2
+0x485a70 _int_malloc 3
+0x483530 get_free_list 4
+0x476680 __fxprintf 5
+0x482e70 arena_get2.part.3 6
+0x4666d0 __lll_lock_wait_private 7
+0x476c20 fflush 8
+0x4749b0 abort 9
+0x483740 arena_get_retry 10
+0x466780 __lll_unlock_wake_private 11
+=============================
+0x488a90 memalign_hook_ini 1115
+0x482c00 ptmalloc_init.part.0 1
+0x488700 __libc_malloc 2
+0x483530 get_free_list 3
+0x482e70 arena_get2.part.3 4
+0x486c40 _int_memalign 5
+0x4666d0 __lll_lock_wait_private 6
+0x485a70 _int_malloc 7
+0x483740 arena_get_retry 8
+0x466780 __lll_unlock_wake_private 9
+0x4843e0 _int_free 10
+0x476680 __fxprintf 11
+0x476c20 fflush 12
+0x4749b0 abort 13
+=============================
+0x488fc0 free 1116
+0x4c3e60 __stack_chk_fail 1
+0x487b20 tcache_init.part.4 2
+0x4c25e0 __munmap 3
+0x482120 malloc_printerr 4
+0x476680 __fxprintf 5
+0x476c20 fflush 6
+0x4749b0 abort 7
+0x4666d0 __lll_lock_wait_private 8
+0x483820 munmap_chunk 9
+0x466780 __lll_unlock_wake_private 10
+0x482140 malloc_consolidate 11
+0x482b40 systrim.isra.1.constprop.11 12
+0x466c70 __open64_nocancel 13
+0x4c2640 __madvise 14
+0x4c2500 mmap64 15
+0x4668f0 __read_nocancel 16
+0x4669a0 __close_nocancel 17
+=============================
+0x489df0 realloc_hook_ini 1117
+0x482c00 ptmalloc_init.part.0 1
+0x488fc0 free 2
+0x488700 __libc_malloc 3
+0x482120 malloc_printerr 4
+0x487b20 tcache_init.part.4 5
+0x48a220 __realloc 6
+0x4838f0 mremap_chunk 7
+0x486e90 _int_realloc 8
+0x4666d0 __lll_lock_wait_private 9
+0x476680 __fxprintf 10
+0x466780 __lll_unlock_wake_private 11
+0x483820 munmap_chunk 12
+0x476c20 fflush 13
+0x4749b0 abort 14
+0x4843e0 _int_free 15
+=============================
+0x48a610 aligned_alloc 1118
+0x488700 __libc_malloc 1
+0x483530 get_free_list 2
+0x482e70 arena_get2.part.3 3
+0x486c40 _int_memalign 4
+0x4666d0 __lll_lock_wait_private 5
+0x485a70 _int_malloc 6
+0x483740 arena_get_retry 7
+0x466780 __lll_unlock_wake_private 8
+0x4843e0 _int_free 9
+0x476680 __fxprintf 10
+0x476c20 fflush 11
+0x4749b0 abort 12
+=============================
+0x48b9c0 malloc_trim 1119
+0x482c00 ptmalloc_init.part.0 1
+0x482140 malloc_consolidate 2
+0x4666d0 __lll_lock_wait_private 3
+0x482b40 systrim.isra.1.constprop.11 4
+0x476680 __fxprintf 5
+0x476c20 fflush 6
+0x466780 __lll_unlock_wake_private 7
+0x4749b0 abort 8
+0x4c2640 __madvise 9
+=============================
+0x48bd90 mallinfo 1120
+0x482c00 ptmalloc_init.part.0 1
+0x481fa0 int_mallinfo 2
+0x4666d0 __lll_lock_wait_private 3
+0x466780 __lll_unlock_wake_private 4
+0x4c3e60 __stack_chk_fail 5
+=============================
+0x48c2b0 posix_memalign 1121
+0x488700 __libc_malloc 1
+0x486c40 _int_memalign 2
+0x483530 get_free_list 3
+0x482e70 arena_get2.part.3 4
+0x4666d0 __lll_lock_wait_private 5
+0x476680 __fxprintf 6
+0x483740 arena_get_retry 7
+0x476c20 fflush 8
+0x4749b0 abort 9
+0x466780 __lll_unlock_wake_private 10
+=============================
+0x48c670 malloc_info 1122
+0x482c00 ptmalloc_init.part.0 1
+0x477010 fputs 2
+0x482600 __malloc_info.part.10 3
+=============================
+0x48c6e0 strchr 1123
+=============================
+0x48c720 strcmp 1124
+=============================
+0x48c750 strcpy 1125
+=============================
+0x48c780 strcspn 1126
+=============================
+0x48c7a0 strdup 1127
+0x488700 __libc_malloc 1
+=============================
+0x48c7f0 strlen 1128
+=============================
+0x48c820 strncmp 1129
+=============================
+0x48c860 strncpy 1130
+=============================
+0x48c890 two_way_long_needle 1131
+0x4c3e60 __stack_chk_fail 1
+=============================
+0x48d120 memcmp 1132
+=============================
+0x48d240 memset 1133
+=============================
+0x48d3d0 strncasecmp 1134
+=============================
+0x48d530 rawmemchr 1135
+=============================
+0x48d560 strchrnul 1136
+=============================
+0x4bc400 bzero 1137
+0x4bc410 __wmemset_sse2_unaligned 1
+=============================
+0x4bc8d0 handle_amd 1138
+0x468700 __assert_fail 1
+0x4bca90 intel_check_word.isra.0 2
+=============================
+0x4bca90 intel_check_word.isra.0 1139
+0x468700 __assert_fail 1
+0x4bcd90 handle_intel.constprop.1 2
+=============================
+0x4bcd90 handle_intel.constprop.1 1140
+0x4c3e60 __stack_chk_fail 1
+0x4bca90 intel_check_word.isra.0 2
+=============================
+0x4bcfc0 wmemmove 1141
+=============================
+0x4bd8b0 gmtime 1142
+0x4bef90 __tz_convert 1
+=============================
+0x4bd8c0 localtime_r 1143
+0x4bef90 __tz_convert 1
+=============================
+0x4bd8d0 localtime 1144
+0x4bef90 __tz_convert 1
+=============================
+0x4bd8f0 time 1145
+0xa0024a time 1
+=============================
+0x4bd900 gettimeofday 1146
+0xa001e1 gettimeofday 1
+=============================
+0x4bd930 compute_change 1147
+=============================
+0x4bdc20 parse_tzname 1148
+0x488700 __libc_malloc 1
+=============================
+0x4bddc0 parse_rule 1149
+0x475b80 __strtoul 1
+0x4e67b0 _IO_sscanf 2
+0x4c3e60 __stack_chk_fail 3
+=============================
+0x4bed10 tzset 1150
+0x4754d0 getenv 1
+0x4666d0 __lll_lock_wait_private 2
+0x488fc0 free 3
+0x48c7a0 strdup 4
+0x4bf3d0 __tzfile_read 5
+0x466780 __lll_unlock_wake_private 6
+0x4be1d0 __tzset_parse_tz 7
+=============================
+0x4c0c40 opendir 1151
+0x466c70 __open64_nocancel 1
+0x4c3e60 __stack_chk_fail 2
+0x4c17a0 __fxstat 3
+0x4669a0 __close_nocancel 4
+0x488700 __libc_malloc 5
+=============================
+0x4c0ed0 closedir 1152
+0x488fc0 free 1
+0x4669a0 __close_nocancel 2
+=============================
+0x4c0f00 readdir64 1153
+0x4666d0 __lll_lock_wait_private 1
+0x4c1000 __getdents64 2
+0x466780 __lll_unlock_wake_private 3
+=============================
+0x4c15e0 sched_getparam 1154
+0xa00210 sched_getparam 1
+=============================
+0x4c1670 sched_yield 1155
+0xa00199 sched_yield 1
+=============================
+0x4c16a0 sched_get_priority_max 1156
+0xa00213 sched_get_priority_max 1
+=============================
+0x4c17f0 openat 1157
+0xa00282 openat 1
+0x4c3d90 __libc_enable_asynccancel 2
+0x4c3e60 __stack_chk_fail 3
+0x4c3df0 __libc_disable_asynccancel 4
+=============================
+0x4c1a80 lseek64 1158
+0xa00189 lseek 1
+=============================
+0x4c1ab0 fcntl 1159
+0xa001c9 fcntl 1
+0x4c3d90 __libc_enable_asynccancel 2
+0x4c3e60 __stack_chk_fail 3
+0x4c3df0 __libc_disable_asynccancel 4
+=============================
+0x4c1c80 getcwd 1160
+0x4c2470 __getpagesize 1
+0x488700 __libc_malloc 2
+0xa001d0 getcwd 3
+0x4c3e60 __stack_chk_fail 4
+0x48a220 __realloc 5
+0x488fc0 free 6
+0x4ecfe0 __lxstat64 7
+0x468700 __assert_fail 8
+0x4669a0 __close_nocancel 9
+0x4c1910 __openat_nocancel 10
+0x4c17a0 __fxstat 11
+0x4c0ed0 closedir 12
+0x4eceb0 __fdopendir 13
+0x4c0f00 readdir64 14
+0x4ece20 __rewinddir 15
+0x4ed030 __GI___fxstatat64 16
+=============================
+0x4c24b0 getdtablesize 1161
+0x4c23a0 __getrlimit64 1
+0x4c3e60 __stack_chk_fail 2
+=============================
+0x4c2500 mmap64 1162
+0xa0018a mmap 1
+=============================
+0x4c2610 mprotect 1163
+0xa0018b mprotect 1
+=============================
+0x4c2670 trecurse 1164
+0x4c2670 trecurse 1
+=============================
+0x4c2700 tdestroy_recurse 1165
+0x4c2700 tdestroy_recurse 1
+0x488fc0 free 2
+=============================
+0x4c31b0 twalk 1166
+0x4c2670 trecurse 1
+=============================
+0x4c3260 tdestroy 1167
+0x488fc0 free 1
+0x4c2700 tdestroy_recurse 2
+=============================
+0x4c3420 next_line 1168
+0x468700 __assert_fail 1
+0x4c35d0 get_nprocs 2
+0x4668f0 __read_nocancel 3
+=============================
+0x4c35d0 get_nprocs 1169
+0x4bd8f0 time 1
+0x4c3d50 __libc_alloca_cutoff 2
+0x466c70 __open64_nocancel 3
+0x4c3e60 __stack_chk_fail 4
+0x4c3420 next_line 5
+0x4669a0 __close_nocancel 6
+0x475b80 __strtoul 7
+0x468700 __assert_fail 8
+0x4c3a60 get_nprocs_conf 9
+0x4668f0 __read_nocancel 10
+=============================
+0x4c3a60 get_nprocs_conf 1170
+0x4c0c40 opendir 1
+0x4c35d0 get_nprocs 2
+0x4c0f00 readdir64 3
+0x4c3e60 __stack_chk_fail 4
+0x4c0ed0 closedir 5
+0x475b80 __strtoul 6
+=============================
+0x4c6910 derivation_compare 1171
+=============================
+0x4c6950 find_derivation 1172
+0x4c2ba0 __tfind 1
+0x4c3e60 __stack_chk_fail 2
+0x4d07c0 __gconv_find_shlib 3
+0x4c53f0 _dl_mcount_wrapper_check 4
+0x488700 __libc_malloc 5
+0x400587 __gconv_release_step.part.1 6
+0x4d09a0 __gconv_release_shlib 7
+0x4c27c0 __tsearch 8
+0x488fc0 free 9
+0x48c7a0 strdup 10
+0x4c88b0 __gconv_get_builtin_trans 11
+=============================
+0x4c7a50 insert_module 1173
+0x488fc0 free 1
+=============================
+0x4c7b50 add_module.isra.0 1174
+0x4c3e60 __stack_chk_fail 1
+0x4d4950 __strtol 2
+0x4c2ba0 __tfind 3
+0x48b570 __libc_calloc 4
+0x4c7a50 insert_module 5
+=============================
+0x4d0730 known_compare 1175
+=============================
+0x4d0740 do_release_shlib 1176
+0x468700 __assert_fail 1
+0x4d07c0 __gconv_find_shlib 2
+0x4f96c0 __libc_dlclose 3
+=============================
+0x4d09c0 new_composite_name 1177
+0x488700 __libc_malloc 1
+=============================
+0x4d0c80 setlocale 1178
+0x4c3e60 __stack_chk_fail 1
+0x4754d0 getenv 2
+0x4e9320 argz_create_sep 3
+0x4d1560 _nl_find_locale 4
+0x48c7a0 strdup 5
+0x4d09c0 new_composite_name 6
+0x4e9400 __argz_add_sep 7
+0x488fc0 free 8
+=============================
+0x4d5130 group_number 1179
+=============================
+0x4d55d0 printf_positional 1180
+0x4e68c0 __parse_one_specmb 1
+0x4e8890 __libc_scratch_buffer_set_array_size 2
+0x4e87e0 __libc_scratch_buffer_grow_preserve 3
+0x488fc0 free 4
+0x4c3e60 __stack_chk_fail 5
+0x468700 __assert_fail 6
+0x47b710 __libc_fatal 7
+0x4ea6f0 wcrtomb 8
+0x4c3d50 __libc_alloca_cutoff 9
+0x4e82e0 _IO_padn 10
+0x488700 __libc_malloc 11
+0x47b730 _IO_vtable_check 12
+0x4ea8d0 __wcsrtombs 13
+0x47f4b0 __overflow 14
+0x4fc040 _itoa_word 15
+0x4e89a0 strerror_r 16
+0x4ddd30 __printf_fp 17
+0x4ed2c0 __readonly_area 18
+=============================
+0x4d7b00 vfprintf 1181
+0x4dac00 buffered_vfprintf 1
+0x4c3e60 __stack_chk_fail 2
+0x47b730 _IO_vtable_check 3
+0x4666d0 __lll_lock_wait_private 4
+0x4d55d0 printf_positional 5
+0x466780 __lll_unlock_wake_private 6
+0x488fc0 free 7
+0x4ea6f0 wcrtomb 8
+0x4e82e0 _IO_padn 9
+0x468700 __assert_fail 10
+0x4ea8d0 __wcsrtombs 11
+0x4c3d50 __libc_alloca_cutoff 12
+0x488700 __libc_malloc 13
+0x4fc040 _itoa_word 14
+0x4ddd30 __printf_fp 15
+0x4d5130 group_number 16
+0x4d5260 _i18n_number_rewrite 17
+0x47f4b0 __overflow 18
+0x4e89a0 strerror_r 19
+=============================
+0x4dac00 buffered_vfprintf 1182
+0x4d7b00 vfprintf 1
+0x4c3e60 __stack_chk_fail 2
+0x47b730 _IO_vtable_check 3
+0x4666d0 __lll_lock_wait_private 4
+0x466780 __lll_unlock_wake_private 5
+=============================
+0x4dae60 hack_digit 1183
+0x4faca0 __mpn_mul_1 1
+0x4fa090 __mpn_divrem 2
+=============================
+0x4ddda0 register_printf_specifier 1184
+0x4666d0 __lll_lock_wait_private 1
+0x48b570 __libc_calloc 2
+0x466780 __lll_unlock_wake_private 3
+=============================
+0x4ddeb0 register_printf_function 1185
+0x4666d0 __lll_lock_wait_private 1
+0x48b570 __libc_calloc 2
+0x466780 __lll_unlock_wake_private 3
+=============================
+0x4e02f0 register_printf_modifier 1186
+0x4666d0 __lll_lock_wait_private 1
+0x48b570 __libc_calloc 2
+0x488700 __libc_malloc 3
+0x4bcfb0 __wmemcpy 4
+0x466780 __lll_unlock_wake_private 5
+=============================
+0x4e0660 register_printf_type 1187
+0x4666d0 __lll_lock_wait_private 1
+0x48b570 __libc_calloc 2
+0x466780 __lll_unlock_wake_private 3
+=============================
+0x4e0ab0 printf_positional 1188
+0x4e7050 __parse_one_specwc 1
+0x4e8890 __libc_scratch_buffer_set_array_size 2
+0x4e87e0 __libc_scratch_buffer_grow_preserve 3
+0x488fc0 free 4
+0x4c3e60 __stack_chk_fail 5
+0x468700 __assert_fail 6
+0x47b710 __libc_fatal 7
+0x4ea530 btowc 8
+0x4e84d0 _IO_wpadn 9
+0x477ce0 __woverflow 10
+0x4c3d50 __libc_alloca_cutoff 11
+0x488700 __libc_malloc 12
+0x4e3350 __vfwprintf 13
+0x47b730 _IO_vtable_check 14
+0x4bcfe0 __mbsrtowcs 15
+0x4ddd30 __printf_fp 16
+0x4e89a0 strerror_r 17
+0x4ed2c0 __readonly_area 18
+0x4e0810 _i18n_number_rewrite 19
+0x4ddfc0 __printf_fphex 20
+=============================
+0x4e6550 buffered_vfprintf 1189
+0x47acc0 _IO_fwide 1
+0x4e3350 __vfwprintf 2
+0x4c3e60 __stack_chk_fail 3
+0x47b730 _IO_vtable_check 4
+0x4666d0 __lll_lock_wait_private 5
+0x466780 __lll_unlock_wake_private 6
+=============================
+0x4e7ad0 fwrite 1190
+0x47b730 _IO_vtable_check 1
+0x4666d0 __lll_lock_wait_private 2
+0x466780 __lll_unlock_wake_private 3
+=============================
+0x4e8610 fileno 1191
+=============================
+0x4e8640 ftello 1192
+0x477340 _IO_seekoff_unlocked 1
+0x4666d0 __lll_lock_wait_private 2
+0x466780 __lll_unlock_wake_private 3
+=============================
+0x4e89a0 strerror_r 1193
+0x468800 dcgettext 1
+0x4fc040 _itoa_word 2
+0x4c3e60 __stack_chk_fail 3
+=============================
+0x4e8b40 strnlen 1194
+=============================
+0x4e8b70 rindex 1195
+=============================
+0x4e8c40 two_way_long_needle 1196
+0x4c3e60 __stack_chk_fail 1
+=============================
+0x4e9320 argz_create_sep 1197
+0x488700 __libc_malloc 1
+0x488fc0 free 2
+=============================
+0x4ea530 btowc 1198
+0x4c3e60 __stack_chk_fail 1
+0x4bd0d0 __wcsmbs_load_conv 2
+0x4c53f0 _dl_mcount_wrapper_check 3
+=============================
+0x4ea6f0 wcrtomb 1199
+0x4bd0d0 __wcsmbs_load_conv 1
+0x4c53f0 _dl_mcount_wrapper_check 2
+0x4c3e60 __stack_chk_fail 3
+0x468700 __assert_fail 4
+=============================
+0x4eac00 wcschrnul 1200
+=============================
+0x4ec450 timelocal 1201
+0x4bed10 tzset 1
+0x4bd8c0 localtime_r 2
+0x4c3e60 __stack_chk_fail 3
+=============================
+0x4ed0d0 tcgetattr 1202
+0xa00191 ioctl 1
+0x4c3e60 __stack_chk_fail 2
+=============================
+0x4ed190 brk 1203
+0xa0018d brk 1
+=============================
+0x4ed1f0 wctrans 1204
+=============================
+0x4ed4b0 is_trusted_path_normalize 1205
+=============================
+0x4ed6c0 lose 1206
+0x466920 close 1
+0x488fc0 free 2
+0x4f9ec0 _dl_signal_error 3
+0x4c3f10 _dl_debug_state 4
+0x4ed740 open_verify.constprop.7 5
+=============================
+0x4ed740 open_verify.constprop.7 1207
+0x466b50 __open64 1
+0x466850 read 2
+0x4ed6c0 lose 3
+0x488fc0 free 4
+0x466920 close 5
+0x4c1a80 lseek64 6
+0x48a220 __realloc 7
+=============================
+0x4edd40 open_path 1208
+0x4f5dd0 _dl_debug_printf 1
+0x4f5e80 _dl_debug_printf_c 2
+0x488fc0 free 3
+0x4ed740 open_verify.constprop.7 4
+0x4c1750 __xstat 5
+0x488700 __libc_malloc 6
+0x4c17a0 __fxstat 7
+0x466920 close 8
+=============================
+0x4ef9f0 expand_dynamic_string_token 1209
+0x48c7a0 strdup 1
+0x4f7410 _dl_get_origin 2
+0x468700 __assert_fail 3
+0x4efd20 fillin_rpath 4
+0x488700 __libc_malloc 5
+0x4ef6c0 _dl_dst_substitute 6
+=============================
+0x4efd20 fillin_rpath 1210
+0x504ca0 __strsep_g 1
+0x4ef9f0 expand_dynamic_string_token 2
+0x488700 __libc_malloc 3
+0x488fc0 free 4
+0x4f9ec0 _dl_signal_error 5
+0x4f0100 cache_rpath.part.6 6
+=============================
+0x4f0100 cache_rpath.part.6 1211
+0x48c7a0 strdup 1
+0x4f9ec0 _dl_signal_error 2
+0x488fc0 free 3
+0x488700 __libc_malloc 4
+0x4efd20 fillin_rpath 5
+=============================
+0x4f1670 do_lookup_x 1212
+0x4f5dd0 _dl_debug_printf 1
+0x4f5fd0 _dl_name_match_p 2
+0x468700 __assert_fail 3
+0x465e70 pthread_mutex_lock 4
+0x48b570 __libc_calloc 5
+0x4f5f30 _dl_dprintf 6
+0x4665e0 pthread_mutex_unlock 7
+0x4c1090 _exit 8
+0x4f6040 _dl_higher_prime_number 9
+0x4f24e0 _dl_lookup_symbol_x 10
+=============================
+0x4f83f0 length_mismatch 1213
+0x4f5f30 _dl_dprintf 1
+0x4c1090 _exit 2
+0x4f8420 _dl_exception_create 3
+=============================
+0x4f9560 do_dlopen 1214
+0x505a10 _dl_open 1
+=============================
+0x4f95a0 do_dlsym_private 1215
+0x4f24e0 _dl_lookup_symbol_x 1
+0x4c3e60 __stack_chk_fail 2
+=============================
+0x4f9630 do_dlsym 1216
+0x4f24e0 _dl_lookup_symbol_x 1
+=============================
+0x4f9670 do_dlvsym 1217
+0x4f24e0 _dl_lookup_symbol_x 1
+=============================
+0x4f96b0 do_dlclose 1218
+0x507590 _dl_close 1
+=============================
+0x4f9da0 fatal_error 1219
+0x4f5f30 _dl_dprintf 1
+0x4e89a0 strerror_r 2
+0x4c1090 _exit 3
+=============================
+0x4fc270 char_buffer_add_slow 1220
+0x4e87e0 __libc_scratch_buffer_grow_preserve 1
+=============================
+0x5044d0 init 1221
+=============================
+0x504760 free_key_mem 1222
+0x488fc0 free 1
+=============================
+0x5049b0 dlinfo_doit 1223
+0x4f9ec0 _dl_signal_error 1
+0x4f1040 _dl_rtld_di_serinfo 2
+0x4f72a0 _dl_tls_get_addr_soft 3
+=============================
+0x504b00 dlmopen_doit 1224
+0x505a10 _dl_open 1
+0x4f9ec0 _dl_signal_error 2
+0x504b70 __dlmopen 3
+=============================
+0x504bf0 strerror 1225
+0x4e89a0 strerror_r 1
+0x488700 __libc_malloc 2
+0x468800 dcgettext 3
+=============================
+0x504c80 strspn 1226
+=============================
+0x5050f0 getpid 1227
+0xa001a8 getpid 1
+=============================
+0x505150 profil 1228
+0x5113a0 __setitimer 1
+0x4d2e90 __sigaction 2
+0x4c3e60 __stack_chk_fail 3
+0x5052f0 __profile_frequency 4
+=============================
+0x5056f0 add_to_global 1229
+0x48b570 __libc_calloc 1
+0x488700 __libc_malloc 2
+0x4f9ec0 _dl_signal_error 3
+0x4f5dd0 _dl_debug_printf 4
+0x488fc0 free 5
+=============================
+0x505d50 dl_open_worker 1230
+0x4c3f20 _dl_debug_initialize 1
+0x4f0600 _dl_map_object 2
+0x507eb0 _dl_addr_inside_object 3
+0x468700 __assert_fail 4
+0x506570 remove_slotinfo 5
+0x511500 _dl_map_object_deps 6
+0x507690 _dl_sort_maps 7
+0x4f5dd0 _dl_debug_printf 8
+0x4c3f10 _dl_debug_state 9
+0x512a40 _dl_check_map_versions 10
+0x5056f0 add_to_global 11
+0x4f3710 _dl_relocate_object 12
+0x5126d0 _dl_init 13
+0x505c20 _dl_show_scope 14
+0x4f7320 _dl_add_to_slotinfo 15
+0x488700 __libc_malloc 16
+0x4f9ec0 _dl_signal_error 17
+0x4f5f30 _dl_dprintf 18
+0x4f75b0 _dl_scope_free 19
+0x4f3590 _dl_nothread_init_static_tls 20
+0x4c1090 _exit 21
+=============================
+0x506570 remove_slotinfo 1231
+0x506570 remove_slotinfo 1
+0x468700 __assert_fail 2
+0x5066c0 _dl_close_worker.part.0 3
+=============================
+0x507f20 strtof 1232
+0x508820 ____strtof_l_internal 1
+=============================
+0x507f50 strtof32x 1233
+0x50b990 ____strtod_l_internal 1
+=============================
+0x507f80 strtof64x 1234
+0x50e710 ____strtold_l_internal 1
+=============================
+0x507fa0 str_to_mpn.isra.0 1235
+0x468700 __assert_fail 1
+0x5082a0 round_and_return 2
+0x4faca0 __mpn_mul_1 3
+=============================
+0x5082a0 round_and_return 1236
+0x4749b0 abort 1
+0x4fa760 __mpn_rshift 2
+0x4c3e60 __stack_chk_fail 3
+0x510fa0 __mpn_construct_float 4
+=============================
+0x50b0f0 str_to_mpn.isra.0 1237
+0x468700 __assert_fail 1
+0x50b3f0 round_and_return 2
+0x4faca0 __mpn_mul_1 3
+=============================
+0x50b3f0 round_and_return 1238
+0x4749b0 abort 1
+0x4fa760 __mpn_rshift 2
+0x4c3e60 __stack_chk_fail 3
+0x510fd0 __mpn_construct_double 4
+=============================
+0x50dec0 strtof64_l 1239
+0x50b990 ____strtod_l_internal 1
+=============================
+0x50ded0 str_to_mpn.isra.0 1240
+0x468700 __assert_fail 1
+0x50e1f0 round_and_return 2
+0x4faca0 __mpn_mul_1 3
+=============================
+0x50e1f0 round_and_return 1241
+0x4749b0 abort 1
+0x4c3e60 __stack_chk_fail 2
+0x4fa760 __mpn_rshift 3
+0x511010 __mpn_construct_long_double 4
+=============================
+0x510b90 strtof64x_l 1242
+0x50e710 ____strtold_l_internal 1
+=============================
+0x511060 dlopen_doit 1243
+0x505a10 _dl_open 1
+0x468800 dcgettext 2
+0x4f9ec0 _dl_signal_error 3
+0x5110e0 __dlopen 4
+=============================
+0x511160 dlclose_doit 1244
+0x507590 _dl_close 1
+=============================
+0x5111a0 dlsym_doit 1245
+0x513480 _dl_sym 1
+=============================
+0x511270 dlvsym_doit 1246
+0x513180 _dl_vsym 1
+=============================
+0x5113d0 openaux 1247
+0x4f0600 _dl_map_object 1
+=============================
+0x513150 call_dl_lookup 1248
+0x4f24e0 _dl_lookup_symbol_x 1
+=============================
+0x513b30 read_encoded_value_with_base 1249
+0x4749b0 abort 1
+0x513b30 read_encoded_value_with_base 2
+=============================
+0x513c70 base_of_encoded_value 1250
+0x4749b0 abort 1
+=============================
+0x513ce0 execute_cfa_program 1251
+0x513b30 read_encoded_value_with_base 1
+0x513c70 base_of_encoded_value 2
+=============================
+0x514650 init_dwarf_reg_size_table 1252
+=============================
+0x5146d0 uw_frame_state_for 1253
+0x5184c0 _Unwind_Find_FDE 1
+0x513ce0 execute_cfa_program 2
+0x513c70 base_of_encoded_value 3
+0x513b30 read_encoded_value_with_base 4
+0x4749b0 abort 5
+=============================
+0x514d60 execute_stack_op 1254
+0x4749b0 abort 1
+0x513c70 base_of_encoded_value 2
+0x513b30 read_encoded_value_with_base 3
+=============================
+0x515520 uw_update_context_1 1255
+0x4749b0 abort 1
+0x514d60 execute_stack_op 2
+=============================
+0x515950 uw_init_context_1 1256
+0x5146d0 uw_frame_state_for 1
+0x4749b0 abort 2
+0x515520 uw_update_context_1 3
+=============================
+0x515ad0 uw_update_context 1257
+0x515520 uw_update_context_1 1
+0x4749b0 abort 2
+=============================
+0x515ce0 uw_install_context_1 1258
+0x4749b0 abort 1
+=============================
+0x5169b0 fde_unencoded_compare 1259
+=============================
+0x5169d0 frame_downheap 1260
+=============================
+0x516aa0 frame_heapsort 1261
+0x5169d0 frame_downheap 1
+=============================
+0x516b50 read_encoded_value_with_base 1262
+0x4749b0 abort 1
+0x518750 read_encoded_value_with_base 2
+=============================
+0x516c90 get_cie_encoding 1263
+0x516b50 read_encoded_value_with_base 1
+=============================
+0x516dd0 size_of_encoded_value.part.3 1264
+0x4749b0 abort 1
+=============================
+0x516e20 base_from_object.part.4 1265
+0x4749b0 abort 1
+=============================
+0x516e70 fde_single_encoding_compare 1266
+0x516b50 read_encoded_value_with_base 1
+0x516e20 base_from_object.part.4 2
+=============================
+0x516f00 linear_search_fdes 1267
+0x516e20 base_from_object.part.4 1
+0x516b50 read_encoded_value_with_base 2
+0x516c90 get_cie_encoding 3
+0x516dd0 size_of_encoded_value.part.3 4
+=============================
+0x517100 fde_mixed_encoding_compare 1268
+0x516c90 get_cie_encoding 1
+0x516b50 read_encoded_value_with_base 2
+0x516e20 base_from_object.part.4 3
+=============================
+0x5171b0 classify_object_over_fdes 1269
+0x516c90 get_cie_encoding 1
+0x516b50 read_encoded_value_with_base 2
+0x516dd0 size_of_encoded_value.part.3 3
+0x516e20 base_from_object.part.4 4
+=============================
+0x517330 add_fdes 1270
+0x516e20 base_from_object.part.4 1
+0x516b50 read_encoded_value_with_base 2
+0x516c90 get_cie_encoding 3
+0x516dd0 size_of_encoded_value.part.3 4
+=============================
+0x517510 search_object 1271
+0x488700 __libc_malloc 1
+0x5171b0 classify_object_over_fdes 2
+0x516e20 base_from_object.part.4 3
+0x516c90 get_cie_encoding 4
+0x516b50 read_encoded_value_with_base 5
+0x516f00 linear_search_fdes 6
+0x517330 add_fdes 7
+0x4749b0 abort 8
+0x516aa0 frame_heapsort 9
+0x488fc0 free 10
+=============================
+0x517c80 base_from_cb_data.part.5 1272
+0x4749b0 abort 1
+=============================
+0x5186e0 base_of_encoded_value 1273
+0x515fe0 _Unwind_GetTextRelBase 1
+0x515f90 _Unwind_GetRegionStart 2
+0x4749b0 abort 3
+0x515fd0 _Unwind_GetDataRelBase 4
+=============================
+0x518750 read_encoded_value_with_base 1274
+0x4749b0 abort 1
+0x516b50 read_encoded_value_with_base 2
+=============================
+0x518c30 free_mem 1275
+0x4c3260 tdestroy 1
+0x488fc0 free 2
+=============================
+0x518e40 buffer_free 1276
+0x488fc0 free 1
+=============================
+0x518e80 free_mem 1277
+0x488fc0 free 1
+=============================
+0x518ec0 free_derivation 1278
+0x488fc0 free 1
+0x4c53f0 _dl_mcount_wrapper_check 2
+=============================
+0x518f80 free_modules_db 1279
+0x518f80 free_modules_db 1
+0x488fc0 free 2
+=============================
+0x519090 free_mem 1280
+0x5193f0 _nl_locale_subfreeres 1
+0x518cf0 _nl_finddomain_subfreeres 2
+0x4c3260 tdestroy 3
+0x488fc0 free 4
+0x518f80 free_modules_db 5
+=============================
+0x519330 free_mem 1281
+0x488fc0 free 1
+=============================
+0x519360 free_mem 1282
+0x488fc0 free 1
+0x4c25e0 __munmap 2
+=============================
+0x5193a0 do_release_all 1283
+0x488fc0 free 1
+0x4f96c0 __libc_dlclose 2
+=============================
+0x5193c0 free_mem 1284
+0x4c3260 tdestroy 1
+=============================
+0x519bb0 free_mem 1285
+0x4666d0 __lll_lock_wait_private 1
+0x488fc0 free 2
+0x4c3260 tdestroy 3
+0x466780 __lll_unlock_wake_private 4
+=============================
+0x519c90 free_mem 1286
+0x488fc0 free 1
+=============================
+0x519cf0 free_slotinfo 1287
+0x519cf0 free_slotinfo 1
+0x488fc0 free 2
+=============================
+0x519dd0 free_mem 1288
+0x488fc0 free 1
+0x519cf0 free_slotinfo 2
+=============================
+0x51a1a0 arena_thread_freeres 1289
+0x4c3e60 __stack_chk_fail 1
+0x4666d0 __lll_lock_wait_private 2
+0x476680 __fxprintf 3
+0x483820 munmap_chunk 4
+0x487b20 tcache_init.part.4 5
+0x4c25e0 __munmap 6
+0x482120 malloc_printerr 7
+0x476c20 fflush 8
+0x4843e0 _int_free 9
+0x4749b0 abort 10
+0x466780 __lll_unlock_wake_private 11
+0x482140 malloc_consolidate 12
+0x482b40 systrim.isra.1.constprop.11 13
+0x466c70 __open64_nocancel 14
+0x4c2640 __madvise 15
+0x4c2500 mmap64 16
+0x4668f0 __read_nocancel 17
+0x4669a0 __close_nocancel 18
+=============================
+0x800050 UnresolvableJumpTarget 1290
+=============================
+0x800058 UnresolvableCallTarget 1291
+=============================
+0xa00181 read 1292
+=============================
+0xa00182 write 1293
+=============================
+0xa00184 close 1294
+=============================
+0xa00185 stat 1295
+=============================
+0xa00186 fstat 1296
+=============================
+0xa00187 lstat 1297
+=============================
+0xa00189 lseek 1298
+=============================
+0xa0018a mmap 1299
+=============================
+0xa0018b mprotect 1300
+=============================
+0xa0018c munmap 1301
+=============================
+0xa0018d brk 1302
+=============================
+0xa0018e rt_sigaction 1303
+=============================
+0xa0018f rt_sigprocmask 1304
+=============================
+0xa00190 rt_sigreturn 1305
+=============================
+0xa00191 ioctl 1306
+=============================
+0xa00195 writev 1307
+=============================
+0xa00196 access 1308
+=============================
+0xa00199 sched_yield 1309
+=============================
+0xa0019a mremap 1310
+=============================
+0xa0019d madvise 1311
+=============================
+0xa001a3 pause 1312
+=============================
+0xa001a7 setitimer 1313
+=============================
+0xa001a8 getpid 1314
+=============================
+0xa001ad sendto 1315
+=============================
+0xa001ae recvfrom 1316
+=============================
+0xa001bd exit 1317
+=============================
+0xa001c0 uname 1318
+=============================
+0xa001c9 fcntl 1319
+=============================
+0xa001cf getdents 1320
+=============================
+0xa001d0 getcwd 1321
+=============================
+0xa001da readlink 1322
+=============================
+0xa001e1 gettimeofday 1323
+=============================
+0xa001e4 sysinfo 1324
+=============================
+0xa001e7 getuid 1325
+=============================
+0xa001e9 getgid 1326
+=============================
+0xa001ec geteuid 1327
+=============================
+0xa001ed getegid 1328
+=============================
+0xa00210 sched_getparam 1329
+=============================
+0xa00211 sched_setscheduler 1330
+=============================
+0xa00212 sched_getscheduler 1331
+=============================
+0xa00213 sched_get_priority_max 1332
+=============================
+0xa00214 sched_get_priority_min 1333
+=============================
+0xa0021f arch_prctl 1334
+=============================
+0xa0023b gettid 1335
+=============================
+0xa0024a time 1336
+=============================
+0xa0024b futex 1337
+=============================
+0xa00266 clock_getres 1338
+=============================
+0xa0026b tgkill 1339
+=============================
+0xa00282 openat 1340
+=============================
+0xa00287 newfstatat 1341
+=============================
+0xa002af prlimit64 1342
+=============================
+0xa002ce sys_718 1343
+=============================

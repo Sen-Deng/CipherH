@@ -1,0 +1,8 @@
+chacha20-amd64-ssse3.lo: chacha20-amd64-ssse3.S ../config.h \
+  asm-common-amd64.h asm-poly1305-amd64.h
+
+../config.h:
+
+asm-common-amd64.h:
+
+asm-poly1305-amd64.h:

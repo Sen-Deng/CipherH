@@ -1,0 +1,12 @@
+mpih-mul2-asm.lo: mpih-mul2-asm.S sysdep.h asm-syntax.h ../config.h \
+  asm-common-amd64.h ../cipher/asm-common-amd64.h
+
+sysdep.h:
+
+asm-syntax.h:
+
+../config.h:
+
+asm-common-amd64.h:
+
+../cipher/asm-common-amd64.h:

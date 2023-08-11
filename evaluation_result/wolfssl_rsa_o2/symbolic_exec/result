@@ -1,0 +1,61 @@
+Intra vul:
+
+bug in fp_exptmod for 421191 and 4211ea   
+bug in fp_exptmod for 421648 and 421648
+bug in fp_exptmod for 421672 and 421672
+
+
+bug in _fp_exptmod_ct for 421ca7 and 421ca7
+bug in _fp_exptmod_ct for 421cb2 and 421cb2
+
+
+bug in fp_montgomery_calc_normalization for 422fb0 and 422fb0
+bug in fp_montgomery_calc_normalization for 4230ae and 4230ae
+bug in fp_montgomery_calc_normalization for 4230ca and 4230ca
+bug in fp_montgomery_calc_normalization for 423150 and 423150
+bug in fp_montgomery_calc_normalization for 4230ca and 423150
+bug in fp_montgomery_calc_normalization for 4230ae and 423150
+bug in fp_montgomery_calc_normalization for 4230ae and 423124
+bug in fp_montgomery_calc_normalization for 423150 and 423124
+bug in fp_montgomery_calc_normalization for 42315e and 423150
+
+
+
+
+
+Inter vul:
+
+bug in fp_mul_2d for 41c0e7                
+bug in fp_mul_2d for 41c10a
+bug in fp_mul_2d for 41c0ad
+bug in fp_mul_2d for 41c0b3
+bug in fp_mul_2d for 41c028
+bug in fp_mul_2d for 41c058
+bug in fp_mul_2d for 41c05e
+bug in fp_mul_2d for 41beae
+bug in fp_mul_2d for 41c297
+bug in fp_mul_2d for 41c29c
+bug in fp_mul_2d for 41bf4b
+
+bug in fp_div_2d for 41d82b              
+bug in fp_div_2d for 41d93c
+bug in fp_div_2d for 41d95b
+bug in fp_div_2d for 41d9cb
+bug in fp_div_2d for 41d85c
+bug in fp_div_2d for 41d86c
+bug in fp_div_2d for 41d87c
+bug in fp_div_2d for 41d88c
+bug in fp_div_2d for 41da9b
+
+bug in fp_rshb for 41e43a                 
+bug in fp_rshb for 41e444    
+bug in fp_rshb for 41e488
+bug in fp_rshb for 41e55f
+bug in fp_rshb for 41e565
+bug in fp_rshb for 41e57f
+bug in fp_rshb for 41e586
+bug in fp_rshb for 41e5b7
+bug in fp_rshb for 41e5be
+bug in fp_rshb for 41e319
+
+

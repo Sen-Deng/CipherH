@@ -1,0 +1,6 @@
+rijndael-vaes-avx2-amd64.lo: rijndael-vaes-avx2-amd64.S ../config.h \
+  asm-common-amd64.h
+
+../config.h:
+
+asm-common-amd64.h:

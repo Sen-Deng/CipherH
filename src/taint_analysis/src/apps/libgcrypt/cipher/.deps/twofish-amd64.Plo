@@ -1,0 +1,5 @@
+twofish-amd64.lo: twofish-amd64.S ../config.h asm-common-amd64.h
+
+../config.h:
+
+asm-common-amd64.h:

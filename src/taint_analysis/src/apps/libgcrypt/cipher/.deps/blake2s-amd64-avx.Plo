@@ -1,0 +1,5 @@
+blake2s-amd64-avx.lo: blake2s-amd64-avx.S ../config.h asm-common-amd64.h
+
+../config.h:
+
+asm-common-amd64.h:

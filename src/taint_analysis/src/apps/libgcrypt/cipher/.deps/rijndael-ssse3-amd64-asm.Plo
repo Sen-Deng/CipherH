@@ -1,0 +1,6 @@
+rijndael-ssse3-amd64-asm.lo: rijndael-ssse3-amd64-asm.S ../config.h \
+  asm-common-amd64.h
+
+../config.h:
+
+asm-common-amd64.h:

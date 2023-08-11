@@ -1,0 +1,55 @@
+bug in Hash_DRBG_Generate for 4019e6 and 401afd
+
+bug in wc_RsaCleanup for 407a08 and 407a49
+
+bug in RsaUnPad for 408008 and 408008
+bug in RsaUnPad for 407fe4 and 408084
+bug in RsaUnPad for 408022 and 408022
+bug in RsaUnPad for 40522d and 40522d
+bug in RsaUnPad for 40524e and 40524e
+
+bug in s_fp_add for 41a69d and 41a6ba
+bug in s_fp_add for 41a6ba and 41a69d
+
+
+bug in s_fp_sub for 41a960 and 41a982
+bug in s_fp_sub for 41a982 and 41a9cf
+bug in s_fp_sub for 41a9cf and 41a9f1
+bug in s_fp_sub for 41a9f1 and 41a9cf
+bug in s_fp_sub for 41a982 and 41a960
+
+bug in fp_mul_2 for 41b141 and 41b141
+bug in fp_mul_2 for 41b17b and 41b17b
+
+bug in fp_mul_d for 41b29b and 41b2b8
+bug in fp_mul_d for 41b2b8 and 41b29b
+
+bug in fp_mul_2d for 41b4c6 and 41b4c6
+bug in fp_mul_2d for 41b4f4 and 41b4f4
+bug in fp_mul_2d for 41b41c and 41b478
+
+bug in fp_div_2 for 41c570 and 41c570
+bug in fp_div_2 for 41c5b1 and 41c5b1
+
+bug in fp_rshb for 41cc2a and 41cc2a
+bug in fp_rshb for 41cc63 and 41cc63
+
+bug in _fp_exptmod_ct for 41ee25 and 41ee5c
+bug in _fp_exptmod_ct for 41ee4b and 41ee4b
+bug in _fp_exptmod_ct for 41ee5c and 41ee5c
+bug in _fp_exptmod_ct for 41f04b and 41f04b
+
+bug in fp_montgomery_setup for 42074c and 42076b
+bug in fp_montgomery_setup for 42076b and 420785
+bug in fp_montgomery_setup for 420785 and 42079f
+bug in fp_montgomery_setup for 42079f and 4207b6
+
+
+
+
+
+
+
+
+
+

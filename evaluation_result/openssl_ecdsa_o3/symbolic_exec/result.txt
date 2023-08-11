@@ -1,0 +1,48 @@
+Intra Vul:
+
+bug in ossl_ec_scalar_mul_ladder for 4092e7 and 4092e7
+bug in ossl_ec_scalar_mul_ladder for 409337 and 409337
+bug in ossl_ec_scalar_mul_ladder for 409337 and 409440
+
+bug in BN_add for 488564 and 488648
+
+bug in BN_sub for 48897a and 488a45
+
+bug in BN_lshift1 for 49845c and 498565
+
+
+
+Inter Vul:
+
+bug in BN_consttime_swap for 49384d
+bug in BN_consttime_swap for 493851
+bug in BN_consttime_swap for 493863
+bug in BN_consttime_swap for 493867
+bug in BN_consttime_swap for 49387c
+bug in BN_consttime_swap for 493880
+bug in BN_consttime_swap for 4939b7
+bug in BN_consttime_swap for 4939bb
+bug in BN_consttime_swap for 493917
+bug in BN_consttime_swap for 49392c
+bug in BN_consttime_swap for 493944
+bug in BN_consttime_swap for 493955
+bug in BN_consttime_swap for 493981
+bug in BN_consttime_swap for 493990
+bug in BN_consttime_swap for 4939e1
+bug in BN_consttime_swap for 4939e5
+bug in BN_consttime_swap for 4939fc
+bug in BN_consttime_swap for 493a01
+
+bug in bn_mul_add_words for 488c65
+bug in bn_mul_add_words for 488b06
+bug in bn_mul_add_words for 488b53
+bug in bn_mul_add_words for 488ba1
+bug in bn_mul_add_words for 488bed
+
+bug in bn_expand2 for 4929a6
+
+bug in bn_mul_words for 488e68
+bug in bn_mul_words for 488d09
+bug in bn_mul_words for 488d56
+bug in bn_mul_words for 488da4
+bug in bn_mul_words for 488df0
