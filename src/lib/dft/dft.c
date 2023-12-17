@@ -1,3 +1,9 @@
+#include <dft.h>
+
+static dfsan_label input_label;
+static char *base;
+static FILE *file;
+
 /* Use this function to inject initialization steps: in hook.c */
 extern void __attribute__((used)) __attribute__((noinline)) dft_pass_init(dfsan_label);
 
